@@ -2,7 +2,7 @@
 
 This repository holds the code, synthetic data and results for scheduling recovery under late delivery confirmation.
 
-It accompanies the Applied Energy manuscript. This is release v1.0.
+This is release v1.0.
 
 ## Data
 
