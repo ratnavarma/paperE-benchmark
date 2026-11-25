@@ -1,0 +1,133 @@
+{
+  "package_versions": {
+    "python": "3.13.7",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "networkx": "3.7"
+  },
+  "git": {
+    "commit": "16d1e51de054c8f6ae10640670ce61eb798d9b45",
+    "dirty": true
+  },
+  "family": "F0R",
+  "mode": "tune",
+  "provenance": {
+    "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+    "tuning_frozen_sha256": null,
+    "allow_dirty": false,
+    "committed": {}
+  },
+  "args": {
+    "family": "F0R",
+    "mode": "tune",
+    "seeds": [
+      60000,
+      60049
+    ],
+    "out": "/Users/ratnavarma/08_Experiments/paperE/results/tuning_posthoc_ranker",
+    "policies": null,
+    "cells": [
+      "F0R_M0_dA0_db0_rho0.95_r0.3",
+      "F0R_M0_dA0_db0_rho1.15_r0.3",
+      "F0R_M0_dA1_db0_rho0.95_r0.3",
+      "F0R_M0_dA1_db0_rho1.15_r0.3",
+      "F0R_M0_dA2_db0_rho0.95_r0.3",
+      "F0R_M0_dA2_db0_rho1.15_r0.3",
+      "F0R_M0_dA4_db0_rho0.95_r0.3",
+      "F0R_M0_dA4_db0_rho1.15_r0.3",
+      "F0R_M3_dA0_db0_rho0.95_r0.3",
+      "F0R_M3_dA0_db0_rho1.15_r0.3",
+      "F0R_M3_dA1_db0_rho0.95_r0.3",
+      "F0R_M3_dA1_db0_rho1.15_r0.3",
+      "F0R_M3_dA2_db0_rho0.95_r0.3",
+      "F0R_M3_dA2_db0_rho1.15_r0.3",
+      "F0R_M3_dA4_db0_rho0.95_r0.3",
+      "F0R_M3_dA4_db0_rho1.15_r0.3",
+      "F0R_M1_dA2_db0_rho0.95_r0.3",
+      "F0R_M5_dA2_db0_rho0.95_r0.3",
+      "F0R_M3_dA2_db0_rho0.95_r0",
+      "F0R_M3_dA2_db0_rho0.95_r1",
+      "F0R_M3_dA2_db0_rho0.7_r0.3",
+      "F0R_M3_dA0_db2_rho0.95_r0.3"
+    ],
+    "workers": 20,
+    "allow_dirty": false,
+    "argv": [
+      "scripts/run_posthoc_ranker.py",
+      "tune",
+      "label=descriptive, post hoc, added 2026-11-02 at the referee's request"
+    ]
+  },
+  "start_utc": "2026-11-03T03:30:05+00:00",
+  "end_utc": "2026-11-03T03:30:14+00:00",
+  "status": "complete",
+  "cpu_s_total": 182.22719599999988,
+  "wall_s": 9.450252458045725,
+  "row_counts": {
+    "total": 29700,
+    "by_mode": {
+      "tune": 29700
+    },
+    "by_family": {
+      "greedy_ev": 13200,
+      "greedy_ev_pop": 13200,
+      "greedy_ev_ce": 3300
+    }
+  },
+  "invocations": [
+    {
+      "argv": [
+        "scripts/run_posthoc_ranker.py",
+        "tune",
+        "label=descriptive, post hoc, added 2026-11-02 at the referee's request"
+      ],
+      "family": "F0R",
+      "mode": "tune",
+      "seeds": [
+        60000,
+        60049
+      ],
+      "policies": null,
+      "cells": [
+        "F0R_M0_dA0_db0_rho0.95_r0.3",
+        "F0R_M0_dA0_db0_rho1.15_r0.3",
+        "F0R_M0_dA1_db0_rho0.95_r0.3",
+        "F0R_M0_dA1_db0_rho1.15_r0.3",
+        "F0R_M0_dA2_db0_rho0.95_r0.3",
+        "F0R_M0_dA2_db0_rho1.15_r0.3",
+        "F0R_M0_dA4_db0_rho0.95_r0.3",
+        "F0R_M0_dA4_db0_rho1.15_r0.3",
+        "F0R_M3_dA0_db0_rho0.95_r0.3",
+        "F0R_M3_dA0_db0_rho1.15_r0.3",
+        "F0R_M3_dA1_db0_rho0.95_r0.3",
+        "F0R_M3_dA1_db0_rho1.15_r0.3",
+        "F0R_M3_dA2_db0_rho0.95_r0.3",
+        "F0R_M3_dA2_db0_rho1.15_r0.3",
+        "F0R_M3_dA4_db0_rho0.95_r0.3",
+        "F0R_M3_dA4_db0_rho1.15_r0.3",
+        "F0R_M1_dA2_db0_rho0.95_r0.3",
+        "F0R_M5_dA2_db0_rho0.95_r0.3",
+        "F0R_M3_dA2_db0_rho0.95_r0",
+        "F0R_M3_dA2_db0_rho0.95_r1",
+        "F0R_M3_dA2_db0_rho0.7_r0.3",
+        "F0R_M3_dA0_db2_rho0.95_r0.3"
+      ],
+      "workers": 20,
+      "started_utc": "2026-11-03T03:30:05+00:00",
+      "ended_utc": "2026-11-03T03:30:14+00:00",
+      "status": "complete",
+      "git_commit": "16d1e51de054c8f6ae10640670ce61eb798d9b45",
+      "git_dirty": true,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": null,
+      "allow_dirty": false,
+      "committed": {},
+      "tasks": 1100,
+      "rows_skipped": 0,
+      "rows_written": 29700,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 182.22719599999988,
+      "wall_s": 9.450252458045725
+    }
+  ]
+}

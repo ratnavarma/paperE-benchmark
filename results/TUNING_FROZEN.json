@@ -1,0 +1,4567 @@
+{
+  "sym_margin": {
+    "F0R_M0_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.1833333333333336,
+      "mean_violation_kwslot": 2.6221529437481093,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2666666666666666,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 9.533333333333333,
+      "mean_violation_kwslot": 1.4729917208901304,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 7.433333333333334,
+      "mean_violation_kwslot": 1.790181167091731,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho0.95_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 8.3,
+      "mean_violation_kwslot": 1.5777257869985792,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 6.683333333333334,
+      "mean_violation_kwslot": 1.9021015280240567,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 7.516666666666667,
+      "mean_violation_kwslot": 1.6174716208245619,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 5.833333333333333,
+      "mean_violation_kwslot": 1.9319735713297357,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.216666666666667,
+      "mean_violation_kwslot": 2.6221529437481093,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2666666666666666,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 9.35,
+      "mean_violation_kwslot": 1.4945801750696674,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho1.15_r0.3": {
+      "config_index": 3,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 6.866666666666666,
+      "mean_violation_kwslot": 1.8647261623517637,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 8.65,
+      "mean_violation_kwslot": 1.5210386815660404,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 6.85,
+      "mean_violation_kwslot": 1.8644608571586874,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho0.95_r0.3": {
+      "config_index": 25,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 7.65,
+      "mean_violation_kwslot": 1.5137255635925693,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho1.15_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 5.983333333333333,
+      "mean_violation_kwslot": 1.895170472983846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M1_dA2_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 8.65,
+      "mean_violation_kwslot": 1.5785109677045883,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M5_dA2_db0_rho0.95_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 8.65,
+      "mean_violation_kwslot": 1.549206086791184,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0": {
+      "config_index": 3,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 30.816666666666666,
+      "mean_violation_kwslot": 0.3869686365814951,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r1": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 0.9833333333333334,
+      "mean_violation_kwslot": 2.2128004433440713,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.7_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 7.033333333333333,
+      "mean_violation_kwslot": 1.0548165818257202,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db2_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -5.55,
+      "mean_violation_kwslot": 6.352460917862222,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    }
+  },
+  "persistence": {
+    "F0R_M0_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.1833333333333336,
+      "mean_violation_kwslot": 2.6221529437481093,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2666666666666666,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 9.533333333333333,
+      "mean_violation_kwslot": 1.4729917208901304,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 7.433333333333334,
+      "mean_violation_kwslot": 1.790181167091731,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho0.95_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 8.6,
+      "mean_violation_kwslot": 1.5205510262079478,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 6.883333333333334,
+      "mean_violation_kwslot": 1.8899350315119825,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 7.8,
+      "mean_violation_kwslot": 1.6023193770611954,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 6.15,
+      "mean_violation_kwslot": 1.891107612873786,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.216666666666667,
+      "mean_violation_kwslot": 2.6221529437481093,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2666666666666666,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 9.35,
+      "mean_violation_kwslot": 1.4945801750696674,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho1.15_r0.3": {
+      "config_index": 3,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 6.866666666666666,
+      "mean_violation_kwslot": 1.8647261623517637,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 8.816666666666666,
+      "mean_violation_kwslot": 1.503100788545586,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 7.133333333333334,
+      "mean_violation_kwslot": 1.8510191185275986,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 8.05,
+      "mean_violation_kwslot": 1.5032593557305054,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho1.15_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 6.15,
+      "mean_violation_kwslot": 1.8707601801801288,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M1_dA2_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 8.966666666666667,
+      "mean_violation_kwslot": 1.5323333158736678,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M5_dA2_db0_rho0.95_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 8.933333333333334,
+      "mean_violation_kwslot": 1.5186597178409835,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0": {
+      "config_index": 3,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 31.266666666666666,
+      "mean_violation_kwslot": 0.38220374393747264,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r1": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 0.9333333333333333,
+      "mean_violation_kwslot": 2.2328004433440714,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.7_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 7.233333333333333,
+      "mean_violation_kwslot": 1.0344297234175432,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db2_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -5.55,
+      "mean_violation_kwslot": 6.352460917862222,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    }
+  },
+  "uncorr_pes": {
+    "F0R_M0_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.1833333333333336,
+      "mean_violation_kwslot": 2.6221529437481093,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2666666666666666,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 9.533333333333333,
+      "mean_violation_kwslot": 1.4729917208901304,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 7.433333333333334,
+      "mean_violation_kwslot": 1.790181167091731,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho0.95_r0.3": {
+      "config_index": 26,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 2
+      },
+      "mean_R_avoid_kwh_per100": 11.166666666666666,
+      "mean_violation_kwslot": 1.3434386696453648,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho1.15_r0.3": {
+      "config_index": 26,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 2
+      },
+      "mean_R_avoid_kwh_per100": 8.016666666666667,
+      "mean_violation_kwslot": 1.6391017536664414,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho0.95_r0.3": {
+      "config_index": 27,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 14.416666666666666,
+      "mean_violation_kwslot": 0.9933764954895158,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho1.15_r0.3": {
+      "config_index": 27,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 9.966666666666667,
+      "mean_violation_kwslot": 1.393712006075,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.216666666666667,
+      "mean_violation_kwslot": 2.6221529437481093,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2666666666666666,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 9.35,
+      "mean_violation_kwslot": 1.4945801750696674,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho1.15_r0.3": {
+      "config_index": 3,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 6.866666666666666,
+      "mean_violation_kwslot": 1.8647261623517637,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0.3": {
+      "config_index": 26,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 2
+      },
+      "mean_R_avoid_kwh_per100": 10.9,
+      "mean_violation_kwslot": 1.3349369508579019,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho1.15_r0.3": {
+      "config_index": 26,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 2
+      },
+      "mean_R_avoid_kwh_per100": 8.333333333333334,
+      "mean_violation_kwslot": 1.6415160862284046,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho0.95_r0.3": {
+      "config_index": 27,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 13.966666666666667,
+      "mean_violation_kwslot": 1.02898495944695,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho1.15_r0.3": {
+      "config_index": 27,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 9.883333333333333,
+      "mean_violation_kwslot": 1.412684760042791,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M1_dA2_db0_rho0.95_r0.3": {
+      "config_index": 26,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 2
+      },
+      "mean_R_avoid_kwh_per100": 11.133333333333333,
+      "mean_violation_kwslot": 1.2734058813784725,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M5_dA2_db0_rho0.95_r0.3": {
+      "config_index": 26,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 2
+      },
+      "mean_R_avoid_kwh_per100": 10.716666666666667,
+      "mean_violation_kwslot": 1.3261599189116169,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0": {
+      "config_index": 3,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 33.18333333333333,
+      "mean_violation_kwslot": 0.38154431170014136,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r1": {
+      "config_index": 26,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 2
+      },
+      "mean_R_avoid_kwh_per100": 3.1833333333333336,
+      "mean_violation_kwslot": 1.936059743320369,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.7_r0.3": {
+      "config_index": 25,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 11.533333333333333,
+      "mean_violation_kwslot": 0.7241392317279381,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db2_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -5.55,
+      "mean_violation_kwslot": 6.352460917862222,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    }
+  },
+  "probe_first": {
+    "F0R_M0_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -1.8833333333333333,
+      "mean_violation_kwslot": 2.589614221257391,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.216666666666667,
+      "mean_violation_kwslot": 2.7348697189472633,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho0.95_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 12.5,
+      "mean_violation_kwslot": 1.1069334137065545,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho1.15_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 10.116666666666667,
+      "mean_violation_kwslot": 1.4830730624759911,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 10.466666666666667,
+      "mean_violation_kwslot": 1.2836068083610785,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 8.516666666666667,
+      "mean_violation_kwslot": 1.6787971238566948,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 9.283333333333333,
+      "mean_violation_kwslot": 1.474879589893696,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 7.283333333333333,
+      "mean_violation_kwslot": 1.6628503421608756,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -1.9000000000000001,
+      "mean_violation_kwslot": 2.60498436119784,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.25,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 12.183333333333334,
+      "mean_violation_kwslot": 1.2021206769749728,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho1.15_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 9.833333333333334,
+      "mean_violation_kwslot": 1.5293346915353625,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0.3": {
+      "config_index": 25,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 10.133333333333333,
+      "mean_violation_kwslot": 1.2479849681174613,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho1.15_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 8.6,
+      "mean_violation_kwslot": 1.6370435633725149,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 9.133333333333333,
+      "mean_violation_kwslot": 1.4115925209140032,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho1.15_r0.3": {
+      "config_index": 25,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 7.433333333333334,
+      "mean_violation_kwslot": 1.6482624647996469,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M1_dA2_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 10.1,
+      "mean_violation_kwslot": 1.2737838128295838,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M5_dA2_db0_rho0.95_r0.3": {
+      "config_index": 25,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 10.35,
+      "mean_violation_kwslot": 1.263407455824862,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 41.46666666666667,
+      "mean_violation_kwslot": 0.1486894411403331,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r1": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 1.2166666666666668,
+      "mean_violation_kwslot": 2.227129929314954,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.7_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 9.8,
+      "mean_violation_kwslot": 0.9155613151107126,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db2_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -5.2,
+      "mean_violation_kwslot": 6.335292335311952,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    }
+  },
+  "floor": {
+    "F0R_M0_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.216666666666667,
+      "mean_violation_kwslot": 2.642454447315609,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.3000000000000003,
+      "mean_violation_kwslot": 2.7664157831061225,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 5.633333333333334,
+      "mean_violation_kwslot": 1.806390880571895,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 4.033333333333333,
+      "mean_violation_kwslot": 2.111696242053256,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho0.95_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 4.65,
+      "mean_violation_kwslot": 1.934899913002954,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 3.466666666666667,
+      "mean_violation_kwslot": 2.2352878180603053,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 4.116666666666667,
+      "mean_violation_kwslot": 1.871519436958829,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 2.783333333333333,
+      "mean_violation_kwslot": 2.2338118045195605,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.25,
+      "mean_violation_kwslot": 2.642454447315609,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.3000000000000003,
+      "mean_violation_kwslot": 2.7664157831061225,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 5.566666666666666,
+      "mean_violation_kwslot": 1.8251328317371067,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho1.15_r0.3": {
+      "config_index": 2,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 2
+      },
+      "mean_R_avoid_kwh_per100": 3.5166666666666666,
+      "mean_violation_kwslot": 2.1581494411270654,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 4.833333333333333,
+      "mean_violation_kwslot": 1.8614282956485682,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 3.466666666666667,
+      "mean_violation_kwslot": 2.221036879196623,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 4.066666666666666,
+      "mean_violation_kwslot": 1.8755293650029616,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 3.0,
+      "mean_violation_kwslot": 2.166939257868296,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M1_dA2_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 5.0,
+      "mean_violation_kwslot": 1.9036626036023183,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M5_dA2_db0_rho0.95_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 5.0,
+      "mean_violation_kwslot": 1.861328403095515,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 15.933333333333334,
+      "mean_violation_kwslot": 1.1769362380189026,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r1": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 0.04999999999999999,
+      "mean_violation_kwslot": 2.2992378932722604,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.7_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 4.85,
+      "mean_violation_kwslot": 1.485598672119505,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db2_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -5.633333333333334,
+      "mean_violation_kwslot": 6.372762421429721,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    }
+  },
+  "mpc_ce": {
+    "F0R_M0_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "W": 8,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.216666666666667,
+      "mean_violation_kwslot": 2.6067828038076604,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA0_db0_rho1.15_r0.3": {
+      "config_index": 12,
+      "config": {
+        "W": 4,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2666666666666666,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho0.95_r0.3": {
+      "config_index": 12,
+      "config": {
+        "W": 4,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 8.333333333333334,
+      "mean_violation_kwslot": 1.5247902876718415,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "W": 8,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 7.0,
+      "mean_violation_kwslot": 1.8789725787120217,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 7.683333333333334,
+      "mean_violation_kwslot": 1.58926160409346,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho1.15_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 6.35,
+      "mean_violation_kwslot": 1.8902225416650598,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "W": 2,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 7.183333333333334,
+      "mean_violation_kwslot": 1.7599000187915568,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho1.15_r0.3": {
+      "config_index": 38,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 2
+      },
+      "mean_R_avoid_kwh_per100": 5.566666666666666,
+      "mean_violation_kwslot": 1.9588062350969515,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "W": 8,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2,
+      "mean_violation_kwslot": 2.6067828038076604,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho1.15_r0.3": {
+      "config_index": 12,
+      "config": {
+        "W": 4,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2666666666666666,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 8.066666666666666,
+      "mean_violation_kwslot": 1.6010310986578167,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho1.15_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 6.683333333333334,
+      "mean_violation_kwslot": 1.8450659255010655,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 6.866666666666666,
+      "mean_violation_kwslot": 1.7580114419352453,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho1.15_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 6.316666666666666,
+      "mean_violation_kwslot": 1.9598330225916814,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho0.95_r0.3": {
+      "config_index": 12,
+      "config": {
+        "W": 4,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 7.166666666666667,
+      "mean_violation_kwslot": 1.6914334023429753,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho1.15_r0.3": {
+      "config_index": 0,
+      "config": {
+        "W": 2,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 5.616666666666666,
+      "mean_violation_kwslot": 1.9061466421036786,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M1_dA2_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "W": 8,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 8.0,
+      "mean_violation_kwslot": 1.7055300063660623,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M5_dA2_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 7.6000000000000005,
+      "mean_violation_kwslot": 1.6086186705925858,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 26.9,
+      "mean_violation_kwslot": 0.3853501384145638,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r1": {
+      "config_index": 12,
+      "config": {
+        "W": 4,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 0.9166666666666667,
+      "mean_violation_kwslot": 2.237013110891383,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.7_r0.3": {
+      "config_index": 24,
+      "config": {
+        "W": 8,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 6.266666666666667,
+      "mean_violation_kwslot": 1.1712321471039164,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db2_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -5.55,
+      "mean_violation_kwslot": 6.372460917862222,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    }
+  },
+  "mpc_pes": {
+    "F0R_M0_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "W": 8,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.216666666666667,
+      "mean_violation_kwslot": 2.6067828038076604,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA0_db0_rho1.15_r0.3": {
+      "config_index": 12,
+      "config": {
+        "W": 4,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2666666666666666,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho0.95_r0.3": {
+      "config_index": 12,
+      "config": {
+        "W": 4,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 8.333333333333334,
+      "mean_violation_kwslot": 1.5247902876718415,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "W": 8,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 7.0,
+      "mean_violation_kwslot": 1.8789725787120217,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 16.066666666666666,
+      "mean_violation_kwslot": 1.0126539495736846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "W": 8,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 12.616666666666667,
+      "mean_violation_kwslot": 1.4195562479644321,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 20.55,
+      "mean_violation_kwslot": 0.8743021494341143,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho1.15_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 15.883333333333333,
+      "mean_violation_kwslot": 1.2905756552826761,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "W": 8,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2,
+      "mean_violation_kwslot": 2.6067828038076604,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho1.15_r0.3": {
+      "config_index": 12,
+      "config": {
+        "W": 4,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2666666666666666,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 8.066666666666666,
+      "mean_violation_kwslot": 1.6010310986578167,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho1.15_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 6.683333333333334,
+      "mean_violation_kwslot": 1.8450659255010655,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 15.0,
+      "mean_violation_kwslot": 0.9676910283338804,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "W": 8,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 12.75,
+      "mean_violation_kwslot": 1.343657556534106,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 20.733333333333334,
+      "mean_violation_kwslot": 0.8701229529403135,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho1.15_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 16.05,
+      "mean_violation_kwslot": 1.2665883728460199,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M1_dA2_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 15.6,
+      "mean_violation_kwslot": 1.0968321802283154,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M5_dA2_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 15.7,
+      "mean_violation_kwslot": 1.0408818824493031,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 32.4,
+      "mean_violation_kwslot": 0.2879458037868436,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r1": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 10.2,
+      "mean_violation_kwslot": 1.5321697369259097,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.7_r0.3": {
+      "config_index": 24,
+      "config": {
+        "W": 8,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 15.4,
+      "mean_violation_kwslot": 0.5482312590598061,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db2_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -5.55,
+      "mean_violation_kwslot": 6.372460917862222,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    }
+  },
+  "pop_mpc": {
+    "F0R_M0_dA0_db0_rho0.95_r0.3": {
+      "config_index": 38,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 1.0
+      },
+      "mean_R_avoid_kwh_per100": -2.066666666666667,
+      "mean_violation_kwslot": 2.594260539131817,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA0_db0_rho1.15_r0.3": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": -2.25,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 2.6166666666666667,
+      "mean_violation_kwslot": 1.9562960605246245,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "W": 8,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 1.85,
+      "mean_violation_kwslot": 2.1817329878490828,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 4.266666666666667,
+      "mean_violation_kwslot": 1.7086911720133917,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho1.15_r0.3": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": 3.2,
+      "mean_violation_kwslot": 2.104037707191565,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "W": 8,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 6.366666666666666,
+      "mean_violation_kwslot": 1.610448620835877,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho1.15_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 4.933333333333334,
+      "mean_violation_kwslot": 2.0988665435677776,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho0.95_r0.3": {
+      "config_index": 38,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 1.0
+      },
+      "mean_R_avoid_kwh_per100": -2.0833333333333335,
+      "mean_violation_kwslot": 2.618694909695839,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho1.15_r0.3": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": -2.216666666666667,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 2.4833333333333334,
+      "mean_violation_kwslot": 2.00097120019006,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho1.15_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 1.6666666666666667,
+      "mean_violation_kwslot": 2.1839946432613853,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0.3": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": 4.433333333333334,
+      "mean_violation_kwslot": 1.8150014227374136,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho1.15_r0.3": {
+      "config_index": 25,
+      "config": {
+        "W": 8,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": 3.4833333333333334,
+      "mean_violation_kwslot": 2.0845604536051714,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "W": 8,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 6.316666666666666,
+      "mean_violation_kwslot": 1.6687068459743668,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho1.15_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 5.05,
+      "mean_violation_kwslot": 2.0762432983906,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M1_dA2_db0_rho0.95_r0.3": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": 4.433333333333334,
+      "mean_violation_kwslot": 1.7416879598178077,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M5_dA2_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 4.366666666666667,
+      "mean_violation_kwslot": 1.8149552944389316,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 12.1,
+      "mean_violation_kwslot": 1.0681109705920204,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r1": {
+      "config_index": 39,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 2.0
+      },
+      "mean_R_avoid_kwh_per100": 0.8666666666666667,
+      "mean_violation_kwslot": 2.1866001993927515,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.7_r0.3": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": 5.883333333333334,
+      "mean_violation_kwslot": 1.0430013193094407,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db2_rho0.95_r0.3": {
+      "config_index": 39,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 2.0
+      },
+      "mean_R_avoid_kwh_per100": -5.4,
+      "mean_violation_kwslot": 6.32107829643546,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    }
+  },
+  "user_flag": {
+    "F0R_M0_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.1833333333333336,
+      "mean_violation_kwslot": 2.6221529437481093,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2666666666666666,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 9.533333333333333,
+      "mean_violation_kwslot": 1.4729917208901304,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 7.433333333333334,
+      "mean_violation_kwslot": 1.790181167091731,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho0.95_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 8.3,
+      "mean_violation_kwslot": 1.5777257869985792,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 6.683333333333334,
+      "mean_violation_kwslot": 1.9021015280240567,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 7.516666666666667,
+      "mean_violation_kwslot": 1.6174716208245619,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 5.833333333333333,
+      "mean_violation_kwslot": 1.9319735713297357,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.216666666666667,
+      "mean_violation_kwslot": 2.6221529437481093,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2666666666666666,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 9.35,
+      "mean_violation_kwslot": 1.4945801750696674,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho1.15_r0.3": {
+      "config_index": 3,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 6.866666666666666,
+      "mean_violation_kwslot": 1.8647261623517637,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0.3": {
+      "config_index": 25,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 10.6,
+      "mean_violation_kwslot": 1.287415390824589,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho1.15_r0.3": {
+      "config_index": 26,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 2
+      },
+      "mean_R_avoid_kwh_per100": 8.366666666666667,
+      "mean_violation_kwslot": 1.65139324150601,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho0.95_r0.3": {
+      "config_index": 26,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 2
+      },
+      "mean_R_avoid_kwh_per100": 13.733333333333333,
+      "mean_violation_kwslot": 0.9701272165979375,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho1.15_r0.3": {
+      "config_index": 26,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 2
+      },
+      "mean_R_avoid_kwh_per100": 9.683333333333334,
+      "mean_violation_kwslot": 1.4134590843971508,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M1_dA2_db0_rho0.95_r0.3": {
+      "config_index": 25,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 10.233333333333333,
+      "mean_violation_kwslot": 1.3436038870902736,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M5_dA2_db0_rho0.95_r0.3": {
+      "config_index": 25,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 11.233333333333333,
+      "mean_violation_kwslot": 1.3534651919861445,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0": {
+      "config_index": 3,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 33.06666666666666,
+      "mean_violation_kwslot": 0.36250551325367225,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r1": {
+      "config_index": 25,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 3.1833333333333336,
+      "mean_violation_kwslot": 1.9367526375271789,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.7_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 10.65,
+      "mean_violation_kwslot": 0.7456315558614804,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db2_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -5.55,
+      "mean_violation_kwslot": 6.352460917862222,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    }
+  },
+  "rwdf_e": {
+    "F0R_M0_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.1833333333333336,
+      "mean_violation_kwslot": 2.6221529437481093,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2666666666666666,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho0.95_r0.3": {
+      "config_index": 3,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 8.416666666666666,
+      "mean_violation_kwslot": 1.5258597721298097,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho1.15_r0.3": {
+      "config_index": 3,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 5.916666666666667,
+      "mean_violation_kwslot": 1.8630335623500485,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 8.433333333333334,
+      "mean_violation_kwslot": 1.5979882095200144,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 6.5,
+      "mean_violation_kwslot": 1.8570845273256156,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 7.483333333333333,
+      "mean_violation_kwslot": 1.6280770006598135,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 5.783333333333333,
+      "mean_violation_kwslot": 1.8778602728011433,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.1833333333333336,
+      "mean_violation_kwslot": 2.6221529437481093,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2666666666666666,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho0.95_r0.3": {
+      "config_index": 3,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 8.466666666666667,
+      "mean_violation_kwslot": 1.523381178128125,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho1.15_r0.3": {
+      "config_index": 3,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 6.116666666666667,
+      "mean_violation_kwslot": 1.8467872490191224,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 8.516666666666667,
+      "mean_violation_kwslot": 1.5943150431987763,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 6.633333333333334,
+      "mean_violation_kwslot": 1.8443368283999888,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 7.566666666666666,
+      "mean_violation_kwslot": 1.61272249669427,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 5.866666666666667,
+      "mean_violation_kwslot": 1.8773038715715682,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M1_dA2_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 8.5,
+      "mean_violation_kwslot": 1.604927778446008,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M5_dA2_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 8.533333333333333,
+      "mean_violation_kwslot": 1.5979882095200144,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0": {
+      "config_index": 3,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 25.983333333333334,
+      "mean_violation_kwslot": 0.5350506662453053,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r1": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 0.8666666666666667,
+      "mean_violation_kwslot": 2.1747053569009465,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.7_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 7.383333333333334,
+      "mean_violation_kwslot": 1.0184062966086003,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db2_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -5.516666666666667,
+      "mean_violation_kwslot": 6.352460917862222,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    }
+  },
+  "rwdf_e_literal": {
+    "F0R_M0_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 16.46666666666667,
+      "mean_violation_kwslot": 2.355388592459433,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 8.533333333333333,
+      "mean_violation_kwslot": 2.4917573547674454,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 21.583333333333332,
+      "mean_violation_kwslot": 1.7551509049760874,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho1.15_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 13.733333333333334,
+      "mean_violation_kwslot": 1.8857452786666422,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 20.6,
+      "mean_violation_kwslot": 1.6161996145716342,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho1.15_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 13.15,
+      "mean_violation_kwslot": 1.7837494478628364,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 18.6,
+      "mean_violation_kwslot": 1.4492465273663209,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho1.15_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 11.466666666666667,
+      "mean_violation_kwslot": 1.8164497393102317,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 16.433333333333334,
+      "mean_violation_kwslot": 2.3626724070758582,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 8.516666666666667,
+      "mean_violation_kwslot": 2.51470667875562,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 21.816666666666666,
+      "mean_violation_kwslot": 1.6998510944301657,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho1.15_r0.3": {
+      "config_index": 27,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 13.7,
+      "mean_violation_kwslot": 1.870645673236754,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 20.766666666666666,
+      "mean_violation_kwslot": 1.4987989183285704,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho1.15_r0.3": {
+      "config_index": 36,
+      "config": {
+        "O": "LLF",
+        "B": "PES",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 13.15,
+      "mean_violation_kwslot": 1.6972816804500928,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 18.9,
+      "mean_violation_kwslot": 1.4671901643860858,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho1.15_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 11.183333333333334,
+      "mean_violation_kwslot": 1.741722302712635,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M1_dA2_db0_rho0.95_r0.3": {
+      "config_index": 25,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 20.65,
+      "mean_violation_kwslot": 1.5891298301269992,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M5_dA2_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 20.45,
+      "mean_violation_kwslot": 1.506807001317511,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 28.516666666666666,
+      "mean_violation_kwslot": 1.058053620524175,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r1": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 17.0,
+      "mean_violation_kwslot": 2.0194825507594394,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.7_r0.3": {
+      "config_index": 12,
+      "config": {
+        "O": "EDF",
+        "B": "PES",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 33.333333333333336,
+      "mean_violation_kwslot": 1.0874825303207538,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db2_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "B": "CE",
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 14.866666666666667,
+      "mean_violation_kwslot": 5.525659235069952,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    }
+  },
+  "llf_post": {
+    "F0R_M0_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "theta": 0.0,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.1833333333333336,
+      "mean_violation_kwslot": 2.6221529437481093,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "theta": 0.0,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2666666666666666,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "theta": 0.0,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 9.533333333333333,
+      "mean_violation_kwslot": 1.4729917208901304,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho1.15_r0.3": {
+      "config_index": 1,
+      "config": {
+        "O": "EDF",
+        "theta": 0.0,
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 7.433333333333334,
+      "mean_violation_kwslot": 1.790181167091731,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho0.95_r0.3": {
+      "config_index": 38,
+      "config": {
+        "O": "LLF",
+        "theta": 0.05,
+        "m": 0,
+        "k": 2
+      },
+      "mean_R_avoid_kwh_per100": 10.783333333333333,
+      "mean_violation_kwslot": 1.390808797570179,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho1.15_r0.3": {
+      "config_index": 37,
+      "config": {
+        "O": "LLF",
+        "theta": 0.05,
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 8.133333333333333,
+      "mean_violation_kwslot": 1.6078823651490248,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho0.95_r0.3": {
+      "config_index": 39,
+      "config": {
+        "O": "LLF",
+        "theta": 0.05,
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 13.316666666666666,
+      "mean_violation_kwslot": 1.0372209395081098,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho1.15_r0.3": {
+      "config_index": 39,
+      "config": {
+        "O": "LLF",
+        "theta": 0.05,
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 9.65,
+      "mean_violation_kwslot": 1.312091467359059,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "theta": 0.0,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.216666666666667,
+      "mean_violation_kwslot": 2.6221529437481093,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "theta": 0.0,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -2.2666666666666666,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho0.95_r0.3": {
+      "config_index": 0,
+      "config": {
+        "O": "EDF",
+        "theta": 0.0,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 9.35,
+      "mean_violation_kwslot": 1.4945801750696674,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho1.15_r0.3": {
+      "config_index": 3,
+      "config": {
+        "O": "EDF",
+        "theta": 0.0,
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 6.866666666666666,
+      "mean_violation_kwslot": 1.8647261623517637,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0.3": {
+      "config_index": 37,
+      "config": {
+        "O": "LLF",
+        "theta": 0.05,
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 10.333333333333334,
+      "mean_violation_kwslot": 1.4243780144093194,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho1.15_r0.3": {
+      "config_index": 38,
+      "config": {
+        "O": "LLF",
+        "theta": 0.05,
+        "m": 0,
+        "k": 2
+      },
+      "mean_R_avoid_kwh_per100": 8.2,
+      "mean_violation_kwslot": 1.5538597329086816,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho0.95_r0.3": {
+      "config_index": 39,
+      "config": {
+        "O": "LLF",
+        "theta": 0.05,
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 13.216666666666667,
+      "mean_violation_kwslot": 1.0404566500396977,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho1.15_r0.3": {
+      "config_index": 39,
+      "config": {
+        "O": "LLF",
+        "theta": 0.05,
+        "m": 0,
+        "k": 3
+      },
+      "mean_R_avoid_kwh_per100": 9.15,
+      "mean_violation_kwslot": 1.3756826929347392,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M1_dA2_db0_rho0.95_r0.3": {
+      "config_index": 37,
+      "config": {
+        "O": "LLF",
+        "theta": 0.05,
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 10.566666666666666,
+      "mean_violation_kwslot": 1.3938196400873464,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M5_dA2_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "O": "LLF",
+        "theta": 0.05,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 9.85,
+      "mean_violation_kwslot": 1.574720680579371,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0": {
+      "config_index": 36,
+      "config": {
+        "O": "LLF",
+        "theta": 0.05,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 32.96666666666667,
+      "mean_violation_kwslot": 0.24908531009908572,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r1": {
+      "config_index": 37,
+      "config": {
+        "O": "LLF",
+        "theta": 0.05,
+        "m": 0,
+        "k": 1
+      },
+      "mean_R_avoid_kwh_per100": 1.7833333333333334,
+      "mean_violation_kwslot": 2.1418053057194517,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.7_r0.3": {
+      "config_index": 36,
+      "config": {
+        "O": "LLF",
+        "theta": 0.05,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": 9.816666666666666,
+      "mean_violation_kwslot": 0.9042655153606859,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db2_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "O": "LLF",
+        "theta": 0.0,
+        "m": 0,
+        "k": 0
+      },
+      "mean_R_avoid_kwh_per100": -5.55,
+      "mean_violation_kwslot": 6.352460917862222,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    }
+  },
+  "guarded_mpc_e1": {
+    "F0R_M0_dA0_db0_rho0.95_r0.3": {
+      "config_index": 38,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 1.0
+      },
+      "mean_R_avoid_kwh_per100": -2.066666666666667,
+      "mean_violation_kwslot": 2.594260539131817,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA0_db0_rho1.15_r0.3": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": -2.25,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 2.6166666666666667,
+      "mean_violation_kwslot": 1.9562960605246245,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA1_db0_rho1.15_r0.3": {
+      "config_index": 24,
+      "config": {
+        "W": 8,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 1.85,
+      "mean_violation_kwslot": 2.1817329878490828,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho0.95_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 4.266666666666667,
+      "mean_violation_kwslot": 1.7086911720133917,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA2_db0_rho1.15_r0.3": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": 3.2,
+      "mean_violation_kwslot": 2.104037707191565,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho0.95_r0.3": {
+      "config_index": 24,
+      "config": {
+        "W": 8,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 6.366666666666666,
+      "mean_violation_kwslot": 1.610448620835877,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M0_dA4_db0_rho1.15_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 4.933333333333334,
+      "mean_violation_kwslot": 2.0988665435677776,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho0.95_r0.3": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": -2.0833333333333335,
+      "mean_violation_kwslot": 2.609630679072266,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db0_rho1.15_r0.3": {
+      "config_index": 39,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 2.0
+      },
+      "mean_R_avoid_kwh_per100": -2.2,
+      "mean_violation_kwslot": 2.7501714890597846,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho0.95_r0.3": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": 1.4833333333333334,
+      "mean_violation_kwslot": 2.019787076086431,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA1_db0_rho1.15_r0.3": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": 0.7,
+      "mean_violation_kwslot": 2.3035200444087116,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0.3": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": 3.166666666666667,
+      "mean_violation_kwslot": 1.8270754445141006,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho1.15_r0.3": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": 1.8833333333333333,
+      "mean_violation_kwslot": 2.146551839278926,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho0.95_r0.3": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": 4.55,
+      "mean_violation_kwslot": 1.7590364610520353,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA4_db0_rho1.15_r0.3": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 2.783333333333333,
+      "mean_violation_kwslot": 2.1447363168288693,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M1_dA2_db0_rho0.95_r0.3": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": 3.8666666666666667,
+      "mean_violation_kwslot": 1.8570165387124904,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M5_dA2_db0_rho0.95_r0.3": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": 3.1,
+      "mean_violation_kwslot": 1.8546736304298965,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r0": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": 9.983333333333333,
+      "mean_violation_kwslot": 1.1072801800617738,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.95_r1": {
+      "config_index": 36,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.0
+      },
+      "mean_R_avoid_kwh_per100": 0.65,
+      "mean_violation_kwslot": 2.1678801105249415,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA2_db0_rho0.7_r0.3": {
+      "config_index": 37,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 0.5
+      },
+      "mean_R_avoid_kwh_per100": 5.533333333333333,
+      "mean_violation_kwslot": 1.1088991709012028,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    },
+    "F0R_M3_dA0_db2_rho0.95_r0.3": {
+      "config_index": 39,
+      "config": {
+        "W": 24,
+        "m": 0,
+        "gamma": 2.0
+      },
+      "mean_R_avoid_kwh_per100": -5.383333333333334,
+      "mean_violation_kwslot": 6.30107829643546,
+      "n_seeds": 50,
+      "seeds": [
+        60000,
+        60049
+      ]
+    }
+  },
+  "_meta": {
+    "selection": "lowest mean R_avoid_kwh_per100, ties by mean violation_kwslot, then config index",
+    "seeds": [
+      60000,
+      60049
+    ],
+    "n_seeds": 50,
+    "tuning_rows_sha256": "40e47a44d4980166dddc4bc716efc1c13723da4356164295dcaa722e414d92ed",
+    "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+    "git_commit": "e5352854d9f79ae9e84582e234d374505d54deca",
+    "git_dirty": false,
+    "families": [
+      "sym_margin",
+      "persistence",
+      "uncorr_pes",
+      "probe_first",
+      "floor",
+      "mpc_ce",
+      "mpc_pes",
+      "pop_mpc",
+      "user_flag",
+      "rwdf_e",
+      "rwdf_e_literal",
+      "llf_post",
+      "guarded_mpc_e1"
+    ],
+    "cells": [
+      "F0R_M0_dA0_db0_rho0.95_r0.3",
+      "F0R_M0_dA0_db0_rho1.15_r0.3",
+      "F0R_M0_dA1_db0_rho0.95_r0.3",
+      "F0R_M0_dA1_db0_rho1.15_r0.3",
+      "F0R_M0_dA2_db0_rho0.95_r0.3",
+      "F0R_M0_dA2_db0_rho1.15_r0.3",
+      "F0R_M0_dA4_db0_rho0.95_r0.3",
+      "F0R_M0_dA4_db0_rho1.15_r0.3",
+      "F0R_M3_dA0_db0_rho0.95_r0.3",
+      "F0R_M3_dA0_db0_rho1.15_r0.3",
+      "F0R_M3_dA1_db0_rho0.95_r0.3",
+      "F0R_M3_dA1_db0_rho1.15_r0.3",
+      "F0R_M3_dA2_db0_rho0.95_r0.3",
+      "F0R_M3_dA2_db0_rho1.15_r0.3",
+      "F0R_M3_dA4_db0_rho0.95_r0.3",
+      "F0R_M3_dA4_db0_rho1.15_r0.3",
+      "F0R_M1_dA2_db0_rho0.95_r0.3",
+      "F0R_M5_dA2_db0_rho0.95_r0.3",
+      "F0R_M3_dA2_db0_rho0.95_r0",
+      "F0R_M3_dA2_db0_rho0.95_r1",
+      "F0R_M3_dA2_db0_rho0.7_r0.3",
+      "F0R_M3_dA0_db2_rho0.95_r0.3"
+    ]
+  }
+}

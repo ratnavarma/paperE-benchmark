@@ -1,0 +1,148 @@
+{
+  "package_versions": {
+    "python": "3.13.16",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "networkx": "3.7"
+  },
+  "git": {
+    "commit": "f12eacf4ff45b81e4ccb0347e01e5fcdaa41dbb9",
+    "dirty": false
+  },
+  "family": "SCALE",
+  "mode": "frozen",
+  "provenance": {
+    "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+    "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+    "allow_dirty": false,
+    "committed": {
+      "/home/user/paperE-benchmark/results/population_params.json": true,
+      "/home/user/paperE-benchmark/results/TUNING_FROZEN.json": true
+    }
+  },
+  "args": {
+    "family": "SCALE",
+    "mode": "frozen",
+    "seeds": [
+      63000,
+      63019
+    ],
+    "out": "results/scale_dev",
+    "policies": null,
+    "cells": [
+      "SCALE_M0_dA0_db0_rho0.95_r0.3",
+      "SCALE_M0_dA0_db0_rho1.15_r0.3",
+      "SCALE_M0_dA2_db0_rho0.95_r0.3",
+      "SCALE_M0_dA2_db0_rho1.15_r0.3",
+      "SCALE_M3_dA0_db0_rho0.95_r0.3",
+      "SCALE_M3_dA0_db0_rho1.15_r0.3",
+      "SCALE_M3_dA2_db0_rho0.95_r0.3",
+      "SCALE_M3_dA2_db0_rho1.15_r0.3",
+      "SCALE_M1_dA2_db0_rho0.95_r0.3",
+      "SCALE_M5_dA2_db0_rho0.95_r0.3",
+      "SCALE_M3_dA2_db0_rho0.95_r0",
+      "SCALE_M3_dA2_db0_rho0.95_r1",
+      "SCALE_M3_dA2_db0_rho0.7_r0.3",
+      "SCALE_M3_dA0_db2_rho0.95_r0.3"
+    ],
+    "workers": 4,
+    "allow_dirty": false,
+    "argv": [
+      "--family",
+      "SCALE",
+      "--seeds",
+      "63000-63019",
+      "--out",
+      "results/scale_dev",
+      "--workers",
+      "4"
+    ]
+  },
+  "start_utc": "2026-10-20T21:13:08+00:00",
+  "end_utc": "2026-10-20T21:17:54+00:00",
+  "status": "complete",
+  "cpu_s_total": 1113.061822241001,
+  "wall_s": 286.12281655799984,
+  "row_counts": {
+    "total": 5040,
+    "by_mode": {
+      "frozen": 5040
+    },
+    "by_family": {
+      "bound": 280,
+      "ce_llf": 280,
+      "ce_edf": 280,
+      "pes_llf": 280,
+      "sym_margin": 280,
+      "persistence": 280,
+      "uncorr_pes": 280,
+      "probe_first": 280,
+      "floor": 280,
+      "mpc_ce": 280,
+      "mpc_pes": 280,
+      "pop_mpc": 280,
+      "user_flag": 280,
+      "rwdf_e": 280,
+      "rwdf_e_literal": 280,
+      "llf_post": 280,
+      "guarded_mpc_e1": 280,
+      "oracle_mpc": 280
+    }
+  },
+  "invocations": [
+    {
+      "argv": [
+        "--family",
+        "SCALE",
+        "--seeds",
+        "63000-63019",
+        "--out",
+        "results/scale_dev",
+        "--workers",
+        "4"
+      ],
+      "family": "SCALE",
+      "mode": "frozen",
+      "seeds": [
+        63000,
+        63019
+      ],
+      "policies": null,
+      "cells": [
+        "SCALE_M0_dA0_db0_rho0.95_r0.3",
+        "SCALE_M0_dA0_db0_rho1.15_r0.3",
+        "SCALE_M0_dA2_db0_rho0.95_r0.3",
+        "SCALE_M0_dA2_db0_rho1.15_r0.3",
+        "SCALE_M3_dA0_db0_rho0.95_r0.3",
+        "SCALE_M3_dA0_db0_rho1.15_r0.3",
+        "SCALE_M3_dA2_db0_rho0.95_r0.3",
+        "SCALE_M3_dA2_db0_rho1.15_r0.3",
+        "SCALE_M1_dA2_db0_rho0.95_r0.3",
+        "SCALE_M5_dA2_db0_rho0.95_r0.3",
+        "SCALE_M3_dA2_db0_rho0.95_r0",
+        "SCALE_M3_dA2_db0_rho0.95_r1",
+        "SCALE_M3_dA2_db0_rho0.7_r0.3",
+        "SCALE_M3_dA0_db2_rho0.95_r0.3"
+      ],
+      "workers": 4,
+      "started_utc": "2026-10-20T21:13:08+00:00",
+      "ended_utc": "2026-10-20T21:17:54+00:00",
+      "status": "complete",
+      "git_commit": "f12eacf4ff45b81e4ccb0347e01e5fcdaa41dbb9",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/home/user/paperE-benchmark/results/population_params.json": true,
+        "/home/user/paperE-benchmark/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 280,
+      "rows_skipped": 0,
+      "rows_written": 5040,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 1113.061822241001,
+      "wall_s": 286.12281655799984
+    }
+  ]
+}

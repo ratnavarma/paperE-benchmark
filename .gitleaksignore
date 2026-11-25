@@ -1,0 +1,3 @@
+# False positives: a metric-name constant ("R_avoid_kwh_per100"), not a key.
+src/papere/analysis.py:generic-api-key:79
+src/papere/runner.py:generic-api-key:92

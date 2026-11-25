@@ -1,0 +1,39 @@
+{
+ "frozen_utc": "2026-10-21T00:06:40Z",
+ "git_commit_at_freeze": "d79b392d8c8b80609cbca993d5e244be2bd5ea3d",
+ "git_dirty_at_freeze": false,
+ "reserved_seeds": [
+  500000,
+  500199
+ ],
+ "files_sha256": {
+  "docs/PROTOCOL_CONFIRMATION_E.md": "e0e23b8038724e94d7f89d38c6ef3730f42af78d90045fdd7bd9b02e5b8fe8f9",
+  "scripts/confirm_analysis.py": "f16427886e4d4412344a3c9677fbf4f0ebfc6c65b3f03820fec51293fdbb60b9",
+  "results/TUNING_FROZEN.json": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+  "results/population_params.json": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+  "run_study.py": "6eaca7bc868d91a1a2279ed054ca61a47c32d318281598a74a2c311f07ff04df",
+  "uv.lock": "d2536c8955348669d7245810df3169260d273d11d6318262b2e061bf23c0058e",
+  "pyproject.toml": "541188e348aeaca680fb0bc183a03b57271b39e499ae04da5e9e10187876d4ea",
+  "src/papere/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "src/papere/analysis.py": "fd1203c70b8030df24a55b8097f32ccdc6417b76d37a4828818ec221fe8b6818",
+  "src/papere/enumerator.py": "2cc0e4f4932c5fc227998dac65afbcee06837d7fdd5d693227265d99391d2a16",
+  "src/papere/fit.py": "414d82deb963c706763734f09ebbee197eee1efbdf086a02626a366ab9fe511c",
+  "src/papere/flow.py": "45c4f1eff06f2012f60f8b5155fac491cfa2f83641aab6478efb5b68c59fc49d",
+  "src/papere/generator.py": "08c7f57091760845b618a0be89f6e319137e4defffc05565e668c71e34663afe",
+  "src/papere/infoset.py": "834079fe9af00ba52eded8964ab95b502f9aaa617f64971cf52c6b85f707027a",
+  "src/papere/instance.py": "0d7fdbea0618bef65bda4a662958a9c791761fd704219fdc61392a3277a84b23",
+  "src/papere/ledger.py": "168d6fc3105ea527ca1173896d443d55b09e93215b002d14704177539250046e",
+  "src/papere/policies/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "src/papere/policies/base.py": "e9be041d68aa3092cd05f381c834ef6224502895a7e3d09bd5639939eb856590",
+  "src/papere/policies/beliefs.py": "6827094ed9c4c74e7795897b8f62f1cae755389055f0a542162c39f126763f4c",
+  "src/papere/policies/catalog.py": "1b767e1ef65d1eda6b3d4bba9e49ff3f0b9c0dc68e0d26e32a1ed36f40164463",
+  "src/papere/policies/mpc.py": "57969e94ebd889dfbac14469ef4e39cf1235cf02a727dc56320bd6a29320ec81",
+  "src/papere/policies/posthoc.py": "a034a7768dd79029618ca3baa04dec7f04373ddd750048bd1e7044e94ed1665e",
+  "src/papere/policies/rules.py": "732d9e76b3d35710dadd96adcf3f26f3d500f79db2ea35a9bce143ed0d481890",
+  "src/papere/prop_enum.py": "9c5c9ec5bc08041decf216543a2ee688edfbf252847547fa79f20a74f7635eb9",
+  "src/papere/runner.py": "a32cef8a04eb73617babaca1e1cfe7c9744f91950cad974040b45340d68bf380",
+  "src/papere/sim.py": "b3a177cec5efe3e8a49de72bbe851c0d87508ff5f8cada398ebd48bddbf84f50"
+ },
+ "run_command": "uv run python run_study.py --family F0R --mode frozen --seeds 500000-500199 --out results/f0r_confirm --workers 8 --policies ce_llf,sym_margin,mpc_ce,pop_mpc,llf_post,guarded_mpc_e1,oracle_mpc --cells F0R_M3_dA0_db0_rho0.95_r0.3,F0R_M3_dA1_db0_rho0.95_r0.3,F0R_M3_dA2_db0_rho0.95_r0.3,F0R_M3_dA4_db0_rho0.95_r0.3,F0R_M3_dA0_db0_rho1.15_r0.3,F0R_M3_dA1_db0_rho1.15_r0.3,F0R_M3_dA2_db0_rho1.15_r0.3,F0R_M3_dA4_db0_rho1.15_r0.3",
+ "analysis_command": "uv run python scripts/confirm_analysis.py --rows results/f0r_confirm/rows.jsonl --seeds 500000-500199 --out results/confirm_numbers.json"
+}

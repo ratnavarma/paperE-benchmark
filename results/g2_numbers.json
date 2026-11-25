@@ -1,0 +1,335 @@
+{
+ "meta": {
+  "label": "development",
+  "generated_utc": "2026-10-20T21:33:21+00:00",
+  "git": {
+   "commit": "2f1839cdc09d561868658fc5afb2c3e6b176ede6",
+   "dirty": false
+  },
+  "bootstrap": {
+   "n_boot": 10000,
+   "seed": 20261020,
+   "level": 0.95,
+   "unit": "seed",
+   "interval": "percentile"
+  },
+  "threshold_kwh_per100": 0.5,
+  "inputs": {
+   "pilot": {
+    "path": "results/f0r_pilot/rows.jsonl",
+    "sha256": "d6192e41bd09521bbf1b43679db25de84a1f6fd9a29714e102d977bfa9858b24",
+    "rows": 7920,
+    "rows_kept": 7920,
+    "skipped": {},
+    "duplicates": 0,
+    "partial_tail": false,
+    "missing": null,
+    "study_family": "F0R",
+    "seed_range": [
+     61000,
+     61019
+    ]
+   }
+  },
+  "files": {
+   "tuning_frozen": {
+    "path": "results/TUNING_FROZEN.json",
+    "sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10"
+   }
+  },
+  "warnings": []
+ },
+ "numbers": {
+  "e1/g2/M3_rho0.95/gap_dA2": {
+   "value": 0.16666666666666669,
+   "ci_lo": -1.0416666666666665,
+   "ci_hi": 1.3749999999999998,
+   "n_seeds": 20,
+   "statistic": "mean over seeds of R_avoid(best oblivious) - R_avoid(guarded_mpc_e1)",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3, F0R_M3_dA4_db0_rho0.95_r0.3, F0R_M3_dA0_db0_rho0.95_r0.3, F0R_M3_dA1_db0_rho0.95_r0.3]; policy in [guarded_mpc_e1, oracle_mpc, pop_mpc, sym_margin]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "kWh per 100 per event",
+   "best_oblivious": "pop_mpc",
+   "selection": "primary: best O fixed on the tuning seeds (lowest frozen tuning objective in TUNING_FROZEN.json, floor excluded)"
+  },
+  "e1/g2/M3_rho0.95/gap_dA4": {
+   "value": -0.6666666666666667,
+   "ci_lo": -2.125,
+   "ci_hi": 0.7500000000000001,
+   "n_seeds": 20,
+   "statistic": "mean over seeds of R_avoid(best oblivious) - R_avoid(guarded_mpc_e1)",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3, F0R_M3_dA4_db0_rho0.95_r0.3, F0R_M3_dA0_db0_rho0.95_r0.3, F0R_M3_dA1_db0_rho0.95_r0.3]; policy in [guarded_mpc_e1, oracle_mpc, pop_mpc, sym_margin]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "kWh per 100 per event",
+   "best_oblivious": "pop_mpc",
+   "selection": "primary: best O fixed on the tuning seeds (lowest frozen tuning objective in TUNING_FROZEN.json, floor excluded)"
+  },
+  "e1/g2/M3_rho0.95/gap_dA0": {
+   "value": -0.5,
+   "ci_lo": -0.875,
+   "ci_hi": -0.16666666666666669,
+   "n_seeds": 20,
+   "statistic": "mean over seeds of R_avoid(best oblivious) - R_avoid(guarded_mpc_e1)",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3, F0R_M3_dA4_db0_rho0.95_r0.3, F0R_M3_dA0_db0_rho0.95_r0.3, F0R_M3_dA1_db0_rho0.95_r0.3]; policy in [guarded_mpc_e1, oracle_mpc, pop_mpc, sym_margin]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "kWh per 100 per event",
+   "best_oblivious": "sym_margin",
+   "selection": "primary: best O fixed on the tuning seeds (lowest frozen tuning objective in TUNING_FROZEN.json, floor excluded)"
+  },
+  "e1/g2/M3_rho0.95/gap_dA1": {
+   "value": 0.7499999999999998,
+   "ci_lo": -0.20833333333333331,
+   "ci_hi": 1.9166666666666665,
+   "n_seeds": 20,
+   "statistic": "mean over seeds of R_avoid(best oblivious) - R_avoid(guarded_mpc_e1)",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3, F0R_M3_dA4_db0_rho0.95_r0.3, F0R_M3_dA0_db0_rho0.95_r0.3, F0R_M3_dA1_db0_rho0.95_r0.3]; policy in [guarded_mpc_e1, oracle_mpc, pop_mpc, sym_margin]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "kWh per 100 per event",
+   "best_oblivious": "pop_mpc",
+   "selection": "primary: best O fixed on the tuning seeds (lowest frozen tuning objective in TUNING_FROZEN.json, floor excluded)"
+  },
+  "e1/g2/M3_rho0.95/oracle_gap_dA2": {
+   "value": 1.125,
+   "ci_lo": 0.12500000000000003,
+   "ci_hi": 2.1666666666666665,
+   "n_seeds": 20,
+   "statistic": "mean over seeds of R_avoid(best oblivious) - R_avoid(oracle_mpc)",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3, F0R_M3_dA4_db0_rho0.95_r0.3, F0R_M3_dA0_db0_rho0.95_r0.3, F0R_M3_dA1_db0_rho0.95_r0.3]; policy in [guarded_mpc_e1, oracle_mpc, pop_mpc, sym_margin]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "kWh per 100 per event",
+   "best_oblivious": "pop_mpc",
+   "selection": "primary: best O fixed on the tuning seeds (lowest frozen tuning objective in TUNING_FROZEN.json, floor excluded)"
+  },
+  "e1/g2/M3_rho0.95/oracle_gap_dA4": {
+   "value": 0.20833333333333334,
+   "ci_lo": -1.0833333333333333,
+   "ci_hi": 1.5416666666666665,
+   "n_seeds": 20,
+   "statistic": "mean over seeds of R_avoid(best oblivious) - R_avoid(oracle_mpc)",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3, F0R_M3_dA4_db0_rho0.95_r0.3, F0R_M3_dA0_db0_rho0.95_r0.3, F0R_M3_dA1_db0_rho0.95_r0.3]; policy in [guarded_mpc_e1, oracle_mpc, pop_mpc, sym_margin]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "kWh per 100 per event",
+   "best_oblivious": "pop_mpc",
+   "selection": "primary: best O fixed on the tuning seeds (lowest frozen tuning objective in TUNING_FROZEN.json, floor excluded)"
+  },
+  "e1/g2/M3_rho0.95/oracle_gap_dA0": {
+   "value": -0.7916666666666667,
+   "ci_lo": -1.5,
+   "ci_hi": -0.20833333333333334,
+   "n_seeds": 20,
+   "statistic": "mean over seeds of R_avoid(best oblivious) - R_avoid(oracle_mpc)",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3, F0R_M3_dA4_db0_rho0.95_r0.3, F0R_M3_dA0_db0_rho0.95_r0.3, F0R_M3_dA1_db0_rho0.95_r0.3]; policy in [guarded_mpc_e1, oracle_mpc, pop_mpc, sym_margin]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "kWh per 100 per event",
+   "best_oblivious": "sym_margin",
+   "selection": "primary: best O fixed on the tuning seeds (lowest frozen tuning objective in TUNING_FROZEN.json, floor excluded)"
+  },
+  "e1/g2/M3_rho0.95/oracle_gap_dA1": {
+   "value": 0.6666666666666666,
+   "ci_lo": -0.24999999999999994,
+   "ci_hi": 1.7916666666666667,
+   "n_seeds": 20,
+   "statistic": "mean over seeds of R_avoid(best oblivious) - R_avoid(oracle_mpc)",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3, F0R_M3_dA4_db0_rho0.95_r0.3, F0R_M3_dA0_db0_rho0.95_r0.3, F0R_M3_dA1_db0_rho0.95_r0.3]; policy in [guarded_mpc_e1, oracle_mpc, pop_mpc, sym_margin]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "kWh per 100 per event",
+   "best_oblivious": "pop_mpc",
+   "selection": "primary: best O fixed on the tuning seeds (lowest frozen tuning objective in TUNING_FROZEN.json, floor excluded)"
+  },
+  "e1/g2/M3_rho0.95/contrast": {
+   "value": -0.3749999999999999,
+   "ci_lo": -1.2499999999999998,
+   "ci_hi": 0.5,
+   "n_seeds": 20,
+   "statistic": "E1: mean gap over delta [2, 4] minus mean gap over delta [0, 1]",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3, F0R_M3_dA4_db0_rho0.95_r0.3, F0R_M3_dA0_db0_rho0.95_r0.3, F0R_M3_dA1_db0_rho0.95_r0.3]; policy in [guarded_mpc_e1, oracle_mpc, pop_mpc, sym_margin]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "kWh per 100 per event",
+   "reading": "not detected at this size",
+   "best_oblivious": {
+    "2": "pop_mpc",
+    "4": "pop_mpc",
+    "0": "sym_margin",
+    "1": "pop_mpc"
+   },
+   "include_floor": false,
+   "selection": "primary: best O fixed on the tuning seeds (lowest frozen tuning objective in TUNING_FROZEN.json, floor excluded)"
+  },
+  "e1/g2/M3_rho0.95/oracle_contrast": {
+   "value": 0.7291666666666667,
+   "ci_lo": -0.1875,
+   "ci_hi": 1.6463541666666592,
+   "n_seeds": 20,
+   "statistic": "E1 contrast with oracle_mpc in place of the candidate",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3, F0R_M3_dA4_db0_rho0.95_r0.3, F0R_M3_dA0_db0_rho0.95_r0.3, F0R_M3_dA1_db0_rho0.95_r0.3]; policy in [guarded_mpc_e1, oracle_mpc, pop_mpc, sym_margin]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "kWh per 100 per event",
+   "best_oblivious": {
+    "2": "pop_mpc",
+    "4": "pop_mpc",
+    "0": "sym_margin",
+    "1": "pop_mpc"
+   },
+   "selection": "primary: best O fixed on the tuning seeds (lowest frozen tuning objective in TUNING_FROZEN.json, floor excluded)"
+  },
+  "e1/g2/M3_rho0.95/oracle_share": {
+   "value": -0.5142857142857141,
+   "ci_lo": null,
+   "ci_hi": null,
+   "n_seeds": 20,
+   "statistic": "ratio of means: E1 contrast over the oracle contrast",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3, F0R_M3_dA4_db0_rho0.95_r0.3, F0R_M3_dA0_db0_rho0.95_r0.3, F0R_M3_dA1_db0_rho0.95_r0.3]; policy in [guarded_mpc_e1, oracle_mpc, pop_mpc, sym_margin]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "ratio",
+   "interval_defined": false,
+   "selection": "primary: best O fixed on the tuning seeds (lowest frozen tuning objective in TUNING_FROZEN.json, floor excluded)"
+  },
+  "g2/gain/candidate": {
+   "value": 3.5,
+   "ci_lo": 1.9166666666666667,
+   "ci_hi": 5.083333333333334,
+   "n_seeds": 20,
+   "statistic": "mean R_avoid(sym_margin) - R_avoid(candidate) at the G2 cell",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3]; policy in [sym_margin, guarded_mpc_e1, pop_mpc, persistence]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "kWh per 100 per event"
+  },
+  "g2/gain/pop_mpc": {
+   "value": 3.3333333333333335,
+   "ci_lo": 1.7083333333333333,
+   "ci_hi": 4.916666666666667,
+   "n_seeds": 20,
+   "statistic": "mean R_avoid(sym_margin) - R_avoid(pop_mpc) at the G2 cell",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3]; policy in [sym_margin, guarded_mpc_e1, pop_mpc, persistence]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "kWh per 100 per event"
+  },
+  "g2/gain/persistence": {
+   "value": -0.16666666666666666,
+   "ci_lo": -0.37499999999999994,
+   "ci_hi": 0.0,
+   "n_seeds": 20,
+   "statistic": "mean R_avoid(sym_margin) - R_avoid(persistence) at the G2 cell",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3]; policy in [sym_margin, guarded_mpc_e1, pop_mpc, persistence]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "kWh per 100 per event"
+  },
+  "g2/ratio/pop_mpc": {
+   "value": 0.9523809523809524,
+   "ci_lo": 0.6338028169014085,
+   "ci_hi": 1.3818560606060601,
+   "n_seeds": 20,
+   "statistic": "ratio of mean gains: pop_mpc over candidate",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3]; policy in [sym_margin, guarded_mpc_e1, pop_mpc, persistence]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "ratio",
+   "interval_defined": true,
+   "reaches_80pct": true,
+   "ci_wholly_at_or_above_80pct": false
+  },
+  "g2/ratio/persistence": {
+   "value": -0.047619047619047616,
+   "ci_lo": -0.13581649831649817,
+   "ci_hi": 0.0,
+   "n_seeds": 20,
+   "statistic": "ratio of mean gains: persistence over candidate",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3]; policy in [sym_margin, guarded_mpc_e1, pop_mpc, persistence]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "ratio",
+   "interval_defined": true,
+   "reaches_80pct": false,
+   "ci_wholly_at_or_above_80pct": false
+  },
+  "g2/flag/pop_mpc/reaches_80pct_of_candidate_gain": {
+   "value": 1.0,
+   "ci_lo": null,
+   "ci_hi": null,
+   "n_seeds": 20,
+   "statistic": "reaches_80pct_of_candidate_gain for pop_mpc",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3]; policy in [sym_margin, guarded_mpc_e1, pop_mpc, persistence]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "flag",
+   "flag": true
+  },
+  "g2/flag/pop_mpc/ci_wholly_at_or_above_80pct": {
+   "value": 0.0,
+   "ci_lo": null,
+   "ci_hi": null,
+   "n_seeds": 20,
+   "statistic": "ci_wholly_at_or_above_80pct for pop_mpc",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3]; policy in [sym_margin, guarded_mpc_e1, pop_mpc, persistence]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "flag",
+   "flag": false
+  },
+  "g2/flag/persistence/reaches_80pct_of_candidate_gain": {
+   "value": 0.0,
+   "ci_lo": null,
+   "ci_hi": null,
+   "n_seeds": 20,
+   "statistic": "reaches_80pct_of_candidate_gain for persistence",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3]; policy in [sym_margin, guarded_mpc_e1, pop_mpc, persistence]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "flag",
+   "flag": false
+  },
+  "g2/flag/persistence/ci_wholly_at_or_above_80pct": {
+   "value": 0.0,
+   "ci_lo": null,
+   "ci_hi": null,
+   "n_seeds": 20,
+   "statistic": "ci_wholly_at_or_above_80pct for persistence",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3]; policy in [sym_margin, guarded_mpc_e1, pop_mpc, persistence]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "flag",
+   "flag": false
+  },
+  "g2/e1_stat": {
+   "value": -0.3749999999999999,
+   "ci_lo": -1.2499999999999998,
+   "ci_hi": 0.5,
+   "n_seeds": 20,
+   "statistic": "E1 contrast at the G2 stratum (M=3, rho=0.95)",
+   "source_file": "results/f0r_pilot/rows.jsonl",
+   "row_filter": "study_family=F0R; mode=frozen; cell_id in [F0R_M3_dA2_db0_rho0.95_r0.3]; policy in [sym_margin, guarded_mpc_e1, pop_mpc, persistence]; seeds 61000..61019 (n=20)",
+   "label": "development",
+   "unit": "kWh per 100 per event",
+   "reading": "not detected at this size",
+   "simple_rules_suffice": false
+  }
+ },
+ "flags": {
+  "simple_rules_suffice": false,
+  "any_headline_80pct": true,
+  "headline_pop_mpc": true,
+  "headline_persistence": false,
+  "e1_reading": "not detected at this size",
+  "decision_basis": "E1 contrast (delta 2, 4 against delta 0, 1) at M=3, rho=0.95",
+  "e1": {
+   "value": -0.3749999999999999,
+   "ci_lo": -1.2499999999999998,
+   "ci_hi": 0.5
+  },
+  "candidate_gain_positive": true
+ }
+}

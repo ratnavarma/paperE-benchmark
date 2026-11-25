@@ -1,0 +1,39 @@
+{
+  "seeds": {
+    "first": 60000,
+    "last": 60049,
+    "count": 50
+  },
+  "cell_id": "F0R_M5_dA2_db0_rho0.95_r0.3",
+  "method": "prior-event data only; (alpha, beta) by beta-binomial maximum likelihood (scipy L-BFGS-B on log-parameters, best of three starts) over per-participant stuck counts out of M = 5 events; q_bar = pooled stuck count and (participant, event) pair count; transition counts over all prior chains, slot t-1 -> t within each event, as Beta pseudo-counts",
+  "values": {
+    "alpha": 0.2893769407284573,
+    "beta": 1.8112608394382754,
+    "q_bar_stuck": 1064.0,
+    "q_bar_total": 7500.0,
+    "n_aa": 156574.0,
+    "n_as": 3204.0,
+    "n_ss": 8945.0,
+    "n_sa": 3777.0
+  },
+  "diagnostics": {
+    "n_participants": 1500,
+    "beta_binomial_mean": 0.13775670582554636,
+    "beta_binomial_intra_class_correlation": 0.32251429250991914,
+    "pooled_stuck_rate": 0.14186666666666667,
+    "loglik_beta_binomial": -1670.8286217691805,
+    "loglik_binomial": -2055.167278428642,
+    "lrt_statistic": 768.6773133189231,
+    "p_stay_hat": 0.9799471767076819,
+    "r_hat": 0.2968872818739192
+  },
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "git": {
+    "commit": "d9031020592e703141b5969bfa9d452d8a830efa",
+    "working_tree_dirty": false
+  }
+}

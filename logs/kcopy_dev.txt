@@ -1,0 +1,6 @@
+warning: The `UV_NATIVE_TLS` environment variable is deprecated and will be removed in a future release. Use `UV_SYSTEM_CERTS` instead.
+[runner] complete: wrote 259200 rows, skipped 0, total 259200 in results/kcopy_dev
+
+real	5m12.042s
+user	13m26.569s
+sys	1m6.748s

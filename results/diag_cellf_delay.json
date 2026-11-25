@@ -1,0 +1,551 @@
+{
+ "meta": {
+  "script": "scripts/diag_cellf_delay.py",
+  "seeds": [
+   60000,
+   60049
+  ]
+ },
+ "numbers": {
+  "diag_cellf/M3_rho0.95/ce_llf/dA1/R_avoid": {
+   "value": 9.783333333333335,
+   "ci_lo": 7.966250000000003,
+   "ci_hi": 11.666666666666668,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean R_avoid"
+  },
+  "diag_cellf/M3_rho0.95/ce_llf/dA4/R_avoid": {
+   "value": 7.683333333333333,
+   "ci_lo": 6.366666666666667,
+   "ci_hi": 9.033333333333333,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean R_avoid"
+  },
+  "diag_cellf/M3_rho0.95/ce_llf/dA4_minus_dA1/R_avoid": {
+   "value": -2.1,
+   "ci_lo": -2.9666666666666672,
+   "ci_hi": -1.3,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired R_avoid(delta 4) - R_avoid(delta 1)"
+  },
+  "diag_cellf/M3_rho0.95/ce_llf/dA1/sent": {
+   "value": 139.98333333333335,
+   "ci_lo": 135.18333333333337,
+   "ci_hi": 144.83375000000004,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean sent"
+  },
+  "diag_cellf/M3_rho0.95/ce_llf/dA4/sent": {
+   "value": 139.96666666666667,
+   "ci_lo": 135.16666666666669,
+   "ci_hi": 144.81708333333336,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean sent"
+  },
+  "diag_cellf/M3_rho0.95/ce_llf/dA4_minus_dA1/sent": {
+   "value": -0.016666666666666666,
+   "ci_lo": -0.05,
+   "ci_hi": 0.0,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired sent(delta 4) - sent(delta 1)"
+  },
+  "diag_cellf/M3_rho0.95/ce_llf/dA1/to_stuck": {
+   "value": 13.283333333333335,
+   "ci_lo": 11.499583333333337,
+   "ci_hi": 15.100000000000001,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean to_stuck"
+  },
+  "diag_cellf/M3_rho0.95/ce_llf/dA4/to_stuck": {
+   "value": 11.166666666666668,
+   "ci_lo": 9.750000000000002,
+   "ci_hi": 12.6,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean to_stuck"
+  },
+  "diag_cellf/M3_rho0.95/ce_llf/dA4_minus_dA1/to_stuck": {
+   "value": -2.1166666666666667,
+   "ci_lo": -2.983333333333334,
+   "ci_hi": -1.3166666666666667,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired to_stuck(delta 4) - to_stuck(delta 1)"
+  },
+  "diag_cellf/M3_rho0.95/ce_llf/dA1/retry_stuck": {
+   "value": 7.850000000000001,
+   "ci_lo": 6.400000000000001,
+   "ci_hi": 9.3,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean retry_stuck"
+  },
+  "diag_cellf/M3_rho0.95/ce_llf/dA4/retry_stuck": {
+   "value": 5.15,
+   "ci_lo": 4.133333333333334,
+   "ci_hi": 6.200000000000001,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean retry_stuck"
+  },
+  "diag_cellf/M3_rho0.95/ce_llf/dA4_minus_dA1/retry_stuck": {
+   "value": -2.7000000000000006,
+   "ci_lo": -3.583333333333333,
+   "ci_hi": -1.8833333333333335,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired retry_stuck(delta 4) - retry_stuck(delta 1)"
+  },
+  "diag_cellf/M3_rho0.95/ce_llf/dA1/delivered": {
+   "value": 126.7,
+   "ci_lo": 122.41666666666669,
+   "ci_hi": 131.18375000000003,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean delivered"
+  },
+  "diag_cellf/M3_rho0.95/ce_llf/dA4/delivered": {
+   "value": 128.8,
+   "ci_lo": 124.33333333333336,
+   "ci_hi": 133.45,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean delivered"
+  },
+  "diag_cellf/M3_rho0.95/ce_llf/dA4_minus_dA1/delivered": {
+   "value": 2.1,
+   "ci_lo": 1.3,
+   "ci_hi": 2.966666666666667,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired delivered(delta 4) - delivered(delta 1)"
+  },
+  "diag_cellf/M3_rho0.95/mpc_ce/dA1/R_avoid": {
+   "value": 8.066666666666668,
+   "ci_lo": 6.516250000000005,
+   "ci_hi": 9.7,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean R_avoid"
+  },
+  "diag_cellf/M3_rho0.95/mpc_ce/dA4/R_avoid": {
+   "value": 7.166666666666668,
+   "ci_lo": 5.783333333333334,
+   "ci_hi": 8.633333333333333,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean R_avoid"
+  },
+  "diag_cellf/M3_rho0.95/mpc_ce/dA4_minus_dA1/R_avoid": {
+   "value": -0.9,
+   "ci_lo": -1.75,
+   "ci_hi": -0.033333333333333215,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired R_avoid(delta 4) - R_avoid(delta 1)"
+  },
+  "diag_cellf/M3_rho0.95/mpc_ce/dA1/sent": {
+   "value": 139.96666666666667,
+   "ci_lo": 135.16666666666669,
+   "ci_hi": 144.81708333333336,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean sent"
+  },
+  "diag_cellf/M3_rho0.95/mpc_ce/dA4/sent": {
+   "value": 139.93333333333337,
+   "ci_lo": 135.15,
+   "ci_hi": 144.8,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean sent"
+  },
+  "diag_cellf/M3_rho0.95/mpc_ce/dA4_minus_dA1/sent": {
+   "value": -0.03333333333333333,
+   "ci_lo": -0.1,
+   "ci_hi": 0.0,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired sent(delta 4) - sent(delta 1)"
+  },
+  "diag_cellf/M3_rho0.95/mpc_ce/dA1/to_stuck": {
+   "value": 11.55,
+   "ci_lo": 10.0,
+   "ci_hi": 13.116666666666669,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean to_stuck"
+  },
+  "diag_cellf/M3_rho0.95/mpc_ce/dA4/to_stuck": {
+   "value": 10.616666666666667,
+   "ci_lo": 9.216666666666667,
+   "ci_hi": 12.017083333333328,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean to_stuck"
+  },
+  "diag_cellf/M3_rho0.95/mpc_ce/dA4_minus_dA1/to_stuck": {
+   "value": -0.9333333333333335,
+   "ci_lo": -1.8000000000000003,
+   "ci_hi": -0.05,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired to_stuck(delta 4) - to_stuck(delta 1)"
+  },
+  "diag_cellf/M3_rho0.95/mpc_ce/dA1/retry_stuck": {
+   "value": 6.050000000000001,
+   "ci_lo": 4.916666666666667,
+   "ci_hi": 7.25,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean retry_stuck"
+  },
+  "diag_cellf/M3_rho0.95/mpc_ce/dA4/retry_stuck": {
+   "value": 5.066666666666666,
+   "ci_lo": 4.1000000000000005,
+   "ci_hi": 6.083333333333334,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean retry_stuck"
+  },
+  "diag_cellf/M3_rho0.95/mpc_ce/dA4_minus_dA1/retry_stuck": {
+   "value": -0.9833333333333333,
+   "ci_lo": -1.5333333333333334,
+   "ci_hi": -0.4,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired retry_stuck(delta 4) - retry_stuck(delta 1)"
+  },
+  "diag_cellf/M3_rho0.95/mpc_ce/dA1/delivered": {
+   "value": 128.41666666666669,
+   "ci_lo": 123.88291666666667,
+   "ci_hi": 133.05,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean delivered"
+  },
+  "diag_cellf/M3_rho0.95/mpc_ce/dA4/delivered": {
+   "value": 129.3166666666667,
+   "ci_lo": 124.75000000000001,
+   "ci_hi": 134.06708333333336,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean delivered"
+  },
+  "diag_cellf/M3_rho0.95/mpc_ce/dA4_minus_dA1/delivered": {
+   "value": 0.9,
+   "ci_lo": 0.033333333333333305,
+   "ci_hi": 1.75,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired delivered(delta 4) - delivered(delta 1)"
+  },
+  "diag_cellf/M3_rho1.15/ce_llf/dA1/R_avoid": {
+   "value": 8.033333333333333,
+   "ci_lo": 6.366666666666667,
+   "ci_hi": 9.716666666666667,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean R_avoid"
+  },
+  "diag_cellf/M3_rho1.15/ce_llf/dA4/R_avoid": {
+   "value": 6.316666666666667,
+   "ci_lo": 5.083333333333334,
+   "ci_hi": 7.583333333333332,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean R_avoid"
+  },
+  "diag_cellf/M3_rho1.15/ce_llf/dA4_minus_dA1/R_avoid": {
+   "value": -1.7166666666666668,
+   "ci_lo": -2.4,
+   "ci_hi": -1.0833333333333333,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired R_avoid(delta 4) - R_avoid(delta 1)"
+  },
+  "diag_cellf/M3_rho1.15/ce_llf/dA1/sent": {
+   "value": 118.85,
+   "ci_lo": 114.69958333333334,
+   "ci_hi": 123.10000000000002,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean sent"
+  },
+  "diag_cellf/M3_rho1.15/ce_llf/dA4/sent": {
+   "value": 118.85,
+   "ci_lo": 114.69958333333334,
+   "ci_hi": 123.10000000000002,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean sent"
+  },
+  "diag_cellf/M3_rho1.15/ce_llf/dA4_minus_dA1/sent": {
+   "value": 0.0,
+   "ci_lo": 0.0,
+   "ci_hi": 0.0,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired sent(delta 4) - sent(delta 1)"
+  },
+  "diag_cellf/M3_rho1.15/ce_llf/dA1/to_stuck": {
+   "value": 11.183333333333335,
+   "ci_lo": 9.533333333333335,
+   "ci_hi": 12.85,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean to_stuck"
+  },
+  "diag_cellf/M3_rho1.15/ce_llf/dA4/to_stuck": {
+   "value": 9.466666666666667,
+   "ci_lo": 8.23291666666667,
+   "ci_hi": 10.733333333333334,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean to_stuck"
+  },
+  "diag_cellf/M3_rho1.15/ce_llf/dA4_minus_dA1/to_stuck": {
+   "value": -1.7166666666666666,
+   "ci_lo": -2.4,
+   "ci_hi": -1.0833333333333333,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired to_stuck(delta 4) - to_stuck(delta 1)"
+  },
+  "diag_cellf/M3_rho1.15/ce_llf/dA1/retry_stuck": {
+   "value": 6.433333333333334,
+   "ci_lo": 5.183333333333334,
+   "ci_hi": 7.733333333333333,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean retry_stuck"
+  },
+  "diag_cellf/M3_rho1.15/ce_llf/dA4/retry_stuck": {
+   "value": 4.416666666666668,
+   "ci_lo": 3.516666666666667,
+   "ci_hi": 5.316666666666667,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean retry_stuck"
+  },
+  "diag_cellf/M3_rho1.15/ce_llf/dA4_minus_dA1/retry_stuck": {
+   "value": -2.016666666666667,
+   "ci_lo": -2.716666666666667,
+   "ci_hi": -1.3833333333333335,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired retry_stuck(delta 4) - retry_stuck(delta 1)"
+  },
+  "diag_cellf/M3_rho1.15/ce_llf/dA1/delivered": {
+   "value": 107.66666666666669,
+   "ci_lo": 103.8,
+   "ci_hi": 111.63333333333334,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean delivered"
+  },
+  "diag_cellf/M3_rho1.15/ce_llf/dA4/delivered": {
+   "value": 109.38333333333333,
+   "ci_lo": 105.38333333333335,
+   "ci_hi": 113.5,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean delivered"
+  },
+  "diag_cellf/M3_rho1.15/ce_llf/dA4_minus_dA1/delivered": {
+   "value": 1.7166666666666666,
+   "ci_lo": 1.0833333333333333,
+   "ci_hi": 2.4,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired delivered(delta 4) - delivered(delta 1)"
+  },
+  "diag_cellf/M3_rho1.15/mpc_ce/dA1/R_avoid": {
+   "value": 6.683333333333334,
+   "ci_lo": 5.25,
+   "ci_hi": 8.166666666666668,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean R_avoid"
+  },
+  "diag_cellf/M3_rho1.15/mpc_ce/dA4/R_avoid": {
+   "value": 5.616666666666667,
+   "ci_lo": 4.383333333333335,
+   "ci_hi": 6.866666666666667,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean R_avoid"
+  },
+  "diag_cellf/M3_rho1.15/mpc_ce/dA4_minus_dA1/R_avoid": {
+   "value": -1.0666666666666667,
+   "ci_lo": -1.8166666666666667,
+   "ci_hi": -0.3,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired R_avoid(delta 4) - R_avoid(delta 1)"
+  },
+  "diag_cellf/M3_rho1.15/mpc_ce/dA1/sent": {
+   "value": 118.85,
+   "ci_lo": 114.69958333333334,
+   "ci_hi": 123.10000000000002,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean sent"
+  },
+  "diag_cellf/M3_rho1.15/mpc_ce/dA4/sent": {
+   "value": 118.85,
+   "ci_lo": 114.69958333333334,
+   "ci_hi": 123.10000000000002,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean sent"
+  },
+  "diag_cellf/M3_rho1.15/mpc_ce/dA4_minus_dA1/sent": {
+   "value": 0.0,
+   "ci_lo": 0.0,
+   "ci_hi": 0.0,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired sent(delta 4) - sent(delta 1)"
+  },
+  "diag_cellf/M3_rho1.15/mpc_ce/dA1/to_stuck": {
+   "value": 9.833333333333334,
+   "ci_lo": 8.383333333333333,
+   "ci_hi": 11.333333333333336,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean to_stuck"
+  },
+  "diag_cellf/M3_rho1.15/mpc_ce/dA4/to_stuck": {
+   "value": 8.766666666666667,
+   "ci_lo": 7.500000000000001,
+   "ci_hi": 10.05,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean to_stuck"
+  },
+  "diag_cellf/M3_rho1.15/mpc_ce/dA4_minus_dA1/to_stuck": {
+   "value": -1.0666666666666667,
+   "ci_lo": -1.8166666666666669,
+   "ci_hi": -0.30000000000000004,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired to_stuck(delta 4) - to_stuck(delta 1)"
+  },
+  "diag_cellf/M3_rho1.15/mpc_ce/dA1/retry_stuck": {
+   "value": 4.85,
+   "ci_lo": 3.75,
+   "ci_hi": 6.000416666666662,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean retry_stuck"
+  },
+  "diag_cellf/M3_rho1.15/mpc_ce/dA4/retry_stuck": {
+   "value": 4.116666666666667,
+   "ci_lo": 3.1833333333333336,
+   "ci_hi": 5.050000000000001,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean retry_stuck"
+  },
+  "diag_cellf/M3_rho1.15/mpc_ce/dA4_minus_dA1/retry_stuck": {
+   "value": -0.7333333333333333,
+   "ci_lo": -1.2500000000000002,
+   "ci_hi": -0.2,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired retry_stuck(delta 4) - retry_stuck(delta 1)"
+  },
+  "diag_cellf/M3_rho1.15/mpc_ce/dA1/delivered": {
+   "value": 109.01666666666667,
+   "ci_lo": 105.16625000000002,
+   "ci_hi": 112.98333333333333,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean delivered"
+  },
+  "diag_cellf/M3_rho1.15/mpc_ce/dA4/delivered": {
+   "value": 110.08333333333334,
+   "ci_lo": 106.15,
+   "ci_hi": 114.06666666666668,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean delivered"
+  },
+  "diag_cellf/M3_rho1.15/mpc_ce/dA4_minus_dA1/delivered": {
+   "value": 1.0666666666666667,
+   "ci_lo": 0.30000000000000004,
+   "ci_hi": 1.8166666666666669,
+   "n_seeds": 50,
+   "unit": "kWh per 100 per event",
+   "label": "tuning seeds 60000-60049, post hoc diagnostic (Applied Energy revision 2026-11-18), not a test",
+   "statistic": "mean paired delivered(delta 4) - delivered(delta 1)"
+  }
+ }
+}

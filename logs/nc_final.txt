@@ -1,0 +1,14 @@
+warning: The `UV_NATIVE_TLS` environment variable is deprecated and will be removed in a future release. Use `UV_SYSTEM_CERTS` instead.
+{
+ "NC1_literal_R_avoid": "FAIL",
+ "NC1_R_avoid_sp": "FAIL",
+ "NC1_exact_R_avoid_diagnostic": "FAIL",
+ "NC2": "PASS",
+ "NC3p": "FAIL",
+ "NC4": "PASS"
+}
+runtime 379 s; wrote /home/user/paperE-benchmark/results/negative_controls/nc_results.json and /home/user/paperE-benchmark/docs/NC_REPORT.md
+
+real	6m20.369s
+user	23m38.938s
+sys	0m10.107s

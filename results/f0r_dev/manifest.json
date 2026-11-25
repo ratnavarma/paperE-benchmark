@@ -1,0 +1,288 @@
+{
+  "package_versions": {
+    "python": "3.13.16",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "networkx": "3.7"
+  },
+  "git": {
+    "commit": "6f06d45bb744bc54cd009129e7bd35c1a173a048",
+    "dirty": false
+  },
+  "family": "F0R",
+  "mode": "frozen",
+  "provenance": {
+    "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+    "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+    "allow_dirty": false,
+    "committed": {
+      "/home/user/paperE-benchmark/results/population_params.json": true,
+      "/home/user/paperE-benchmark/results/TUNING_FROZEN.json": true
+    }
+  },
+  "args": {
+    "family": "F0R",
+    "mode": "frozen",
+    "seeds": [
+      61000,
+      61099
+    ],
+    "out": "results/f0r_dev",
+    "policies": null,
+    "cells": [
+      "F0R_M0_dA0_db0_rho0.95_r0.3",
+      "F0R_M0_dA0_db0_rho1.15_r0.3",
+      "F0R_M0_dA1_db0_rho0.95_r0.3",
+      "F0R_M0_dA1_db0_rho1.15_r0.3",
+      "F0R_M0_dA2_db0_rho0.95_r0.3",
+      "F0R_M0_dA2_db0_rho1.15_r0.3",
+      "F0R_M0_dA4_db0_rho0.95_r0.3",
+      "F0R_M0_dA4_db0_rho1.15_r0.3",
+      "F0R_M3_dA0_db0_rho0.95_r0.3",
+      "F0R_M3_dA0_db0_rho1.15_r0.3",
+      "F0R_M3_dA1_db0_rho0.95_r0.3",
+      "F0R_M3_dA1_db0_rho1.15_r0.3",
+      "F0R_M3_dA2_db0_rho0.95_r0.3",
+      "F0R_M3_dA2_db0_rho1.15_r0.3",
+      "F0R_M3_dA4_db0_rho0.95_r0.3",
+      "F0R_M3_dA4_db0_rho1.15_r0.3",
+      "F0R_M1_dA2_db0_rho0.95_r0.3",
+      "F0R_M5_dA2_db0_rho0.95_r0.3",
+      "F0R_M3_dA2_db0_rho0.95_r0",
+      "F0R_M3_dA2_db0_rho0.95_r1",
+      "F0R_M3_dA2_db0_rho0.7_r0.3",
+      "F0R_M3_dA0_db2_rho0.95_r0.3"
+    ],
+    "workers": 4,
+    "allow_dirty": false,
+    "argv": [
+      "--family",
+      "F0R",
+      "--seeds",
+      "61000-61099",
+      "--out",
+      "results/f0r_dev",
+      "--workers",
+      "4"
+    ]
+  },
+  "start_utc": "2026-10-20T21:08:06+00:00",
+  "end_utc": "2026-10-20T21:12:49+00:00",
+  "status": "complete",
+  "cpu_s_total": 1105.6788101519999,
+  "wall_s": 283.278091144,
+  "row_counts": {
+    "total": 39600,
+    "by_mode": {
+      "frozen": 39600
+    },
+    "by_family": {
+      "bound": 2200,
+      "ce_llf": 2200,
+      "ce_edf": 2200,
+      "pes_llf": 2200,
+      "sym_margin": 2200,
+      "persistence": 2200,
+      "uncorr_pes": 2200,
+      "probe_first": 2200,
+      "floor": 2200,
+      "mpc_ce": 2200,
+      "mpc_pes": 2200,
+      "pop_mpc": 2200,
+      "user_flag": 2200,
+      "rwdf_e": 2200,
+      "rwdf_e_literal": 2200,
+      "llf_post": 2200,
+      "guarded_mpc_e1": 2200,
+      "oracle_mpc": 2200
+    }
+  },
+  "invocations": [
+    {
+      "argv": [
+        "--family",
+        "F0R",
+        "--seeds",
+        "61000-61019",
+        "--out",
+        "results/f0r_dev",
+        "--workers",
+        "4"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61019
+      ],
+      "policies": null,
+      "cells": [
+        "F0R_M0_dA0_db0_rho0.95_r0.3",
+        "F0R_M0_dA0_db0_rho1.15_r0.3",
+        "F0R_M0_dA1_db0_rho0.95_r0.3",
+        "F0R_M0_dA1_db0_rho1.15_r0.3",
+        "F0R_M0_dA2_db0_rho0.95_r0.3",
+        "F0R_M0_dA2_db0_rho1.15_r0.3",
+        "F0R_M0_dA4_db0_rho0.95_r0.3",
+        "F0R_M0_dA4_db0_rho1.15_r0.3",
+        "F0R_M3_dA0_db0_rho0.95_r0.3",
+        "F0R_M3_dA0_db0_rho1.15_r0.3",
+        "F0R_M3_dA1_db0_rho0.95_r0.3",
+        "F0R_M3_dA1_db0_rho1.15_r0.3",
+        "F0R_M3_dA2_db0_rho0.95_r0.3",
+        "F0R_M3_dA2_db0_rho1.15_r0.3",
+        "F0R_M3_dA4_db0_rho0.95_r0.3",
+        "F0R_M3_dA4_db0_rho1.15_r0.3",
+        "F0R_M1_dA2_db0_rho0.95_r0.3",
+        "F0R_M5_dA2_db0_rho0.95_r0.3",
+        "F0R_M3_dA2_db0_rho0.95_r0",
+        "F0R_M3_dA2_db0_rho0.95_r1",
+        "F0R_M3_dA2_db0_rho0.7_r0.3",
+        "F0R_M3_dA0_db2_rho0.95_r0.3"
+      ],
+      "workers": 4,
+      "started_utc": "2026-10-20T21:00:39+00:00",
+      "ended_utc": "2026-10-20T21:01:13+00:00",
+      "status": "failed",
+      "git_commit": "523ad0ca14139004ec40ed290d68556e90e3395f",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/home/user/paperE-benchmark/results/population_params.json": true,
+        "/home/user/paperE-benchmark/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 440,
+      "rows_skipped": 0,
+      "rows_written": 1908,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 67.995708722,
+      "wall_s": 33.802681893
+    },
+    {
+      "argv": [
+        "--family",
+        "F0R",
+        "--seeds",
+        "61000-61019",
+        "--out",
+        "results/f0r_dev",
+        "--workers",
+        "4"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61019
+      ],
+      "policies": null,
+      "cells": [
+        "F0R_M0_dA0_db0_rho0.95_r0.3",
+        "F0R_M0_dA0_db0_rho1.15_r0.3",
+        "F0R_M0_dA1_db0_rho0.95_r0.3",
+        "F0R_M0_dA1_db0_rho1.15_r0.3",
+        "F0R_M0_dA2_db0_rho0.95_r0.3",
+        "F0R_M0_dA2_db0_rho1.15_r0.3",
+        "F0R_M0_dA4_db0_rho0.95_r0.3",
+        "F0R_M0_dA4_db0_rho1.15_r0.3",
+        "F0R_M3_dA0_db0_rho0.95_r0.3",
+        "F0R_M3_dA0_db0_rho1.15_r0.3",
+        "F0R_M3_dA1_db0_rho0.95_r0.3",
+        "F0R_M3_dA1_db0_rho1.15_r0.3",
+        "F0R_M3_dA2_db0_rho0.95_r0.3",
+        "F0R_M3_dA2_db0_rho1.15_r0.3",
+        "F0R_M3_dA4_db0_rho0.95_r0.3",
+        "F0R_M3_dA4_db0_rho1.15_r0.3",
+        "F0R_M1_dA2_db0_rho0.95_r0.3",
+        "F0R_M5_dA2_db0_rho0.95_r0.3",
+        "F0R_M3_dA2_db0_rho0.95_r0",
+        "F0R_M3_dA2_db0_rho0.95_r1",
+        "F0R_M3_dA2_db0_rho0.7_r0.3",
+        "F0R_M3_dA0_db2_rho0.95_r0.3"
+      ],
+      "workers": 4,
+      "started_utc": "2026-10-20T21:05:57+00:00",
+      "ended_utc": "2026-10-20T21:07:25+00:00",
+      "status": "complete",
+      "git_commit": "17e333946da26ea1bfcd08d9747c510069bf659d",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/home/user/paperE-benchmark/results/population_params.json": true,
+        "/home/user/paperE-benchmark/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 334,
+      "rows_skipped": 1908,
+      "rows_written": 6012,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 206.75892589999998,
+      "wall_s": 87.56012217900002
+    },
+    {
+      "argv": [
+        "--family",
+        "F0R",
+        "--seeds",
+        "61000-61099",
+        "--out",
+        "results/f0r_dev",
+        "--workers",
+        "4"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": null,
+      "cells": [
+        "F0R_M0_dA0_db0_rho0.95_r0.3",
+        "F0R_M0_dA0_db0_rho1.15_r0.3",
+        "F0R_M0_dA1_db0_rho0.95_r0.3",
+        "F0R_M0_dA1_db0_rho1.15_r0.3",
+        "F0R_M0_dA2_db0_rho0.95_r0.3",
+        "F0R_M0_dA2_db0_rho1.15_r0.3",
+        "F0R_M0_dA4_db0_rho0.95_r0.3",
+        "F0R_M0_dA4_db0_rho1.15_r0.3",
+        "F0R_M3_dA0_db0_rho0.95_r0.3",
+        "F0R_M3_dA0_db0_rho1.15_r0.3",
+        "F0R_M3_dA1_db0_rho0.95_r0.3",
+        "F0R_M3_dA1_db0_rho1.15_r0.3",
+        "F0R_M3_dA2_db0_rho0.95_r0.3",
+        "F0R_M3_dA2_db0_rho1.15_r0.3",
+        "F0R_M3_dA4_db0_rho0.95_r0.3",
+        "F0R_M3_dA4_db0_rho1.15_r0.3",
+        "F0R_M1_dA2_db0_rho0.95_r0.3",
+        "F0R_M5_dA2_db0_rho0.95_r0.3",
+        "F0R_M3_dA2_db0_rho0.95_r0",
+        "F0R_M3_dA2_db0_rho0.95_r1",
+        "F0R_M3_dA2_db0_rho0.7_r0.3",
+        "F0R_M3_dA0_db2_rho0.95_r0.3"
+      ],
+      "workers": 4,
+      "started_utc": "2026-10-20T21:08:06+00:00",
+      "ended_utc": "2026-10-20T21:12:49+00:00",
+      "status": "complete",
+      "git_commit": "6f06d45bb744bc54cd009129e7bd35c1a173a048",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/home/user/paperE-benchmark/results/population_params.json": true,
+        "/home/user/paperE-benchmark/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 1760,
+      "rows_skipped": 7920,
+      "rows_written": 31680,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 1105.6788101519999,
+      "wall_s": 283.278091144
+    }
+  ]
+}

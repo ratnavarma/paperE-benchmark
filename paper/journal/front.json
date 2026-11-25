@@ -1,0 +1,12 @@
+{
+ "_comment": "Author block of the manuscript and title page (journal profile only). The title is the single 'title' field of paper/note.md.",
+ "author": "FNU Ratnavarma",
+ "email": "ratnavarma@notebook.beer",
+ "affiliation": {
+  "organization": "Independent researcher",
+  "addressline": "",
+  "city": "Temecula",
+  "state": "California",
+  "country": "USA"
+ }
+}

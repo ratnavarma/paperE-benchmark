@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/raw/
+logs/*.log
+results/**/*.tmp
+CONFIRMATION_APPROVED
+paper/build/
+results/tuning/rows.jsonl
+results/tuning/.lock
+results/*/rows.jsonl
+results/*/.lock
+paper/AuthorKit27.zip
+paper/AuthorKit27/
+paper/build_journal/
+paper/identity_private.txt

@@ -1,0 +1,154 @@
+{
+  "package_versions": {
+    "python": "3.13.7",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "networkx": "3.7"
+  },
+  "git": {
+    "commit": "242c96e14a1a47b5bea6f50b9c69c8ffa71da2f1",
+    "dirty": false
+  },
+  "family": "F0R",
+  "mode": "frozen",
+  "provenance": {
+    "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+    "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+    "allow_dirty": false,
+    "committed": {
+      "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+      "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+    }
+  },
+  "args": {
+    "family": "F0R",
+    "mode": "frozen",
+    "seeds": [
+      500000,
+      500199
+    ],
+    "out": "results/f0r_confirm",
+    "policies": [
+      "ce_llf",
+      "guarded_mpc_e1",
+      "llf_post",
+      "mpc_ce",
+      "oracle_mpc",
+      "pop_mpc",
+      "sym_margin"
+    ],
+    "cells": [
+      "F0R_M3_dA0_db0_rho0.95_r0.3",
+      "F0R_M3_dA1_db0_rho0.95_r0.3",
+      "F0R_M3_dA2_db0_rho0.95_r0.3",
+      "F0R_M3_dA4_db0_rho0.95_r0.3",
+      "F0R_M3_dA0_db0_rho1.15_r0.3",
+      "F0R_M3_dA1_db0_rho1.15_r0.3",
+      "F0R_M3_dA2_db0_rho1.15_r0.3",
+      "F0R_M3_dA4_db0_rho1.15_r0.3"
+    ],
+    "workers": 8,
+    "allow_dirty": false,
+    "argv": [
+      "--family",
+      "F0R",
+      "--mode",
+      "frozen",
+      "--seeds",
+      "500000-500199",
+      "--out",
+      "results/f0r_confirm",
+      "--workers",
+      "8",
+      "--policies",
+      "ce_llf,sym_margin,mpc_ce,pop_mpc,llf_post,guarded_mpc_e1,oracle_mpc",
+      "--cells",
+      "F0R_M3_dA0_db0_rho0.95_r0.3,F0R_M3_dA1_db0_rho0.95_r0.3,F0R_M3_dA2_db0_rho0.95_r0.3,F0R_M3_dA4_db0_rho0.95_r0.3,F0R_M3_dA0_db0_rho1.15_r0.3,F0R_M3_dA1_db0_rho1.15_r0.3,F0R_M3_dA2_db0_rho1.15_r0.3,F0R_M3_dA4_db0_rho1.15_r0.3"
+    ]
+  },
+  "start_utc": "2026-10-21T00:14:37+00:00",
+  "end_utc": "2026-10-21T00:15:04+00:00",
+  "status": "complete",
+  "cpu_s_total": 213.11775900000023,
+  "wall_s": 27.238282292033546,
+  "row_counts": {
+    "total": 12800,
+    "by_mode": {
+      "frozen": 12800
+    },
+    "by_family": {
+      "bound": 1600,
+      "ce_llf": 1600,
+      "sym_margin": 1600,
+      "mpc_ce": 1600,
+      "pop_mpc": 1600,
+      "llf_post": 1600,
+      "guarded_mpc_e1": 1600,
+      "oracle_mpc": 1600
+    }
+  },
+  "invocations": [
+    {
+      "argv": [
+        "--family",
+        "F0R",
+        "--mode",
+        "frozen",
+        "--seeds",
+        "500000-500199",
+        "--out",
+        "results/f0r_confirm",
+        "--workers",
+        "8",
+        "--policies",
+        "ce_llf,sym_margin,mpc_ce,pop_mpc,llf_post,guarded_mpc_e1,oracle_mpc",
+        "--cells",
+        "F0R_M3_dA0_db0_rho0.95_r0.3,F0R_M3_dA1_db0_rho0.95_r0.3,F0R_M3_dA2_db0_rho0.95_r0.3,F0R_M3_dA4_db0_rho0.95_r0.3,F0R_M3_dA0_db0_rho1.15_r0.3,F0R_M3_dA1_db0_rho1.15_r0.3,F0R_M3_dA2_db0_rho1.15_r0.3,F0R_M3_dA4_db0_rho1.15_r0.3"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        500000,
+        500199
+      ],
+      "policies": [
+        "ce_llf",
+        "guarded_mpc_e1",
+        "llf_post",
+        "mpc_ce",
+        "oracle_mpc",
+        "pop_mpc",
+        "sym_margin"
+      ],
+      "cells": [
+        "F0R_M3_dA0_db0_rho0.95_r0.3",
+        "F0R_M3_dA1_db0_rho0.95_r0.3",
+        "F0R_M3_dA2_db0_rho0.95_r0.3",
+        "F0R_M3_dA4_db0_rho0.95_r0.3",
+        "F0R_M3_dA0_db0_rho1.15_r0.3",
+        "F0R_M3_dA1_db0_rho1.15_r0.3",
+        "F0R_M3_dA2_db0_rho1.15_r0.3",
+        "F0R_M3_dA4_db0_rho1.15_r0.3"
+      ],
+      "workers": 8,
+      "started_utc": "2026-10-21T00:14:37+00:00",
+      "ended_utc": "2026-10-21T00:15:04+00:00",
+      "status": "complete",
+      "git_commit": "242c96e14a1a47b5bea6f50b9c69c8ffa71da2f1",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 1600,
+      "rows_skipped": 0,
+      "rows_written": 12800,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 213.11775900000023,
+      "wall_s": 27.238282292033546
+    }
+  ]
+}

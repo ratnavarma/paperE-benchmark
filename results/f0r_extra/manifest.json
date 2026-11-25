@@ -1,0 +1,915 @@
+{
+  "package_versions": {
+    "python": "3.13.7",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "networkx": "3.7"
+  },
+  "git": {
+    "commit": "5b04a190b6137080f8bc6c5529ae8add07e566ee",
+    "dirty": false
+  },
+  "family": "F0R",
+  "mode": "frozen",
+  "provenance": {
+    "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+    "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+    "allow_dirty": false,
+    "committed": {
+      "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+      "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+    }
+  },
+  "args": {
+    "family": "F0R",
+    "mode": "frozen",
+    "seeds": [
+      61000,
+      61099
+    ],
+    "out": "results/f0r_extra",
+    "policies": [
+      "llf_pop",
+      "llf_post"
+    ],
+    "cells": [
+      "F0R_M3_dA0_db0_rho0.95_r0.3",
+      "F0R_M3_dA0_db0_rho1.15_r0.3",
+      "F0R_M3_dA1_db0_rho0.95_r0.3",
+      "F0R_M3_dA1_db0_rho1.15_r0.3",
+      "F0R_M3_dA2_db0_rho0.95_r0.3",
+      "F0R_M3_dA2_db0_rho1.15_r0.3",
+      "F0R_M3_dA4_db0_rho0.95_r0.3",
+      "F0R_M3_dA4_db0_rho1.15_r0.3"
+    ],
+    "workers": 1,
+    "allow_dirty": false,
+    "argv": [
+      "scripts/run_posthoc_g3.py",
+      "label=development, post hoc, added after the G3 review"
+    ]
+  },
+  "start_utc": "2026-10-20T23:25:40+00:00",
+  "end_utc": "2026-10-20T23:25:40+00:00",
+  "status": "complete",
+  "cpu_s_total": 0.0006369999999999987,
+  "wall_s": 0.0006747500156052411,
+  "row_counts": {
+    "total": 10400,
+    "by_mode": {
+      "frozen": 10400
+    },
+    "by_family": {
+      "bound": 1200,
+      "ce_llf": 1200,
+      "mpc_ce": 1200,
+      "pop_mpc": 1200,
+      "guarded_mpc_e1": 1200,
+      "oracle_mpc": 1200,
+      "sllf": 800,
+      "floor": 400,
+      "floor_flagged": 400,
+      "llf_post": 800,
+      "llf_pop": 800
+    }
+  },
+  "invocations": [
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "ce_llf",
+        "guarded_mpc_e1",
+        "mpc_ce",
+        "oracle_mpc",
+        "pop_mpc",
+        "sllf"
+      ],
+      "cells": [
+        "F0R_M3_dA0_db0_rho0.95_r0.3",
+        "F0R_M3_dA0_db0_rho1.15_r0.3",
+        "F0R_M3_dA1_db0_rho0.95_r0.3",
+        "F0R_M3_dA1_db0_rho1.15_r0.3",
+        "F0R_M3_dA2_db0_rho0.95_r0.3",
+        "F0R_M3_dA2_db0_rho1.15_r0.3",
+        "F0R_M3_dA4_db0_rho0.95_r0.3",
+        "F0R_M3_dA4_db0_rho1.15_r0.3"
+      ],
+      "workers": 8,
+      "started_utc": "2026-10-20T22:44:13+00:00",
+      "ended_utc": "2026-10-20T22:44:27+00:00",
+      "status": "complete",
+      "git_commit": "8a8800bf9aab737643d8050b372b54de36e68b58",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 800,
+      "rows_skipped": 0,
+      "rows_written": 5600,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 114.6185169999999,
+      "wall_s": 14.570651040994562
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "ce_llf",
+        "guarded_mpc_e1",
+        "mpc_ce",
+        "oracle_mpc",
+        "pop_mpc"
+      ],
+      "cells": [
+        "F0R_M3_dA2_db0_rho0.95_r0.3_split0.15_q0.88",
+        "F0R_M3_dA2_db0_rho1.15_r0.3_split0.15_q0.88",
+        "F0R_M3_dA2_db0_rho0.95_r0.3_split0.5_q0.27",
+        "F0R_M3_dA2_db0_rho1.15_r0.3_split0.5_q0.27"
+      ],
+      "workers": 8,
+      "started_utc": "2026-10-20T22:44:27+00:00",
+      "ended_utc": "2026-10-20T22:44:34+00:00",
+      "status": "complete",
+      "git_commit": "8a8800bf9aab737643d8050b372b54de36e68b58",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 400,
+      "rows_skipped": 0,
+      "rows_written": 2400,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 54.66633999999998,
+      "wall_s": 6.900786957994569
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "floor",
+        "floor_flagged",
+        "pop_mpc"
+      ],
+      "cells": [
+        "F0R_M3_dA2_db0_rho0.95_r0.3"
+      ],
+      "workers": 8,
+      "started_utc": "2026-10-20T22:44:34+00:00",
+      "ended_utc": "2026-10-20T22:44:35+00:00",
+      "status": "complete",
+      "git_commit": "8a8800bf9aab737643d8050b372b54de36e68b58",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 100,
+      "rows_skipped": 200,
+      "rows_written": 200,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 3.1273969999999993,
+      "wall_s": 0.42047191702295095
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "floor",
+        "floor_flagged",
+        "pop_mpc"
+      ],
+      "cells": [
+        "F0R_M3_dA2_db0_rho1.15_r0.3"
+      ],
+      "workers": 8,
+      "started_utc": "2026-10-20T22:44:35+00:00",
+      "ended_utc": "2026-10-20T22:44:35+00:00",
+      "status": "complete",
+      "git_commit": "8a8800bf9aab737643d8050b372b54de36e68b58",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 100,
+      "rows_skipped": 200,
+      "rows_written": 200,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 2.8461270000000005,
+      "wall_s": 0.3856720420299098
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "floor",
+        "floor_flagged",
+        "pop_mpc"
+      ],
+      "cells": [
+        "F0R_M3_dA4_db0_rho0.95_r0.3"
+      ],
+      "workers": 8,
+      "started_utc": "2026-10-20T22:44:36+00:00",
+      "ended_utc": "2026-10-20T22:44:36+00:00",
+      "status": "complete",
+      "git_commit": "8a8800bf9aab737643d8050b372b54de36e68b58",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 100,
+      "rows_skipped": 200,
+      "rows_written": 200,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 3.1317120000000003,
+      "wall_s": 0.4190602920134552
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "floor",
+        "floor_flagged",
+        "pop_mpc"
+      ],
+      "cells": [
+        "F0R_M3_dA4_db0_rho1.15_r0.3"
+      ],
+      "workers": 8,
+      "started_utc": "2026-10-20T22:44:36+00:00",
+      "ended_utc": "2026-10-20T22:44:37+00:00",
+      "status": "complete",
+      "git_commit": "8a8800bf9aab737643d8050b372b54de36e68b58",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 100,
+      "rows_skipped": 200,
+      "rows_written": 200,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 2.831175,
+      "wall_s": 0.3789417090010829
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "ce_llf",
+        "guarded_mpc_e1",
+        "mpc_ce",
+        "oracle_mpc",
+        "pop_mpc",
+        "sllf"
+      ],
+      "cells": [
+        "F0R_M3_dA0_db0_rho0.95_r0.3",
+        "F0R_M3_dA0_db0_rho1.15_r0.3",
+        "F0R_M3_dA1_db0_rho0.95_r0.3",
+        "F0R_M3_dA1_db0_rho1.15_r0.3",
+        "F0R_M3_dA2_db0_rho0.95_r0.3",
+        "F0R_M3_dA2_db0_rho1.15_r0.3",
+        "F0R_M3_dA4_db0_rho0.95_r0.3",
+        "F0R_M3_dA4_db0_rho1.15_r0.3"
+      ],
+      "workers": 1,
+      "started_utc": "2026-10-20T23:25:32+00:00",
+      "ended_utc": "2026-10-20T23:25:32+00:00",
+      "status": "complete",
+      "git_commit": "5b04a190b6137080f8bc6c5529ae8add07e566ee",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 0,
+      "rows_skipped": 5600,
+      "rows_written": 0,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 0.17984100000000003,
+      "wall_s": 0.18021529098041356
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "ce_llf",
+        "guarded_mpc_e1",
+        "mpc_ce",
+        "oracle_mpc",
+        "pop_mpc"
+      ],
+      "cells": [
+        "F0R_M3_dA2_db0_rho0.95_r0.3_split0.15_q0.88",
+        "F0R_M3_dA2_db0_rho1.15_r0.3_split0.15_q0.88",
+        "F0R_M3_dA2_db0_rho0.95_r0.3_split0.5_q0.27",
+        "F0R_M3_dA2_db0_rho1.15_r0.3_split0.5_q0.27"
+      ],
+      "workers": 1,
+      "started_utc": "2026-10-20T23:25:33+00:00",
+      "ended_utc": "2026-10-20T23:25:33+00:00",
+      "status": "complete",
+      "git_commit": "5b04a190b6137080f8bc6c5529ae8add07e566ee",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 0,
+      "rows_skipped": 2400,
+      "rows_written": 0,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 0.00048199999999998244,
+      "wall_s": 0.0006838329718448222
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "floor",
+        "floor_flagged",
+        "pop_mpc"
+      ],
+      "cells": [
+        "F0R_M3_dA2_db0_rho0.95_r0.3"
+      ],
+      "workers": 1,
+      "started_utc": "2026-10-20T23:25:33+00:00",
+      "ended_utc": "2026-10-20T23:25:33+00:00",
+      "status": "complete",
+      "git_commit": "5b04a190b6137080f8bc6c5529ae8add07e566ee",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 0,
+      "rows_skipped": 400,
+      "rows_written": 0,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 0.0005239999999999689,
+      "wall_s": 0.000753208005335182
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "floor",
+        "floor_flagged",
+        "pop_mpc"
+      ],
+      "cells": [
+        "F0R_M3_dA2_db0_rho1.15_r0.3"
+      ],
+      "workers": 1,
+      "started_utc": "2026-10-20T23:25:33+00:00",
+      "ended_utc": "2026-10-20T23:25:33+00:00",
+      "status": "complete",
+      "git_commit": "5b04a190b6137080f8bc6c5529ae8add07e566ee",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 0,
+      "rows_skipped": 400,
+      "rows_written": 0,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 0.0004899999999999904,
+      "wall_s": 0.0005199579754844308
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "floor",
+        "floor_flagged",
+        "pop_mpc"
+      ],
+      "cells": [
+        "F0R_M3_dA4_db0_rho0.95_r0.3"
+      ],
+      "workers": 1,
+      "started_utc": "2026-10-20T23:25:33+00:00",
+      "ended_utc": "2026-10-20T23:25:33+00:00",
+      "status": "complete",
+      "git_commit": "5b04a190b6137080f8bc6c5529ae8add07e566ee",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 0,
+      "rows_skipped": 400,
+      "rows_written": 0,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 0.0005330000000000057,
+      "wall_s": 0.0007659999537281692
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "floor",
+        "floor_flagged",
+        "pop_mpc"
+      ],
+      "cells": [
+        "F0R_M3_dA4_db0_rho1.15_r0.3"
+      ],
+      "workers": 1,
+      "started_utc": "2026-10-20T23:25:33+00:00",
+      "ended_utc": "2026-10-20T23:25:33+00:00",
+      "status": "complete",
+      "git_commit": "5b04a190b6137080f8bc6c5529ae8add07e566ee",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 0,
+      "rows_skipped": 400,
+      "rows_written": 0,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 0.0005380000000001495,
+      "wall_s": 0.0007548329886049032
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "llf_pop",
+        "llf_post"
+      ],
+      "cells": [
+        "F0R_M3_dA0_db0_rho0.95_r0.3",
+        "F0R_M3_dA0_db0_rho1.15_r0.3",
+        "F0R_M3_dA1_db0_rho0.95_r0.3",
+        "F0R_M3_dA1_db0_rho1.15_r0.3",
+        "F0R_M3_dA2_db0_rho0.95_r0.3",
+        "F0R_M3_dA2_db0_rho1.15_r0.3",
+        "F0R_M3_dA4_db0_rho0.95_r0.3",
+        "F0R_M3_dA4_db0_rho1.15_r0.3"
+      ],
+      "workers": 6,
+      "started_utc": "2026-10-20T23:25:34+00:00",
+      "ended_utc": "2026-10-20T23:25:36+00:00",
+      "status": "complete",
+      "git_commit": "5b04a190b6137080f8bc6c5529ae8add07e566ee",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 800,
+      "rows_skipped": 800,
+      "rows_written": 1600,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 12.496934000000003,
+      "wall_s": 2.0654080000240356
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "ce_llf",
+        "guarded_mpc_e1",
+        "mpc_ce",
+        "oracle_mpc",
+        "pop_mpc",
+        "sllf"
+      ],
+      "cells": [
+        "F0R_M3_dA0_db0_rho0.95_r0.3",
+        "F0R_M3_dA0_db0_rho1.15_r0.3",
+        "F0R_M3_dA1_db0_rho0.95_r0.3",
+        "F0R_M3_dA1_db0_rho1.15_r0.3",
+        "F0R_M3_dA2_db0_rho0.95_r0.3",
+        "F0R_M3_dA2_db0_rho1.15_r0.3",
+        "F0R_M3_dA4_db0_rho0.95_r0.3",
+        "F0R_M3_dA4_db0_rho1.15_r0.3"
+      ],
+      "workers": 1,
+      "started_utc": "2026-10-20T23:25:39+00:00",
+      "ended_utc": "2026-10-20T23:25:39+00:00",
+      "status": "complete",
+      "git_commit": "5b04a190b6137080f8bc6c5529ae8add07e566ee",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 0,
+      "rows_skipped": 5600,
+      "rows_written": 0,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 0.17896099999999998,
+      "wall_s": 0.17915133299538866
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "ce_llf",
+        "guarded_mpc_e1",
+        "mpc_ce",
+        "oracle_mpc",
+        "pop_mpc"
+      ],
+      "cells": [
+        "F0R_M3_dA2_db0_rho0.95_r0.3_split0.15_q0.88",
+        "F0R_M3_dA2_db0_rho1.15_r0.3_split0.15_q0.88",
+        "F0R_M3_dA2_db0_rho0.95_r0.3_split0.5_q0.27",
+        "F0R_M3_dA2_db0_rho1.15_r0.3_split0.5_q0.27"
+      ],
+      "workers": 1,
+      "started_utc": "2026-10-20T23:25:39+00:00",
+      "ended_utc": "2026-10-20T23:25:39+00:00",
+      "status": "complete",
+      "git_commit": "5b04a190b6137080f8bc6c5529ae8add07e566ee",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 0,
+      "rows_skipped": 2400,
+      "rows_written": 0,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 0.0005749999999999922,
+      "wall_s": 0.000792292004916817
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "floor",
+        "floor_flagged",
+        "pop_mpc"
+      ],
+      "cells": [
+        "F0R_M3_dA2_db0_rho0.95_r0.3"
+      ],
+      "workers": 1,
+      "started_utc": "2026-10-20T23:25:39+00:00",
+      "ended_utc": "2026-10-20T23:25:39+00:00",
+      "status": "complete",
+      "git_commit": "5b04a190b6137080f8bc6c5529ae8add07e566ee",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 0,
+      "rows_skipped": 400,
+      "rows_written": 0,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 0.0006300000000000194,
+      "wall_s": 0.0008954170043580234
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "floor",
+        "floor_flagged",
+        "pop_mpc"
+      ],
+      "cells": [
+        "F0R_M3_dA2_db0_rho1.15_r0.3"
+      ],
+      "workers": 1,
+      "started_utc": "2026-10-20T23:25:39+00:00",
+      "ended_utc": "2026-10-20T23:25:39+00:00",
+      "status": "complete",
+      "git_commit": "5b04a190b6137080f8bc6c5529ae8add07e566ee",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 0,
+      "rows_skipped": 400,
+      "rows_written": 0,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 0.0006149999999999212,
+      "wall_s": 0.000876000034622848
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "floor",
+        "floor_flagged",
+        "pop_mpc"
+      ],
+      "cells": [
+        "F0R_M3_dA4_db0_rho0.95_r0.3"
+      ],
+      "workers": 1,
+      "started_utc": "2026-10-20T23:25:40+00:00",
+      "ended_utc": "2026-10-20T23:25:40+00:00",
+      "status": "complete",
+      "git_commit": "5b04a190b6137080f8bc6c5529ae8add07e566ee",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 0,
+      "rows_skipped": 400,
+      "rows_written": 0,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 0.0006399999999999739,
+      "wall_s": 0.0009085839847102761
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "floor",
+        "floor_flagged",
+        "pop_mpc"
+      ],
+      "cells": [
+        "F0R_M3_dA4_db0_rho1.15_r0.3"
+      ],
+      "workers": 1,
+      "started_utc": "2026-10-20T23:25:40+00:00",
+      "ended_utc": "2026-10-20T23:25:40+00:00",
+      "status": "complete",
+      "git_commit": "5b04a190b6137080f8bc6c5529ae8add07e566ee",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 0,
+      "rows_skipped": 400,
+      "rows_written": 0,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 0.0006359999999998589,
+      "wall_s": 0.0008537920075468719
+    },
+    {
+      "argv": [
+        "scripts/run_posthoc_g3.py",
+        "label=development, post hoc, added after the G3 review"
+      ],
+      "family": "F0R",
+      "mode": "frozen",
+      "seeds": [
+        61000,
+        61099
+      ],
+      "policies": [
+        "llf_pop",
+        "llf_post"
+      ],
+      "cells": [
+        "F0R_M3_dA0_db0_rho0.95_r0.3",
+        "F0R_M3_dA0_db0_rho1.15_r0.3",
+        "F0R_M3_dA1_db0_rho0.95_r0.3",
+        "F0R_M3_dA1_db0_rho1.15_r0.3",
+        "F0R_M3_dA2_db0_rho0.95_r0.3",
+        "F0R_M3_dA2_db0_rho1.15_r0.3",
+        "F0R_M3_dA4_db0_rho0.95_r0.3",
+        "F0R_M3_dA4_db0_rho1.15_r0.3"
+      ],
+      "workers": 1,
+      "started_utc": "2026-10-20T23:25:40+00:00",
+      "ended_utc": "2026-10-20T23:25:40+00:00",
+      "status": "complete",
+      "git_commit": "5b04a190b6137080f8bc6c5529ae8add07e566ee",
+      "git_dirty": false,
+      "population_params_sha256": "0cbd0604b6b61465a6b82812b23679915f5defb201141cb1c2e02c52dea9da71",
+      "tuning_frozen_sha256": "d4b4d4ee5142154eb09ad0dff93a36e8e1a06d1e6a88c4c92bee9561a531aa10",
+      "allow_dirty": false,
+      "committed": {
+        "/Users/ratnavarma/08_Experiments/paperE/results/population_params.json": true,
+        "/Users/ratnavarma/08_Experiments/paperE/results/TUNING_FROZEN.json": true
+      },
+      "tasks": 0,
+      "rows_skipped": 2400,
+      "rows_written": 0,
+      "partial_bytes_recovered": 0,
+      "cpu_s": 0.0006369999999999987,
+      "wall_s": 0.0006747500156052411
+    }
+  ]
+}

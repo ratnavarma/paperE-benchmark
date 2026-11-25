@@ -1,0 +1,57 @@
+{
+ "meta": {
+  "source": "results/confirm_numbers.json (frozen scripts/confirm_analysis.py output, copied without change)"
+ },
+ "numbers": {
+  "confirm/C1": {
+   "value": 0.9437499999999999,
+   "ci_lo": 0.4916666666666667,
+   "ci_hi": 1.395833333333333,
+   "n_seeds": 200,
+   "level": 0.99,
+   "verdict": "supported",
+   "statistic": "E1 at M = 3, rho = 1.15: mean gap over delta {2,4} minus over {0,1}; gap = R_avoid(best oblivious fixed on tuning seeds) - R_avoid(candidate)",
+   "label": "confirmation, reserved seeds 500000-500199, frozen analysis"
+  },
+  "confirm/C2": {
+   "value": 0.8020833333333331,
+   "ci_lo": 0.32082291666666674,
+   "ci_hi": 1.2770833333333331,
+   "n_seeds": 200,
+   "level": 0.99,
+   "verdict": "supported",
+   "statistic": "E1 at M = 3, rho = 0.95: mean gap over delta {2,4} minus over {0,1}; gap = R_avoid(best oblivious fixed on tuning seeds) - R_avoid(candidate)",
+   "label": "confirmation, reserved seeds 500000-500199, frozen analysis"
+  },
+  "confirm/C3": {
+   "value": 0.7347956131605181,
+   "ci_lo": 0.6429379249694629,
+   "ci_hi": 0.8225649968294225,
+   "n_seeds": 200,
+   "level": 0.99,
+   "verdict": "supported",
+   "statistic": "ratio of means (ce_llf - pop_mpc)/(ce_llf - candidate), M = 3, delta = 2, rho = 0.95",
+   "label": "confirmation, reserved seeds 500000-500199, frozen analysis"
+  },
+  "confirm/C4": {
+   "value": -4.991666666666668,
+   "ci_lo": -5.8833333333333355,
+   "ci_hi": -4.158333333333337,
+   "n_seeds": 200,
+   "level": 0.99,
+   "verdict": "supported",
+   "statistic": "(ce_llf - mpc_ce) - (llf_post - candidate) on R_avoid, M = 3, delta = 2, rho = 0.95",
+   "label": "confirmation, reserved seeds 500000-500199, frozen analysis"
+  },
+  "confirm/C5": {
+   "value": 0.5200319934569764,
+   "ci_lo": 0.3159830167222708,
+   "ci_hi": 0.7669158967559413,
+   "n_seeds": 200,
+   "level": 0.99,
+   "verdict": "supported",
+   "statistic": "share(delta 1) - share(delta 4) at M = 3, rho = 1.15; share = (ce_llf - pop_mpc)/(ce_llf - candidate), ratios of means, jointly resampled",
+   "label": "confirmation, reserved seeds 500000-500199, frozen analysis"
+  }
+ }
+}

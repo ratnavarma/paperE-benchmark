@@ -1,0 +1,80 @@
+{
+ "meta": {
+  "rows": "results/f0r_dev/rows.jsonl.gz",
+  "seeds": [
+   61000,
+   61099
+  ],
+  "level": 0.99,
+  "n_boot": 10000,
+  "boot_seed": 20261020,
+  "best_oblivious": {
+   "0": "sym_margin",
+   "1": "pop_mpc",
+   "2": "pop_mpc",
+   "4": "pop_mpc"
+  }
+ },
+ "tests": {
+  "C1": {
+   "value": 1.0541666666666667,
+   "ci_lo": 0.4541458333333335,
+   "ci_hi": 1.67502083333333,
+   "level": 0.99,
+   "n_seeds": 100,
+   "statistic": "E1 at M = 3, rho = 1.15: mean gap over delta {2,4} minus over {0,1}; gap = R_avoid(best oblivious fixed on tuning seeds) - R_avoid(candidate)",
+   "threshold": 0.0,
+   "predicted_side": ">",
+   "development_prediction": 1.05,
+   "verdict": "supported"
+  },
+  "C2": {
+   "value": 0.30833333333333335,
+   "ci_lo": -0.4250208333333333,
+   "ci_hi": 1.02502083333333,
+   "level": 0.99,
+   "n_seeds": 100,
+   "statistic": "E1 at M = 3, rho = 0.95: mean gap over delta {2,4} minus over {0,1}; gap = R_avoid(best oblivious fixed on tuning seeds) - R_avoid(candidate)",
+   "threshold": 0.0,
+   "predicted_side": ">",
+   "development_prediction": 0.31,
+   "verdict": "not supported at this size"
+  },
+  "C3": {
+   "value": 0.8251028806584366,
+   "ci_lo": 0.6567417814981107,
+   "ci_hi": 0.998012216277624,
+   "level": 0.99,
+   "n_seeds": 100,
+   "statistic": "ratio of means (ce_llf - pop_mpc)/(ce_llf - candidate), M = 3, delta = 2, rho = 0.95",
+   "threshold": 0.5,
+   "predicted_side": ">",
+   "development_prediction": 0.83,
+   "verdict": "supported"
+  },
+  "C4": {
+   "value": -4.85,
+   "ci_lo": -6.375041666666669,
+   "ci_hi": -3.6082916666666707,
+   "level": 0.99,
+   "n_seeds": 100,
+   "statistic": "(ce_llf - mpc_ce) - (llf_post - candidate) on R_avoid, M = 3, delta = 2, rho = 0.95",
+   "threshold": 0.0,
+   "predicted_side": "<",
+   "development_prediction": -4.85,
+   "verdict": "supported"
+  },
+  "C5": {
+   "value": 0.5262104624523462,
+   "ci_lo": 0.21249855277074636,
+   "ci_hi": 0.9570582617280151,
+   "level": 0.99,
+   "n_seeds": 100,
+   "statistic": "share(delta 1) - share(delta 4) at M = 3, rho = 1.15; share = (ce_llf - pop_mpc)/(ce_llf - candidate), ratios of means, jointly resampled",
+   "threshold": 0.0,
+   "predicted_side": ">",
+   "development_prediction": 0.53,
+   "verdict": "supported"
+  }
+ }
+}

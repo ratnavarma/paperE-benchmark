@@ -1,0 +1,9 @@
+warning: The `UV_NATIVE_TLS` environment variable is deprecated and will be removed in a future release. Use `UV_SYSTEM_CERTS` instead.
+{
+ "NC3p_extended": "FAIL"
+}
+runtime 658 s; wrote /home/user/paperE-benchmark/results/negative_controls/nc3_extended.json and /home/user/paperE-benchmark/docs/NC_REPORT.md
+
+real	10m59.427s
+user	19m43.953s
+sys	0m9.888s

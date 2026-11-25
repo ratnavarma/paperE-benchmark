@@ -1,0 +1,9 @@
+warning: The `UV_NATIVE_TLS` environment variable is deprecated and will be removed in a future release. Use `UV_SYSTEM_CERTS` instead.
+..........
+[perf] N=300 H=24 clairvoyant (max flow + leximin + min peak): 0.869 s, F*=1281, R*=847
+........                                                       [100%]
+18 passed in 365.96s (0:06:05)
+
+real	6m6.536s
+user	6m0.094s
+sys	0m0.304s
