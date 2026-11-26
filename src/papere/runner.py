@@ -276,14 +276,24 @@ class RowStore:
 # ---------------------------------------------------------------------------------------
 # families, params, frozen file
 # ---------------------------------------------------------------------------------------
-def load_families(injected: list[Family] | None = None) -> list[Family]:
-    """``papere.policies.catalog.FAMILIES`` (imported lazily) or the injected list."""
+def load_families(injected: list[Family] | None = None, *,
+                  extra_names: list[str] | tuple[str, ...] | None = None) -> list[Family]:
+    """``papere.policies.catalog.FAMILIES`` (imported lazily) or the injected list.
+
+    When ``injected`` is ``None`` and ``extra_names`` is provided, matching registered
+    ablation families from ``catalog.ABLATION_BY_NAME`` are appended.
+    """
     if injected is None:
         try:
             from papere.policies import catalog
         except ImportError as e:
             raise RunnerError(f"cannot import papere.policies.catalog ({e})") from None
         fams = list(catalog.FAMILIES)
+        if extra_names:
+            ab_map = getattr(catalog, "ABLATION_BY_NAME", {})
+            for name in dict.fromkeys(extra_names):
+                if name in ab_map:
+                    fams.append(ab_map[name])
     else:
         fams = list(injected)
     names = [f.name for f in fams]
@@ -295,6 +305,18 @@ def load_families(injected: list[Family] | None = None) -> list[Family]:
         if f.tuned_from is not None and f.tuned_from not in names:
             raise RunnerError(f"{f.name}: tuned_from {f.tuned_from!r} is not a family")
     return fams
+
+
+def resolve_extra_family_names(policies: list[str] | tuple[str, ...] | set[str] | None) -> list[str]:
+    """Return any explicitly selected policy names registered in ``catalog.ABLATION_BY_NAME``."""
+    if not policies:
+        return []
+    try:
+        from papere.policies import catalog
+    except ImportError:
+        return []
+    ab_map = getattr(catalog, "ABLATION_BY_NAME", {})
+    return [p for p in dict.fromkeys(policies) if p in ab_map]
 
 
 def load_params(path: Path | str) -> PopulationParams:
@@ -380,10 +402,12 @@ def study_cells(family: str) -> list[Cell]:
 def f0r_cell_id(cell: Cell) -> str:
     """Id of the F0-R cell whose frozen configuration this cell uses.
 
-    A cell with a class split (post hoc heterogeneity sweep) uses the frozen configuration of
-    the baseline-split cell: the configurations were tuned on the baseline split only."""
-    if cell.family == "SCALE" or cell.intol_share is not None:
-        return replace(cell, family="F0R", intol_share=None, q_intol=None).cell_id
+    A cell with a class split or post hoc persistence option uses the frozen configuration of
+    the baseline cell: the configurations were tuned on the baseline model only."""
+    if (cell.family == "SCALE" or cell.intol_share is not None
+            or cell.redraw_prob != 0.0 or cell.beta_q is not None):
+        return replace(cell, family="F0R", intol_share=None, q_intol=None,
+                       redraw_prob=0.0, beta_q=None).cell_id
     return cell.cell_id
 
 
@@ -456,7 +480,7 @@ def _init_worker(ctx: dict) -> None:
 
 def _ctx_families() -> dict[str, Family]:
     if "family_map" not in _CTX:
-        fams = load_families(_CTX.get("families"))
+        fams = load_families(_CTX.get("families"), extra_names=_CTX.get("extra_family_names"))
         _CTX["family_map"] = {f.name: f for f in fams}
     return _CTX["family_map"]
 
@@ -634,7 +658,8 @@ def run(study: str, seeds: tuple[int, int], out: Path | str, *, mode: str = "fro
     if params is None:
         params = load_params(params_path)
     params_sha = _file_sha(params_path) if (params_given or params_from_file) else None
-    fams = load_families(families)
+    extra_names = resolve_extra_family_names(policies) if families is None else []
+    fams = load_families(families, extra_names=extra_names or None)
     selected = None
     if policies:
         known = {f.name for f in fams}
@@ -734,6 +759,7 @@ def run(study: str, seeds: tuple[int, int], out: Path | str, *, mode: str = "fro
             _write_json_atomic(manifest_path, manifest)
 
         ctx = {"params": params, "params_sha256": params_sha, "families": families,
+               "extra_family_names": extra_names or None,
                "f0r_N": f0r_N, "scale_N": scale_N, "kcopy_K": kcopy_K}
         t_wall, t_cpu = time.perf_counter(), time.process_time()
         pool_cpu = 0.0

@@ -32,6 +32,9 @@ _STREAM_IDS = {
     "prior_v": 6, "prior_u": 7,
     "scored_v": 8, "scored_u": 9,
     "base_load": 10,
+    # Post hoc round 3 (M3) persistence streams (disjoint from 1..10 and ACN 101..102).
+    "redraw_u": 11, "redraw_cls": 12,
+    "beta_q": 13,
 }
 _POLICY_TAG = 0x504F4C49  # "POLI"
 
@@ -75,11 +78,50 @@ def _base_load(seed: int, N: int, H: int, salt: dict) -> tuple[np.ndarray, np.nd
     return b_mean[None, :], (b_mean + e)[None, :]
 
 
+def _evolve_classes(cls0: np.ndarray, M: int, redraw_prob: float, p_intol: float,
+                    ru: np.ndarray, rc: np.ndarray) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+    """Evolve binary participant classes across ``M`` prior events and the scored event.
+
+    Before each prior event ``m = 0..M-1`` (columns ``0..M-1`` of ``ru, rc``) and before
+    the scored event (column ``M_MAX`` of ``ru, rc``), each participant independently redraws
+    its class with probability ``redraw_prob`` from Bernoulli(``p_intol``).
+
+    Returns ``(prior_cls[N, M], scored_cls[N], redrawn[N, M + 1])``.
+    """
+    N = cls0.size
+    cur = cls0.copy()
+    prior_cls = np.empty((N, M), dtype=np.int64)
+    redrawn = np.empty((N, M + 1), dtype=bool)
+    for m in range(M):
+        do = ru[:, m] < redraw_prob
+        redrawn[:, m] = do
+        cur = np.where(do, (rc[:, m] < p_intol).astype(np.int64), cur)
+        prior_cls[:, m] = cur
+    do_sc = ru[:, M_MAX] < redraw_prob
+    redrawn[:, M] = do_sc
+    scored_cls = np.where(do_sc, (rc[:, M_MAX] < p_intol).astype(np.int64), cur)
+    return prior_cls, scored_cls, redrawn
+
+
 def generate_f0r(seed: int, cell: Cell, N: int = 30, *,
-                 stream_salt: dict | None = None) -> Instance:
+                 stream_salt: dict | None = None,
+                 redraw_prob: float | None = None,
+                 beta_q: tuple[float, float] | None = None) -> Instance:
     """F0-R instance (also SCALE with N=300). ``stream_salt`` is for tests only."""
     if cell.family not in ("F0R", "SCALE"):
         raise ValueError("generate_f0r needs an F0R or SCALE cell")
+    rp = float(cell.redraw_prob if redraw_prob is None else redraw_prob)
+    bq = cell.beta_q if beta_q is None else beta_q
+    if not 0.0 <= rp <= 1.0:
+        raise ValueError(f"redraw_prob must be in [0, 1], got {rp}")
+    if bq is not None:
+        if len(bq) != 2:
+            raise ValueError("beta_q must be a (alpha, beta) 2-tuple")
+        alpha_bq, beta_bq = float(bq[0]), float(bq[1])
+        if not (alpha_bq > 0.0 and beta_bq > 0.0):
+            raise ValueError(f"beta_q must be positive, got {(alpha_bq, beta_bq)}")
+        if rp != 0.0:
+            raise ValueError("redraw_prob and beta_q cannot both be set")
     salt = stream_salt or {}
     H = H_F0R
 
@@ -108,10 +150,27 @@ def generate_f0r(seed: int, cell: Cell, N: int = 30, *,
     cls = np.zeros(N, dtype=np.int64)
     cls[perm[:n_int]] = 1
     q = np.where(cls == 1, q_int, Q_TOLERANT)
-    if cell.homogeneous_iid:
-        q = np.full(N, Q_HOMOGENEOUS)
+
+    M = cell.M
+    q_prior: np.ndarray = q[:, None]
     if cell.deterministic:
         q = np.zeros(N)
+        q_prior = q[:, None]
+    elif cell.homogeneous_iid:
+        q = np.full(N, Q_HOMOGENEOUS)
+        q_prior = q[:, None]
+    elif bq is not None:
+        q = np.clip(g("beta_q").beta(float(bq[0]), float(bq[1]), size=N),
+                    0.0, 1.0).astype(np.float64)
+        cls = np.zeros(N, dtype=np.int64)
+        q_prior = q[:, None]
+    elif rp > 0.0:
+        p_intol = float(cell.intol_share) if cell.intol_share is not None else (1.0 / 3.0)
+        ru = g("redraw_u").random((N, M_MAX + 1))
+        rc = g("redraw_cls").random((N, M_MAX + 1))
+        prior_cls, cls, _ = _evolve_classes(cls, M, rp, p_intol, ru, rc)
+        q_prior = np.where(prior_cls == 1, q_int, Q_TOLERANT)
+        q = np.where(cls == 1, q_int, Q_TOLERANT)
 
     # scored-event uniforms and prior-event uniforms (all drawn regardless of cell)
     v = g("scored_v").random(N)
@@ -119,19 +178,18 @@ def generate_f0r(seed: int, cell: Cell, N: int = 30, *,
     pv = g("prior_v").random((N, M_MAX))
     pu = g("prior_u").random((N, M_MAX, H))
 
-    M = cell.M
     if cell.deterministic:
         mode = "det"
         prior_A = np.ones((N, M, H), dtype=np.int64)
         prior_stuck = np.zeros((N, M), dtype=bool)
     elif cell.homogeneous_iid:
         mode = "iid"
-        prior_A = iid_availability(pv[:, :M], pu[:, :M], q[:, None])
-        prior_stuck = pv[:, :M] < q[:, None]
+        prior_A = iid_availability(pv[:, :M], pu[:, :M], q_prior)
+        prior_stuck = pv[:, :M] < q_prior
     else:
         mode = "chain"
-        prior_A = chain_availability(pv[:, :M], pu[:, :M], q[:, None], cell.r)
-        prior_stuck = pv[:, :M] < q[:, None]
+        prior_A = chain_availability(pv[:, :M], pu[:, :M], q_prior, cell.r)
+        prior_stuck = pv[:, :M] < q_prior
 
     b_mean, b = _base_load(seed, N, H, salt)
     Lval = (E.sum() / cell.rho + b_mean.sum()) / H

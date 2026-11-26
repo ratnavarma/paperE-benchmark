@@ -1,0 +1,29 @@
+{
+  "caltech": {
+    "site": "caltech",
+    "raw_count": 3087,
+    "dropped_disconnect_le_connection": 0,
+    "dropped_duration_gt_24h": 21,
+    "dropped_kwh_lt_0_1": 0,
+    "dropped_missing_series": 248,
+    "kept_count": 2818
+  },
+  "jpl": {
+    "site": "jpl",
+    "raw_count": 5592,
+    "dropped_disconnect_le_connection": 0,
+    "dropped_duration_gt_24h": 0,
+    "dropped_kwh_lt_0_1": 0,
+    "dropped_missing_series": 265,
+    "kept_count": 5327
+  },
+  "office001": {
+    "site": "office001",
+    "raw_count": 463,
+    "dropped_disconnect_le_connection": 0,
+    "dropped_duration_gt_24h": 2,
+    "dropped_kwh_lt_0_1": 0,
+    "dropped_missing_series": 0,
+    "kept_count": 461
+  }
+}

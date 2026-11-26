@@ -102,6 +102,15 @@ def _guarded(mode: str, name: str, privileged: bool = False):
     return make
 
 
+def _guarded_g0(mode: str, name: str, privileged: bool = False):
+    """Guard-ablated variant: forces gamma = 0 while keeping every other frozen setting."""
+    def make(cfg: dict, params: PopulationParams):
+        from .mpc import guarded_mpc
+        return guarded_mpc(HMMBelief(params, mode), cfg["W"], cfg["m"], 0.0,
+                           name=name, privileged=privileged)
+    return make
+
+
 def _make_user_flag(cfg, params):
     return user_flag_rule(cfg["B"], cfg["O"], cfg["m"], cfg["k"], name="user_flag")
 
@@ -150,3 +159,10 @@ FAMILIES: list[Family] = [
     _fam("oracle_mpc", "reference", (DEFAULT_MPC_GAMMA,), DEFAULT_MPC_GAMMA,
          _guarded("oracle", "oracle_mpc", privileged=True), tuned_from="guarded_mpc_e1"),
 ]
+
+# Post hoc round 3 ablation variants (kept separate from the 17-family spec catalog).
+ABLATION_FAMILIES: list[Family] = [
+    _fam("guarded_mpc_e1_g0", "candidate", (DEFAULT_MPC_GAMMA,), DEFAULT_MPC_GAMMA,
+         _guarded_g0("e1", "guarded_mpc_e1_g0"), tuned_from="guarded_mpc_e1"),
+]
+ABLATION_BY_NAME: dict[str, Family] = {f.name: f for f in ABLATION_FAMILIES}

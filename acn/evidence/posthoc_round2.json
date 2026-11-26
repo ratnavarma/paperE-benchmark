@@ -1,0 +1,81 @@
+{
+ "site_diff_pa_minus_acn": {
+  "value": 0.42436377191419583,
+  "interval": [
+   0.004488439309706327,
+   0.7636155354382765
+  ]
+ },
+ "acn_gain_shared_d15": {
+  "value": 5.3528566288335435,
+  "interval": [
+   3.157144912312033,
+   7.540818728670114
+  ]
+ },
+ "acn_gain_targeted_d15": {
+  "value": 12.644537281930688,
+  "interval": [
+   10.15289508296855,
+   15.248092455713309
+  ]
+ },
+ "acn_n_sitedays_d15": {
+  "value": 102,
+  "interval": null
+ },
+ "acn_gain_shared_d60": {
+  "value": -0.9653458513385402,
+  "interval": [
+   -3.168690272976019,
+   1.1438915222649089
+  ]
+ },
+ "acn_gain_targeted_d60": {
+  "value": 9.242130931821503,
+  "interval": [
+   6.641654614662422,
+   11.854973611335721
+  ]
+ },
+ "acn_n_sitedays_d60": {
+  "value": 102,
+  "interval": null
+ },
+ "pa_gain_shared_d15": {
+  "value": 6.54484126984127,
+  "interval": [
+   3.183106575963719,
+   10.268143866409762
+  ]
+ },
+ "pa_gain_targeted_d15": {
+  "value": 9.05297619047619,
+  "interval": [
+   5.647146063812731,
+   12.756211180124225
+  ]
+ },
+ "pa_n_sitedays_d15": {
+  "value": 76,
+  "interval": null
+ },
+ "pa_gain_shared_d60": {
+  "value": 0.19702380952380957,
+  "interval": [
+   -2.5466732461551116,
+   2.957013746487431
+  ]
+ },
+ "pa_gain_targeted_d60": {
+  "value": 4.223611111111111,
+  "interval": [
+   1.3906569228351409,
+   7.00654027042916
+  ]
+ },
+ "pa_n_sitedays_d60": {
+  "value": 76,
+  "interval": null
+ }
+}

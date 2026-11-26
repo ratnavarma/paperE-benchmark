@@ -1,0 +1,99 @@
+{
+  "smoke": false,
+  "study": "both",
+  "datasets": [
+    "synthetic",
+    "acn",
+    "pa"
+  ],
+  "workers": 8,
+  "out_dir": "/Users/ratnavarma/08_Experiments/paperE/results/posthoc_round3",
+  "site_day_counts": {
+    "acn": {
+      "total_eligible_site_days": 133,
+      "used_site_days": 133
+    },
+    "pa": {
+      "total_eligible_site_days": 82,
+      "used_site_days": 82
+    }
+  },
+  "row_counts": {
+    "m6_synthetic": {
+      "n_seeds": 100,
+      "n_cells": 2,
+      "rows_written": 600,
+      "rows_skipped": 0,
+      "total_rows": 600
+    },
+    "m6_acn": {
+      "n_seeds": 200,
+      "n_cells": 2,
+      "n_site_days": 133,
+      "rows_written": 1200,
+      "rows_skipped": 0,
+      "total_rows": 1200
+    },
+    "m6_pa": {
+      "n_seeds": 200,
+      "n_cells": 2,
+      "n_site_days": 82,
+      "rows_written": 1200,
+      "rows_skipped": 0,
+      "total_rows": 1200
+    },
+    "m3_synthetic": {
+      "n_seeds": 100,
+      "n_cells": 8,
+      "rows_written": 3200,
+      "rows_skipped": 0,
+      "total_rows": 3200
+    },
+    "m3_acn": {
+      "n_seeds": 200,
+      "n_cells": 8,
+      "n_site_days": 133,
+      "rows_written": 6400,
+      "rows_skipped": 0,
+      "total_rows": 6400
+    },
+    "m3_pa": {
+      "n_seeds": 200,
+      "n_cells": 8,
+      "n_site_days": 82,
+      "rows_written": 6400,
+      "rows_skipped": 0,
+      "total_rows": 6400
+    }
+  },
+  "timings_s": {
+    "acn_load_s": 75.507,
+    "pa_load_s": 2.418,
+    "m6_synthetic_s": 3.402,
+    "m6_synthetic_analyse_s": 0.029,
+    "m6_acn_s": 5.781,
+    "m6_acn_analyse_s": 0.014,
+    "m6_pa_s": 2.495,
+    "m6_pa_analyse_s": 0.012,
+    "m3_synthetic_s": 9.832,
+    "m3_synthetic_analyse_s": 0.023,
+    "m3_acn_s": 17.951,
+    "m3_acn_analyse_s": 0.033,
+    "m3_pa_s": 8.58,
+    "m3_pa_analyse_s": 0.029
+  },
+  "total_wall_s": 126.106,
+  "projected_full_run_s": {
+    "at_workers": 8,
+    "components": {
+      "m6_synthetic_sim_s": 3.4,
+      "m6_acn_sim_s": 5.78,
+      "m6_pa_sim_s": 2.49,
+      "m3_synthetic_sim_s": 9.83,
+      "m3_acn_sim_s": 17.95,
+      "m3_pa_sim_s": 8.58
+    },
+    "total_s": 126.11,
+    "total_min": 2.1
+  }
+}

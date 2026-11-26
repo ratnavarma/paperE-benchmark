@@ -1,0 +1,742 @@
+{
+  "meta": {
+    "event_hours": [
+      17,
+      15,
+      19
+    ],
+    "deltas_min": [
+      15,
+      30,
+      60
+    ],
+    "min_remaining_kwh": 0.25,
+    "min_sessions_per_day": 10,
+    "n_boot": 10000,
+    "boot_seed": 710000,
+    "site_day_counts": {
+      "caltech": 71,
+      "jpl": 75,
+      "office001": 5
+    },
+    "pooled_site_day_count": 151
+  },
+  "sites": {
+    "caltech": {
+      "17:00": {
+        "15": {
+          "delta_min": 15,
+          "n_site_days": 71,
+          "n_site_days_with_pop": 71,
+          "n_pop_sessions": 987,
+          "n_regime_sessions": 222,
+          "total_remaining_kwh": 9507.443276437796,
+          "regime_remaining_kwh": 2060.251723793104,
+          "share": 0.2249240121580547,
+          "share_ci": [
+            0.20456905503634476,
+            0.24556213017751483
+          ],
+          "energy_at_risk": 0.21669881837728183,
+          "energy_at_risk_ci": [
+            0.18543286941023945,
+            0.24957027627323194
+          ]
+        },
+        "30": {
+          "delta_min": 30,
+          "n_site_days": 71,
+          "n_site_days_with_pop": 71,
+          "n_pop_sessions": 987,
+          "n_regime_sessions": 314,
+          "total_remaining_kwh": 9507.443276437796,
+          "regime_remaining_kwh": 2883.1232173462413,
+          "share": 0.3181357649442756,
+          "share_ci": [
+            0.292385464165878,
+            0.34371937814070347
+          ],
+          "energy_at_risk": 0.30324905797665463,
+          "energy_at_risk_ci": [
+            0.2640568848241996,
+            0.34320939901163794
+          ]
+        },
+        "60": {
+          "delta_min": 60,
+          "n_site_days": 71,
+          "n_site_days_with_pop": 71,
+          "n_pop_sessions": 987,
+          "n_regime_sessions": 526,
+          "total_remaining_kwh": 9507.443276437796,
+          "regime_remaining_kwh": 5012.522679994831,
+          "share": 0.5329280648429584,
+          "share_ci": [
+            0.5046823791416651,
+            0.5601619949368506
+          ],
+          "energy_at_risk": 0.5272208872828423,
+          "energy_at_risk_ci": [
+            0.4913306497302915,
+            0.5617767173534345
+          ]
+        }
+      },
+      "15:00": {
+        "15": {
+          "delta_min": 15,
+          "n_site_days": 71,
+          "n_site_days_with_pop": 71,
+          "n_pop_sessions": 1342,
+          "n_regime_sessions": 46,
+          "total_remaining_kwh": 13767.349811405407,
+          "regime_remaining_kwh": 450.38488506733466,
+          "share": 0.03427719821162444,
+          "share_ci": [
+            0.024644797855383285,
+            0.044510385756676554
+          ],
+          "energy_at_risk": 0.03271398571526223,
+          "energy_at_risk_ci": [
+            0.019902455678200308,
+            0.04719683696103588
+          ]
+        },
+        "30": {
+          "delta_min": 30,
+          "n_site_days": 71,
+          "n_site_days_with_pop": 71,
+          "n_pop_sessions": 1342,
+          "n_regime_sessions": 72,
+          "total_remaining_kwh": 13767.349811405407,
+          "regime_remaining_kwh": 695.5394034039837,
+          "share": 0.05365126676602087,
+          "share_ci": [
+            0.042968605324074066,
+            0.06510616228965956
+          ],
+          "energy_at_risk": 0.05052093634083241,
+          "energy_at_risk_ci": [
+            0.03455882827941985,
+            0.068236021801126
+          ]
+        },
+        "60": {
+          "delta_min": 60,
+          "n_site_days": 71,
+          "n_site_days_with_pop": 71,
+          "n_pop_sessions": 1342,
+          "n_regime_sessions": 165,
+          "total_remaining_kwh": 13767.349811405407,
+          "regime_remaining_kwh": 1710.9846973541557,
+          "share": 0.12295081967213116,
+          "share_ci": [
+            0.10864895299024933,
+            0.13803030196801536
+          ],
+          "energy_at_risk": 0.1242784356315774,
+          "energy_at_risk_ci": [
+            0.09915619723470384,
+            0.15023220187083663
+          ]
+        }
+      },
+      "19:00": {
+        "15": {
+          "delta_min": 15,
+          "n_site_days": 71,
+          "n_site_days_with_pop": 71,
+          "n_pop_sessions": 348,
+          "n_regime_sessions": 132,
+          "total_remaining_kwh": 4121.76465509881,
+          "regime_remaining_kwh": 1486.5564788178983,
+          "share": 0.37931034482758624,
+          "share_ci": [
+            0.3352431460015629,
+            0.42363112391930835
+          ],
+          "energy_at_risk": 0.3606602033861784,
+          "energy_at_risk_ci": [
+            0.3010255132629078,
+            0.4296182898513905
+          ]
+        },
+        "30": {
+          "delta_min": 30,
+          "n_site_days": 71,
+          "n_site_days_with_pop": 71,
+          "n_pop_sessions": 348,
+          "n_regime_sessions": 155,
+          "total_remaining_kwh": 4121.76465509881,
+          "regime_remaining_kwh": 1696.3481412991189,
+          "share": 0.4454022988505748,
+          "share_ci": [
+            0.39547860715846733,
+            0.49565217391304345
+          ],
+          "energy_at_risk": 0.41155870925348903,
+          "energy_at_risk_ci": [
+            0.3495794312719333,
+            0.4791016879956362
+          ]
+        },
+        "60": {
+          "delta_min": 60,
+          "n_site_days": 71,
+          "n_site_days_with_pop": 71,
+          "n_pop_sessions": 348,
+          "n_regime_sessions": 193,
+          "total_remaining_kwh": 4121.76465509881,
+          "regime_remaining_kwh": 2113.5663012957807,
+          "share": 0.5545977011494253,
+          "share_ci": [
+            0.5042492917847026,
+            0.6060606060606061
+          ],
+          "energy_at_risk": 0.5127818975984478,
+          "energy_at_risk_ci": [
+            0.4443607225480873,
+            0.5858075022634098
+          ]
+        }
+      }
+    },
+    "jpl": {
+      "17:00": {
+        "15": {
+          "delta_min": 15,
+          "n_site_days": 75,
+          "n_site_days_with_pop": 75,
+          "n_pop_sessions": 1540,
+          "n_regime_sessions": 524,
+          "total_remaining_kwh": 22999.46869438322,
+          "regime_remaining_kwh": 7116.266242257834,
+          "share": 0.3402597402597402,
+          "share_ci": [
+            0.31449962167319145,
+            0.3648833631984167
+          ],
+          "energy_at_risk": 0.3094100275453633,
+          "energy_at_risk_ci": [
+            0.2756041263352799,
+            0.3435394807516352
+          ]
+        },
+        "30": {
+          "delta_min": 30,
+          "n_site_days": 75,
+          "n_site_days_with_pop": 75,
+          "n_pop_sessions": 1540,
+          "n_regime_sessions": 737,
+          "total_remaining_kwh": 22999.46869438322,
+          "regime_remaining_kwh": 10016.41988913661,
+          "share": 0.47857142857142854,
+          "share_ci": [
+            0.45305282174248984,
+            0.5032056451612903
+          ],
+          "energy_at_risk": 0.43550657722727104,
+          "energy_at_risk_ci": [
+            0.3994834849554029,
+            0.47045961971465455
+          ]
+        },
+        "60": {
+          "delta_min": 60,
+          "n_site_days": 75,
+          "n_site_days_with_pop": 75,
+          "n_pop_sessions": 1540,
+          "n_regime_sessions": 1062,
+          "total_remaining_kwh": 22999.46869438322,
+          "regime_remaining_kwh": 15266.35238054936,
+          "share": 0.6896103896103896,
+          "share_ci": [
+            0.6650354430847493,
+            0.7128717705754951
+          ],
+          "energy_at_risk": 0.6637697845723542,
+          "energy_at_risk_ci": [
+            0.632624056607359,
+            0.6936992652214644
+          ]
+        }
+      },
+      "15:00": {
+        "15": {
+          "delta_min": 15,
+          "n_site_days": 75,
+          "n_site_days_with_pop": 75,
+          "n_pop_sessions": 2893,
+          "n_regime_sessions": 280,
+          "total_remaining_kwh": 45634.21798753265,
+          "regime_remaining_kwh": 3763.352649150398,
+          "share": 0.09678534393363292,
+          "share_ci": [
+            0.0876044217197177,
+            0.10617059884800568
+          ],
+          "energy_at_risk": 0.0824677799930428,
+          "energy_at_risk_ci": [
+            0.0673640874057051,
+            0.0984790811146539
+          ]
+        },
+        "30": {
+          "delta_min": 30,
+          "n_site_days": 75,
+          "n_site_days_with_pop": 75,
+          "n_pop_sessions": 2893,
+          "n_regime_sessions": 504,
+          "total_remaining_kwh": 45634.21798753265,
+          "regime_remaining_kwh": 6489.397316724695,
+          "share": 0.17421361908053923,
+          "share_ci": [
+            0.1617241379310345,
+            0.18719459383048148
+          ],
+          "energy_at_risk": 0.14220463509416575,
+          "energy_at_risk_ci": [
+            0.1238338240500656,
+            0.16131689807165886
+          ]
+        },
+        "60": {
+          "delta_min": 60,
+          "n_site_days": 75,
+          "n_site_days_with_pop": 75,
+          "n_pop_sessions": 2893,
+          "n_regime_sessions": 912,
+          "total_remaining_kwh": 45634.21798753265,
+          "regime_remaining_kwh": 13195.544665004534,
+          "share": 0.3152436916695472,
+          "share_ci": [
+            0.29901452694964986,
+            0.33214923222571974
+          ],
+          "energy_at_risk": 0.28915899618592306,
+          "energy_at_risk_ci": [
+            0.2634205581653097,
+            0.3152888934035409
+          ]
+        }
+      },
+      "19:00": {
+        "15": {
+          "delta_min": 15,
+          "n_site_days": 75,
+          "n_site_days_with_pop": 74,
+          "n_pop_sessions": 311,
+          "n_regime_sessions": 87,
+          "total_remaining_kwh": 4163.303767650257,
+          "regime_remaining_kwh": 918.7784617052837,
+          "share": 0.2797427652733119,
+          "share_ci": [
+            0.22916505417956654,
+            0.3311688311688312
+          ],
+          "energy_at_risk": 0.2206849446932951,
+          "energy_at_risk_ci": [
+            0.1617207036422725,
+            0.28472386180021114
+          ]
+        },
+        "30": {
+          "delta_min": 30,
+          "n_site_days": 75,
+          "n_site_days_with_pop": 74,
+          "n_pop_sessions": 311,
+          "n_regime_sessions": 125,
+          "total_remaining_kwh": 4163.303767650257,
+          "regime_remaining_kwh": 1280.1040764854686,
+          "share": 0.4019292604501608,
+          "share_ci": [
+            0.3522388059701492,
+            0.4522312591866732
+          ],
+          "energy_at_risk": 0.3074731386242209,
+          "energy_at_risk_ci": [
+            0.24326276735253238,
+            0.37729055732051925
+          ]
+        },
+        "60": {
+          "delta_min": 60,
+          "n_site_days": 75,
+          "n_site_days_with_pop": 74,
+          "n_pop_sessions": 311,
+          "n_regime_sessions": 184,
+          "total_remaining_kwh": 4163.303767650257,
+          "regime_remaining_kwh": 1974.1370610787458,
+          "share": 0.5916398713826366,
+          "share_ci": [
+            0.5390327981228085,
+            0.640805609519184
+          ],
+          "energy_at_risk": 0.47417559977684187,
+          "energy_at_risk_ci": [
+            0.39513225357009213,
+            0.553646096803915
+          ]
+        }
+      }
+    },
+    "office001": {
+      "17:00": {
+        "15": {
+          "delta_min": 15,
+          "n_site_days": 5,
+          "n_site_days_with_pop": 5,
+          "n_pop_sessions": 15,
+          "n_regime_sessions": 1,
+          "total_remaining_kwh": 57.91142310794989,
+          "regime_remaining_kwh": 0.44871674978267784,
+          "share": 0.06666666666666667,
+          "share_ci": [
+            0.0,
+            0.25
+          ],
+          "energy_at_risk": 0.007748328839135012,
+          "energy_at_risk_ci": [
+            0.0,
+            0.026966349331885367
+          ]
+        },
+        "30": {
+          "delta_min": 30,
+          "n_site_days": 5,
+          "n_site_days_with_pop": 5,
+          "n_pop_sessions": 15,
+          "n_regime_sessions": 1,
+          "total_remaining_kwh": 57.91142310794989,
+          "regime_remaining_kwh": 0.44871674978267784,
+          "share": 0.06666666666666667,
+          "share_ci": [
+            0.0,
+            0.25
+          ],
+          "energy_at_risk": 0.007748328839135012,
+          "energy_at_risk_ci": [
+            0.0,
+            0.026966349331885367
+          ]
+        },
+        "60": {
+          "delta_min": 60,
+          "n_site_days": 5,
+          "n_site_days_with_pop": 5,
+          "n_pop_sessions": 15,
+          "n_regime_sessions": 5,
+          "total_remaining_kwh": 57.91142310794989,
+          "regime_remaining_kwh": 6.191072394197764,
+          "share": 0.3333333333333333,
+          "share_ci": [
+            0.13333333333333333,
+            0.6666666666666667
+          ],
+          "energy_at_risk": 0.10690589286084863,
+          "energy_at_risk_ci": [
+            0.031108404012174823,
+            0.30570359364507
+          ]
+        }
+      },
+      "15:00": {
+        "15": {
+          "delta_min": 15,
+          "n_site_days": 5,
+          "n_site_days_with_pop": 5,
+          "n_pop_sessions": 11,
+          "n_regime_sessions": 0,
+          "total_remaining_kwh": 75.46293325476339,
+          "regime_remaining_kwh": 0.0,
+          "share": 0.0,
+          "share_ci": [
+            0.0,
+            0.0
+          ],
+          "energy_at_risk": 0.0,
+          "energy_at_risk_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "30": {
+          "delta_min": 30,
+          "n_site_days": 5,
+          "n_site_days_with_pop": 5,
+          "n_pop_sessions": 11,
+          "n_regime_sessions": 1,
+          "total_remaining_kwh": 75.46293325476339,
+          "regime_remaining_kwh": 1.0516194813099364,
+          "share": 0.09090909090909091,
+          "share_ci": [
+            0.0,
+            0.19999999999999998
+          ],
+          "energy_at_risk": 0.013935576526818295,
+          "energy_at_risk_ci": [
+            0.0,
+            0.04165950838663637
+          ]
+        },
+        "60": {
+          "delta_min": 60,
+          "n_site_days": 5,
+          "n_site_days_with_pop": 5,
+          "n_pop_sessions": 11,
+          "n_regime_sessions": 1,
+          "total_remaining_kwh": 75.46293325476339,
+          "regime_remaining_kwh": 1.0516194813099364,
+          "share": 0.09090909090909091,
+          "share_ci": [
+            0.0,
+            0.19999999999999998
+          ],
+          "energy_at_risk": 0.013935576526818295,
+          "energy_at_risk_ci": [
+            0.0,
+            0.04165950838663637
+          ]
+        }
+      },
+      "19:00": {
+        "15": {
+          "delta_min": 15,
+          "n_site_days": 5,
+          "n_site_days_with_pop": 4,
+          "n_pop_sessions": 5,
+          "n_regime_sessions": 0,
+          "total_remaining_kwh": 25.51897558159615,
+          "regime_remaining_kwh": 0.0,
+          "share": 0.0,
+          "share_ci": [
+            0.0,
+            0.0
+          ],
+          "energy_at_risk": 0.0,
+          "energy_at_risk_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "30": {
+          "delta_min": 30,
+          "n_site_days": 5,
+          "n_site_days_with_pop": 4,
+          "n_pop_sessions": 5,
+          "n_regime_sessions": 1,
+          "total_remaining_kwh": 25.51897558159615,
+          "regime_remaining_kwh": 0.8431837007206724,
+          "share": 0.2,
+          "share_ci": [
+            0.0,
+            0.4285714285714286
+          ],
+          "energy_at_risk": 0.03304144000704959,
+          "energy_at_risk_ci": [
+            0.0,
+            0.0931790421313262
+          ]
+        },
+        "60": {
+          "delta_min": 60,
+          "n_site_days": 5,
+          "n_site_days_with_pop": 4,
+          "n_pop_sessions": 5,
+          "n_regime_sessions": 1,
+          "total_remaining_kwh": 25.51897558159615,
+          "regime_remaining_kwh": 0.8431837007206724,
+          "share": 0.2,
+          "share_ci": [
+            0.0,
+            0.4285714285714286
+          ],
+          "energy_at_risk": 0.03304144000704959,
+          "energy_at_risk_ci": [
+            0.0,
+            0.0931790421313262
+          ]
+        }
+      }
+    }
+  },
+  "pooled": {
+    "17:00": {
+      "15": {
+        "delta_min": 15,
+        "n_site_days": 151,
+        "n_site_days_with_pop": 151,
+        "n_pop_sessions": 2542,
+        "n_regime_sessions": 747,
+        "total_remaining_kwh": 32564.823393928968,
+        "regime_remaining_kwh": 9176.966682800721,
+        "share": 0.29386309992132176,
+        "share_ci": [
+          0.27332733872547893,
+          0.31390654638479926
+        ],
+        "energy_at_risk": 0.28180612471896826,
+        "energy_at_risk_ci": [
+          0.254924630098357,
+          0.30829782130598243
+        ]
+      },
+      "30": {
+        "delta_min": 30,
+        "n_site_days": 151,
+        "n_site_days_with_pop": 151,
+        "n_pop_sessions": 2542,
+        "n_regime_sessions": 1052,
+        "total_remaining_kwh": 32564.823393928968,
+        "regime_remaining_kwh": 12899.991823232638,
+        "share": 0.4138473642800944,
+        "share_ci": [
+          0.3905995498698931,
+          0.4363564117163397
+        ],
+        "energy_at_risk": 0.3961327125034422,
+        "energy_at_risk_ci": [
+          0.3656078783476242,
+          0.4254584450872748
+        ]
+      },
+      "60": {
+        "delta_min": 60,
+        "n_site_days": 151,
+        "n_site_days_with_pop": 151,
+        "n_pop_sessions": 2542,
+        "n_regime_sessions": 1593,
+        "total_remaining_kwh": 32564.823393928968,
+        "regime_remaining_kwh": 20285.066132938387,
+        "share": 0.6266719118804092,
+        "share_ci": [
+          0.6029532403609517,
+          0.6489403752028093
+        ],
+        "energy_at_risk": 0.6229134390675095,
+        "energy_at_risk_ci": [
+          0.5964717297832689,
+          0.6480127014382092
+        ]
+      }
+    },
+    "15:00": {
+      "15": {
+        "delta_min": 15,
+        "n_site_days": 151,
+        "n_site_days_with_pop": 151,
+        "n_pop_sessions": 4246,
+        "n_regime_sessions": 326,
+        "total_remaining_kwh": 59477.03073219283,
+        "regime_remaining_kwh": 4213.737534217732,
+        "share": 0.07677814413565709,
+        "share_ci": [
+          0.0682995218841445,
+          0.08511127860286062
+        ],
+        "energy_at_risk": 0.07084646765893418,
+        "energy_at_risk_ci": [
+          0.05845436489189999,
+          0.08406787431472267
+        ]
+      },
+      "30": {
+        "delta_min": 30,
+        "n_site_days": 151,
+        "n_site_days_with_pop": 151,
+        "n_pop_sessions": 4246,
+        "n_regime_sessions": 577,
+        "total_remaining_kwh": 59477.03073219283,
+        "regime_remaining_kwh": 7185.9883396099885,
+        "share": 0.13589260480452192,
+        "share_ci": [
+          0.1230222052346412,
+          0.14838563944427866
+        ],
+        "energy_at_risk": 0.12081955422365194,
+        "energy_at_risk_ci": [
+          0.10514570903139295,
+          0.13680178975644047
+        ]
+      },
+      "60": {
+        "delta_min": 60,
+        "n_site_days": 151,
+        "n_site_days_with_pop": 151,
+        "n_pop_sessions": 4246,
+        "n_regime_sessions": 1078,
+        "total_remaining_kwh": 59477.03073219283,
+        "regime_remaining_kwh": 14907.58098184,
+        "share": 0.25388601036269426,
+        "share_ci": [
+          0.23513429717742948,
+          0.2719259086442506
+        ],
+        "energy_at_risk": 0.25064433779427137,
+        "energy_at_risk_ci": [
+          0.22699686219531523,
+          0.2734471526741835
+        ]
+      }
+    },
+    "19:00": {
+      "15": {
+        "delta_min": 15,
+        "n_site_days": 151,
+        "n_site_days_with_pop": 149,
+        "n_pop_sessions": 664,
+        "n_regime_sessions": 219,
+        "total_remaining_kwh": 8310.587398330663,
+        "regime_remaining_kwh": 2405.334940523182,
+        "share": 0.32981927710843373,
+        "share_ci": [
+          0.294951127127035,
+          0.364599920924099
+        ],
+        "energy_at_risk": 0.2894301961142165,
+        "energy_at_risk_ci": [
+          0.24430216135096028,
+          0.3365996825925873
+        ]
+      },
+      "30": {
+        "delta_min": 30,
+        "n_site_days": 151,
+        "n_site_days_with_pop": 149,
+        "n_pop_sessions": 664,
+        "n_regime_sessions": 281,
+        "total_remaining_kwh": 8310.587398330663,
+        "regime_remaining_kwh": 2977.2954014853076,
+        "share": 0.42319277108433734,
+        "share_ci": [
+          0.38679136261883307,
+          0.45864661654135336
+        ],
+        "energy_at_risk": 0.35825330494488894,
+        "energy_at_risk_ci": [
+          0.31051444755480584,
+          0.40599218856779223
+        ]
+      },
+      "60": {
+        "delta_min": 60,
+        "n_site_days": 151,
+        "n_site_days_with_pop": 149,
+        "n_pop_sessions": 664,
+        "n_regime_sessions": 378,
+        "total_remaining_kwh": 8310.587398330663,
+        "regime_remaining_kwh": 4088.5465460752466,
+        "share": 0.5692771084337349,
+        "share_ci": [
+          0.532373809690112,
+          0.605181091553827
+        ],
+        "energy_at_risk": 0.4919684193317677,
+        "energy_at_risk_ci": [
+          0.4384591471267455,
+          0.5458050620092938
+        ]
+      }
+    }
+  }
+}

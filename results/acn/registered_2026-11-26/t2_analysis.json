@@ -1,0 +1,916 @@
+{
+  "t2": {
+    "variant": "t2",
+    "reported": true,
+    "meta": {
+      "metric": "R_avoid_kwh_per100",
+      "diagnostic_metric": "R_avoid_kwh",
+      "n_boot": 10000,
+      "boot_seed": 711000,
+      "level": 0.95,
+      "is_hypothesis_test": true
+    },
+    "h1": {
+      "cell_id": "F0R_M3_dA2_db0_rho0.95_r0.3",
+      "metric": "R_avoid_kwh_per100",
+      "n_seeds": 200,
+      "share": 0.16289204466907353,
+      "share_ci": [
+        -0.034885118520117143,
+        0.3119852842996801
+      ],
+      "oblivious_gain": 1.5445557682761972,
+      "oblivious_gain_ci": [
+        -0.2710294886692206,
+        3.388322235717536
+      ],
+      "total_gain": 9.482082267516926,
+      "total_gain_ci": [
+        7.227528751000789,
+        11.847368677226306
+      ],
+      "mean_ce_llf": 19.130039578042844,
+      "mean_pop_mpc": 17.58548380976664,
+      "mean_guarded_mpc_e1": 9.64795731052592,
+      "threshold": 0.5,
+      "h1_supported": false
+    },
+    "h1_raw_kwh_diagnostic": {
+      "cell_id": "F0R_M3_dA2_db0_rho0.95_r0.3",
+      "metric": "R_avoid_kwh",
+      "n_seeds": 200,
+      "share": 0.17478260869565215,
+      "share_ci": [
+        -0.0023360334335942924,
+        0.31821462874855455
+      ],
+      "oblivious_gain": 0.25125,
+      "oblivious_gain_ci": [
+        -0.002531249999999723,
+        0.51875
+      ],
+      "total_gain": 1.4375,
+      "total_gain_ci": [
+        1.1125,
+        1.7775
+      ],
+      "mean_ce_llf": 2.92,
+      "mean_pop_mpc": 2.66875,
+      "mean_guarded_mpc_e1": 1.4825
+    },
+    "secondary_contrast": {
+      "cell_d1": "F0R_M3_dA1_db0_rho1.15_r0.3",
+      "cell_d4": "F0R_M3_dA4_db0_rho1.15_r0.3",
+      "metric": "R_avoid_kwh_per100",
+      "n_seeds": 200,
+      "share_d1": 0.42333353206074914,
+      "share_d1_ci": [
+        0.29834874564802444,
+        0.5224932159156772
+      ],
+      "share_d4": -0.10445057081097674,
+      "share_d4_ci": [
+        -0.43644170798110987,
+        0.12791434795984202
+      ],
+      "contrast_d1_minus_d4": 0.5277841028717258,
+      "contrast_ci": [
+        0.3470700452689935,
+        0.7843020148698838
+      ]
+    },
+    "cells": {
+      "F0R_M0_dA0_db0_rho0.95_r0.3": {
+        "cell_id": "F0R_M0_dA0_db0_rho0.95_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 1.0,
+        "share_ci": [
+          1.0,
+          1.0
+        ],
+        "oblivious_gain": -0.24981097730921062,
+        "oblivious_gain_ci": [
+          -0.5783480072904541,
+          0.038383968551975685
+        ],
+        "total_gain": -0.24981097730921062,
+        "total_gain_ci": [
+          -0.5783480072904541,
+          0.038383968551975685
+        ],
+        "mean_ce_llf": 0.09103457374986178,
+        "mean_pop_mpc": 0.34084555105907244,
+        "mean_guarded_mpc_e1": 0.34084555105907244
+      },
+      "F0R_M0_dA0_db0_rho1.15_r0.3": {
+        "cell_id": "F0R_M0_dA0_db0_rho1.15_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 1.0,
+        "share_ci": [
+          1.0,
+          1.0
+        ],
+        "oblivious_gain": -0.4994038725376641,
+        "oblivious_gain_ci": [
+          -0.8719755486497573,
+          -0.16432037913272776
+        ],
+        "total_gain": -0.4994038725376641,
+        "total_gain_ci": [
+          -0.8719755486497573,
+          -0.16432037913272776
+        ],
+        "mean_ce_llf": -0.20020459615185524,
+        "mean_pop_mpc": 0.29919927638580895,
+        "mean_guarded_mpc_e1": 0.29919927638580895
+      },
+      "F0R_M0_dA1_db0_rho0.95_r0.3": {
+        "cell_id": "F0R_M0_dA1_db0_rho0.95_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 1.0,
+        "share_ci": [
+          1.0,
+          1.0
+        ],
+        "oblivious_gain": 5.405970248833478,
+        "oblivious_gain_ci": [
+          3.3258902980712683,
+          7.596257714658766
+        ],
+        "total_gain": 5.405970248833478,
+        "total_gain_ci": [
+          3.3258902980712683,
+          7.596257714658766
+        ],
+        "mean_ce_llf": 19.512166330392283,
+        "mean_pop_mpc": 14.106196081558803,
+        "mean_guarded_mpc_e1": 14.106196081558803
+      },
+      "F0R_M0_dA1_db0_rho1.15_r0.3": {
+        "cell_id": "F0R_M0_dA1_db0_rho1.15_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 1.0,
+        "share_ci": [
+          1.0,
+          1.0
+        ],
+        "oblivious_gain": 4.752672677760089,
+        "oblivious_gain_ci": [
+          2.5032261379501866,
+          7.000040828364111
+        ],
+        "total_gain": 4.752672677760089,
+        "total_gain_ci": [
+          2.5032261379501866,
+          7.000040828364111
+        ],
+        "mean_ce_llf": 19.321948561255752,
+        "mean_pop_mpc": 14.569275883495658,
+        "mean_guarded_mpc_e1": 14.569275883495658
+      },
+      "F0R_M0_dA2_db0_rho0.95_r0.3": {
+        "cell_id": "F0R_M0_dA2_db0_rho0.95_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 1.0,
+        "share_ci": [
+          1.0,
+          1.0
+        ],
+        "oblivious_gain": 0.25035581734880913,
+        "oblivious_gain_ci": [
+          -1.7105177098279924,
+          2.2131222155628585
+        ],
+        "total_gain": 0.25035581734880913,
+        "total_gain_ci": [
+          -1.7105177098279924,
+          2.2131222155628585
+        ],
+        "mean_ce_llf": 18.991641685086122,
+        "mean_pop_mpc": 18.741285867737318,
+        "mean_guarded_mpc_e1": 18.741285867737318
+      },
+      "F0R_M0_dA2_db0_rho1.15_r0.3": {
+        "cell_id": "F0R_M0_dA2_db0_rho1.15_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 1.0,
+        "share_ci": [
+          1.0,
+          1.0
+        ],
+        "oblivious_gain": 2.4060465271564926,
+        "oblivious_gain_ci": [
+          0.2597505569693256,
+          4.597911973280501
+        ],
+        "total_gain": 2.4060465271564926,
+        "total_gain_ci": [
+          0.2597505569693256,
+          4.597911973280501
+        ],
+        "mean_ce_llf": 18.95347987409907,
+        "mean_pop_mpc": 16.54743334694258,
+        "mean_guarded_mpc_e1": 16.54743334694258
+      },
+      "F0R_M0_dA4_db0_rho0.95_r0.3": {
+        "cell_id": "F0R_M0_dA4_db0_rho0.95_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 1.0,
+        "share_ci": [
+          1.0,
+          1.0
+        ],
+        "oblivious_gain": -0.34328152408942214,
+        "oblivious_gain_ci": [
+          -2.419899961916295,
+          1.7206863470107898
+        ],
+        "total_gain": -0.34328152408942214,
+        "total_gain_ci": [
+          -2.419899961916295,
+          1.7206863470107898
+        ],
+        "mean_ce_llf": 19.85253411687829,
+        "mean_pop_mpc": 20.195815640967705,
+        "mean_guarded_mpc_e1": 20.195815640967705
+      },
+      "F0R_M0_dA4_db0_rho1.15_r0.3": {
+        "cell_id": "F0R_M0_dA4_db0_rho1.15_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 1.0,
+        "share_ci": [
+          1.0,
+          1.0
+        ],
+        "oblivious_gain": -0.6675193391060261,
+        "oblivious_gain_ci": [
+          -2.764758804948235,
+          1.4362033270681973
+        ],
+        "total_gain": -0.6675193391060261,
+        "total_gain_ci": [
+          -2.764758804948235,
+          1.4362033270681973
+        ],
+        "mean_ce_llf": 19.587888907225796,
+        "mean_pop_mpc": 20.255408246331825,
+        "mean_guarded_mpc_e1": 20.255408246331825
+      },
+      "F0R_M3_dA0_db0_rho0.95_r0.3": {
+        "cell_id": "F0R_M3_dA0_db0_rho0.95_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 2.322789101762791,
+        "share_ci": [
+          -11.07544403884391,
+          16.65559401504205
+        ],
+        "oblivious_gain": -0.38047253566418326,
+        "oblivious_gain_ci": [
+          -0.7273014009652308,
+          -0.06054067527787508
+        ],
+        "total_gain": -0.16379986257703652,
+        "total_gain_ci": [
+          -0.41881312264124765,
+          0.07185009812047853
+        ],
+        "mean_ce_llf": 0.11683773123460492,
+        "mean_pop_mpc": 0.4973102668987883,
+        "mean_guarded_mpc_e1": 0.28063759381164144
+      },
+      "F0R_M3_dA0_db0_rho1.15_r0.3": {
+        "cell_id": "F0R_M3_dA0_db0_rho1.15_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 0.7112557684092252,
+        "share_ci": [
+          0.42643107094016836,
+          1.0438930621465936
+        ],
+        "oblivious_gain": -0.6119365496988242,
+        "oblivious_gain_ci": [
+          -1.0036367866676352,
+          -0.2716616473409427
+        ],
+        "total_gain": -0.8603607547077816,
+        "total_gain_ci": [
+          -1.285149296365857,
+          -0.47603142776591145
+        ],
+        "mean_ce_llf": -0.2692420205008121,
+        "mean_pop_mpc": 0.3426945291980123,
+        "mean_guarded_mpc_e1": 0.5911187342069697
+      },
+      "F0R_M3_dA1_db0_rho0.95_r0.3": {
+        "cell_id": "F0R_M3_dA1_db0_rho0.95_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 0.4553007316582406,
+        "share_ci": [
+          0.3355892607346503,
+          0.5529356978994443
+        ],
+        "oblivious_gain": 5.575500797950571,
+        "oblivious_gain_ci": [
+          3.519564755755033,
+          7.646770106879516
+        ],
+        "total_gain": 12.245754092342802,
+        "total_gain_ci": [
+          9.828857993124661,
+          14.735896187578915
+        ],
+        "mean_ce_llf": 19.253729968427308,
+        "mean_pop_mpc": 13.678229170476737,
+        "mean_guarded_mpc_e1": 7.007975876084512
+      },
+      "F0R_M3_dA1_db0_rho1.15_r0.3": {
+        "cell_id": "F0R_M3_dA1_db0_rho1.15_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 0.42333353206074914,
+        "share_ci": [
+          0.29834874564802444,
+          0.5224932159156772
+        ],
+        "oblivious_gain": 5.3528566288335435,
+        "oblivious_gain_ci": [
+          3.1813289917898504,
+          7.578979726709614
+        ],
+        "total_gain": 12.64453728193069,
+        "total_gain_ci": [
+          10.10800022814385,
+          15.286400184262622
+        ],
+        "mean_ce_llf": 19.39101815249164,
+        "mean_pop_mpc": 14.038161523658102,
+        "mean_guarded_mpc_e1": 6.746480870560953
+      },
+      "F0R_M3_dA2_db0_rho0.95_r0.3": {
+        "cell_id": "F0R_M3_dA2_db0_rho0.95_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 0.16289204466907353,
+        "share_ci": [
+          -0.034885118520117143,
+          0.3119852842996801
+        ],
+        "oblivious_gain": 1.5445557682761972,
+        "oblivious_gain_ci": [
+          -0.2710294886692206,
+          3.388322235717536
+        ],
+        "total_gain": 9.482082267516926,
+        "total_gain_ci": [
+          7.227528751000789,
+          11.847368677226306
+        ],
+        "mean_ce_llf": 19.130039578042844,
+        "mean_pop_mpc": 17.58548380976664,
+        "mean_guarded_mpc_e1": 9.64795731052592
+      },
+      "F0R_M3_dA2_db0_rho1.15_r0.3": {
+        "cell_id": "F0R_M3_dA2_db0_rho1.15_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": -0.26666911302849894,
+        "share_ci": [
+          -0.6409983721308683,
+          -0.004083253129179271
+        ],
+        "oblivious_gain": -2.7806435584567306,
+        "oblivious_gain_ci": [
+          -5.426376363984811,
+          -0.05420845734278879
+        ],
+        "total_gain": 10.427317685492744,
+        "total_gain_ci": [
+          7.94697490509175,
+          13.018832199171648
+        ],
+        "mean_ce_llf": 19.219970415987337,
+        "mean_pop_mpc": 22.00061397444407,
+        "mean_guarded_mpc_e1": 8.792652730494591
+      },
+      "F0R_M3_dA4_db0_rho0.95_r0.3": {
+        "cell_id": "F0R_M3_dA4_db0_rho0.95_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": -0.07547832773538558,
+        "share_ci": [
+          -0.3118962746464109,
+          0.12227540058929795
+        ],
+        "oblivious_gain": -0.7512986967415556,
+        "oblivious_gain_ci": [
+          -2.775310584696885,
+          1.2836668448187216
+        ],
+        "total_gain": 9.953833362279612,
+        "total_gain_ci": [
+          7.800022713822844,
+          12.17673585448942
+        ],
+        "mean_ce_llf": 19.772903116218675,
+        "mean_pop_mpc": 20.52420181296023,
+        "mean_guarded_mpc_e1": 9.81906975393906
+      },
+      "F0R_M3_dA4_db0_rho1.15_r0.3": {
+        "cell_id": "F0R_M3_dA4_db0_rho1.15_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": -0.10445057081097674,
+        "share_ci": [
+          -0.43644170798110987,
+          0.12791434795984202
+        ],
+        "oblivious_gain": -0.9653458513385403,
+        "oblivious_gain_ci": [
+          -3.279209338370682,
+          1.3596042542798894
+        ],
+        "total_gain": 9.242130931821503,
+        "total_gain_ci": [
+          6.737216068042604,
+          11.87176363058103
+        ],
+        "mean_ce_llf": 19.415418529376538,
+        "mean_pop_mpc": 20.380764380715082,
+        "mean_guarded_mpc_e1": 10.173287597555039
+      }
+    }
+  },
+  "t2_emp": {
+    "variant": "t2_emp",
+    "reported": true,
+    "meta": {
+      "metric": "R_avoid_kwh_per100",
+      "diagnostic_metric": "R_avoid_kwh",
+      "n_boot": 10000,
+      "boot_seed": 711000,
+      "level": 0.95,
+      "is_hypothesis_test": false
+    },
+    "h1": {
+      "cell_id": "F0R_M3_dA2_db0_rho0.95_r0.3",
+      "metric": "R_avoid_kwh_per100",
+      "n_seeds": 200,
+      "share": 0.1801945908564936,
+      "share_ci": [
+        -0.07020781609287483,
+        0.3587721153141071
+      ],
+      "oblivious_gain": 2.181806943579892,
+      "oblivious_gain_ci": [
+        -0.6739102302336347,
+        5.100131878321477
+      ],
+      "total_gain": 12.10806014325633,
+      "total_gain_ci": [
+        9.08862234134276,
+        15.105590109001495
+      ],
+      "mean_ce_llf": 35.99339451529014,
+      "mean_pop_mpc": 33.81158757171024,
+      "mean_guarded_mpc_e1": 23.8853343720338
+    },
+    "h1_raw_kwh_diagnostic": {
+      "cell_id": "F0R_M3_dA2_db0_rho0.95_r0.3",
+      "metric": "R_avoid_kwh",
+      "n_seeds": 200,
+      "share": 0.1489071038251366,
+      "share_ci": [
+        -0.07782590804572338,
+        0.31023374186262787
+      ],
+      "oblivious_gain": 0.2725,
+      "oblivious_gain_ci": [
+        -0.11375,
+        0.66625
+      ],
+      "total_gain": 1.83,
+      "total_gain_ci": [
+        1.40125,
+        2.25375
+      ],
+      "mean_ce_llf": 5.30625,
+      "mean_pop_mpc": 5.03375,
+      "mean_guarded_mpc_e1": 3.47625
+    },
+    "secondary_contrast": {
+      "cell_d1": "F0R_M3_dA1_db0_rho1.15_r0.3",
+      "cell_d4": "F0R_M3_dA4_db0_rho1.15_r0.3",
+      "metric": "R_avoid_kwh_per100",
+      "n_seeds": 200,
+      "share_d1": 0.4438967117212419,
+      "share_d1_ci": [
+        0.3348614075218479,
+        0.5424726505625104
+      ],
+      "share_d4": -0.06754876182907929,
+      "share_d4_ci": [
+        -0.332457055255446,
+        0.1338297342683374
+      ],
+      "contrast_d1_minus_d4": 0.5114454735503212,
+      "contrast_ci": [
+        0.35791853903985127,
+        0.7145234356221607
+      ]
+    },
+    "cells": {
+      "F0R_M0_dA0_db0_rho0.95_r0.3": {
+        "cell_id": "F0R_M0_dA0_db0_rho0.95_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 1.0,
+        "share_ci": [
+          1.0,
+          1.0
+        ],
+        "oblivious_gain": -0.737015585893295,
+        "oblivious_gain_ci": [
+          -1.2132066241050616,
+          -0.3278083993400608
+        ],
+        "total_gain": -0.737015585893295,
+        "total_gain_ci": [
+          -1.2132066241050616,
+          -0.3278083993400608
+        ],
+        "mean_ce_llf": 0.004748805116452184,
+        "mean_pop_mpc": 0.7417643910097472,
+        "mean_guarded_mpc_e1": 0.7417643910097472
+      },
+      "F0R_M0_dA0_db0_rho1.15_r0.3": {
+        "cell_id": "F0R_M0_dA0_db0_rho1.15_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 1.0,
+        "share_ci": [
+          1.0,
+          1.0
+        ],
+        "oblivious_gain": -0.7305796338594327,
+        "oblivious_gain_ci": [
+          -1.1136289026215014,
+          -0.3738664525377229
+        ],
+        "total_gain": -0.7305796338594327,
+        "total_gain_ci": [
+          -1.1136289026215014,
+          -0.3738664525377229
+        ],
+        "mean_ce_llf": -0.15861549924533677,
+        "mean_pop_mpc": 0.571964134614096,
+        "mean_guarded_mpc_e1": 0.571964134614096
+      },
+      "F0R_M0_dA1_db0_rho0.95_r0.3": {
+        "cell_id": "F0R_M0_dA1_db0_rho0.95_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 1.0,
+        "share_ci": [
+          1.0,
+          1.0
+        ],
+        "oblivious_gain": 7.961386890870083,
+        "oblivious_gain_ci": [
+          4.694296150705223,
+          11.380791679145702
+        ],
+        "total_gain": 7.961386890870083,
+        "total_gain_ci": [
+          4.694296150705223,
+          11.380791679145702
+        ],
+        "mean_ce_llf": 36.011963893771764,
+        "mean_pop_mpc": 28.050577002901658,
+        "mean_guarded_mpc_e1": 28.050577002901658
+      },
+      "F0R_M0_dA1_db0_rho1.15_r0.3": {
+        "cell_id": "F0R_M0_dA1_db0_rho1.15_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 1.0,
+        "share_ci": [
+          1.0,
+          1.0
+        ],
+        "oblivious_gain": 9.93550220386731,
+        "oblivious_gain_ci": [
+          6.596055012896064,
+          13.34916247110067
+        ],
+        "total_gain": 9.93550220386731,
+        "total_gain_ci": [
+          6.596055012896064,
+          13.34916247110067
+        ],
+        "mean_ce_llf": 44.588688707915296,
+        "mean_pop_mpc": 34.65318650404799,
+        "mean_guarded_mpc_e1": 34.65318650404799
+      },
+      "F0R_M0_dA2_db0_rho0.95_r0.3": {
+        "cell_id": "F0R_M0_dA2_db0_rho0.95_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 1.0,
+        "share_ci": [
+          1.0,
+          1.0
+        ],
+        "oblivious_gain": 1.1160128405829381,
+        "oblivious_gain_ci": [
+          -1.9557750002194276,
+          4.1396018576054034
+        ],
+        "total_gain": 1.1160128405829381,
+        "total_gain_ci": [
+          -1.9557750002194276,
+          4.1396018576054034
+        ],
+        "mean_ce_llf": 35.87008080195294,
+        "mean_pop_mpc": 34.75406796137001,
+        "mean_guarded_mpc_e1": 34.75406796137001
+      },
+      "F0R_M0_dA2_db0_rho1.15_r0.3": {
+        "cell_id": "F0R_M0_dA2_db0_rho1.15_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 1.0,
+        "share_ci": [
+          1.0,
+          1.0
+        ],
+        "oblivious_gain": 3.3395632024559614,
+        "oblivious_gain_ci": [
+          0.2294213863465348,
+          6.570793769336742
+        ],
+        "total_gain": 3.3395632024559614,
+        "total_gain_ci": [
+          0.2294213863465348,
+          6.570793769336742
+        ],
+        "mean_ce_llf": 43.93805346160789,
+        "mean_pop_mpc": 40.59849025915195,
+        "mean_guarded_mpc_e1": 40.59849025915195
+      },
+      "F0R_M0_dA4_db0_rho0.95_r0.3": {
+        "cell_id": "F0R_M0_dA4_db0_rho0.95_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 1.0,
+        "share_ci": [
+          1.0,
+          1.0
+        ],
+        "oblivious_gain": -0.4318782223781213,
+        "oblivious_gain_ci": [
+          -3.460677566937169,
+          2.580761517218002
+        ],
+        "total_gain": -0.4318782223781213,
+        "total_gain_ci": [
+          -3.460677566937169,
+          2.580761517218002
+        ],
+        "mean_ce_llf": 36.64389778139257,
+        "mean_pop_mpc": 37.075776003770706,
+        "mean_guarded_mpc_e1": 37.075776003770706
+      },
+      "F0R_M0_dA4_db0_rho1.15_r0.3": {
+        "cell_id": "F0R_M0_dA4_db0_rho1.15_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 1.0,
+        "share_ci": [
+          1.0,
+          1.0
+        ],
+        "oblivious_gain": -0.3868991707961875,
+        "oblivious_gain_ci": [
+          -3.6730529641742224,
+          2.9854510042948754
+        ],
+        "total_gain": -0.3868991707961875,
+        "total_gain_ci": [
+          -3.6730529641742224,
+          2.9854510042948754
+        ],
+        "mean_ce_llf": 44.4729666379615,
+        "mean_pop_mpc": 44.859865808757675,
+        "mean_guarded_mpc_e1": 44.859865808757675
+      },
+      "F0R_M3_dA0_db0_rho0.95_r0.3": {
+        "cell_id": "F0R_M3_dA0_db0_rho0.95_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 1.0450099805060116,
+        "share_ci": [
+          0.8019765803772481,
+          1.3657947043651584
+        ],
+        "oblivious_gain": -0.693263423023485,
+        "oblivious_gain_ci": [
+          -1.1636575228982835,
+          -0.29360334996316034
+        ],
+        "total_gain": -0.6634036382004649,
+        "total_gain_ci": [
+          -1.1528880209380405,
+          -0.257530554536408
+        ],
+        "mean_ce_llf": 0.03468577990636814,
+        "mean_pop_mpc": 0.7279492029298532,
+        "mean_guarded_mpc_e1": 0.6980894181068331
+      },
+      "F0R_M3_dA0_db0_rho1.15_r0.3": {
+        "cell_id": "F0R_M3_dA0_db0_rho1.15_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 0.903296080929335,
+        "share_ci": [
+          0.6061004634592582,
+          1.3109466089104855
+        ],
+        "oblivious_gain": -1.0424180571965014,
+        "oblivious_gain_ci": [
+          -1.5583511305489097,
+          -0.5640096332707111
+        ],
+        "total_gain": -1.1540159192587596,
+        "total_gain_ci": [
+          -1.6485081667236272,
+          -0.7064482233533368
+        ],
+        "mean_ce_llf": -0.11114458780383707,
+        "mean_pop_mpc": 0.9312734693926644,
+        "mean_guarded_mpc_e1": 1.0428713314549227
+      },
+      "F0R_M3_dA1_db0_rho0.95_r0.3": {
+        "cell_id": "F0R_M3_dA1_db0_rho0.95_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 0.4518978837533722,
+        "share_ci": [
+          0.3029864330529579,
+          0.574900284948048
+        ],
+        "oblivious_gain": 7.92101050509723,
+        "oblivious_gain_ci": [
+          4.578284993327672,
+          11.409474647329603
+        ],
+        "total_gain": 17.52831953827029,
+        "total_gain_ci": [
+          14.315012586940206,
+          20.891438373721986
+        ],
+        "mean_ce_llf": 35.87045599139572,
+        "mean_pop_mpc": 27.949445486298497,
+        "mean_guarded_mpc_e1": 18.342136453125445
+      },
+      "F0R_M3_dA1_db0_rho1.15_r0.3": {
+        "cell_id": "F0R_M3_dA1_db0_rho1.15_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 0.4438967117212419,
+        "share_ci": [
+          0.3348614075218479,
+          0.5424726505625104
+        ],
+        "oblivious_gain": 10.148070746627296,
+        "oblivious_gain_ci": [
+          6.825416592770988,
+          13.67276346249532
+        ],
+        "total_gain": 22.861333455878533,
+        "total_gain_ci": [
+          19.290267599365542,
+          26.543357264224177
+        ],
+        "mean_ce_llf": 44.4037918182207,
+        "mean_pop_mpc": 34.25572107159342,
+        "mean_guarded_mpc_e1": 21.542458362342185
+      },
+      "F0R_M3_dA2_db0_rho0.95_r0.3": {
+        "cell_id": "F0R_M3_dA2_db0_rho0.95_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 0.1801945908564936,
+        "share_ci": [
+          -0.07020781609287483,
+          0.3587721153141071
+        ],
+        "oblivious_gain": 2.181806943579892,
+        "oblivious_gain_ci": [
+          -0.6739102302336347,
+          5.100131878321477
+        ],
+        "total_gain": 12.10806014325633,
+        "total_gain_ci": [
+          9.08862234134276,
+          15.105590109001495
+        ],
+        "mean_ce_llf": 35.99339451529014,
+        "mean_pop_mpc": 33.81158757171024,
+        "mean_guarded_mpc_e1": 23.8853343720338
+      },
+      "F0R_M3_dA2_db0_rho1.15_r0.3": {
+        "cell_id": "F0R_M3_dA2_db0_rho1.15_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": 0.011360258801316341,
+        "share_ci": [
+          -0.2514697650981669,
+          0.20275918862943612
+        ],
+        "oblivious_gain": 0.17320490134706376,
+        "oblivious_gain_ci": [
+          -3.2095383103153527,
+          3.572130646538241
+        ],
+        "total_gain": 15.246562985606815,
+        "total_gain_ci": [
+          12.025088815113957,
+          18.489238279982835
+        ],
+        "mean_ce_llf": 43.675040976951095,
+        "mean_pop_mpc": 43.50183607560404,
+        "mean_guarded_mpc_e1": 28.42847799134431
+      },
+      "F0R_M3_dA4_db0_rho0.95_r0.3": {
+        "cell_id": "F0R_M3_dA4_db0_rho0.95_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": -0.06274972505369103,
+        "share_ci": [
+          -0.38812502328687715,
+          0.1894168679799376
+        ],
+        "oblivious_gain": -0.680798149970944,
+        "oblivious_gain_ci": [
+          -3.557005388373848,
+          2.316873264700279
+        ],
+        "total_gain": 10.849420445881275,
+        "total_gain_ci": [
+          7.97804257295077,
+          13.72550273459441
+        ],
+        "mean_ce_llf": 36.642062185530826,
+        "mean_pop_mpc": 37.322860335501765,
+        "mean_guarded_mpc_e1": 25.79264173964953
+      },
+      "F0R_M3_dA4_db0_rho1.15_r0.3": {
+        "cell_id": "F0R_M3_dA4_db0_rho1.15_r0.3",
+        "metric": "R_avoid_kwh_per100",
+        "n_seeds": 200,
+        "share": -0.06754876182907929,
+        "share_ci": [
+          -0.332457055255446,
+          0.1338297342683374
+        ],
+        "oblivious_gain": -1.064490605148542,
+        "oblivious_gain_ci": [
+          -4.477398035885327,
+          2.3572794248645144
+        ],
+        "total_gain": 15.758847036190765,
+        "total_gain_ci": [
+          12.483957492934076,
+          19.101720222457253
+        ],
+        "mean_ce_llf": 44.05628754824073,
+        "mean_pop_mpc": 45.120778153389274,
+        "mean_guarded_mpc_e1": 28.29744051204997
+      }
+    }
+  },
+  "real_limit": {
+    "variant": "real_limit",
+    "reported": false,
+    "reason": "only 40 cap-feasible instances (< 50)",
+    "feasibility": {
+      "reference_cell": "F0R_M3_dA2_db0_rho0.95_r0.3",
+      "n_total": 200,
+      "n_feasible_cap": 40,
+      "n_feasible_strict": 0,
+      "n_feasible_headroom": 200,
+      "min_feasible": 50,
+      "gate_passed": false
+    }
+  }
+}

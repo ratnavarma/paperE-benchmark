@@ -38,6 +38,13 @@ class Cell:
     # post hoc heterogeneity sweep (OPEN_QUESTIONS row 60); both are set together.
     intol_share: float | None = None
     q_intol: float | None = None
+    # F0-R / SCALE only: post hoc round 3 failure-persistence options (M3).
+    # ``redraw_prob`` redraws each participant's class before each prior event and the scored
+    # event with probability s (0.0 reproduces the frozen persistent model).
+    # ``beta_q = (alpha, beta)`` draws each participant's stuck probability q once from
+    # Beta(alpha, beta), persistent across events. Mutually exclusive; both default off.
+    redraw_prob: float = 0.0
+    beta_q: tuple[float, float] | None = None
 
     def __post_init__(self) -> None:
         if self.family not in FAMILIES:
@@ -55,6 +62,22 @@ class Cell:
                 raise ValueError("the class split does not apply to the K-copy family")
             if not 0.0 < self.intol_share < 1.0 or not 0.0 <= self.q_intol <= 1.0:
                 raise ValueError("intol_share must be in (0, 1) and q_intol in [0, 1]")
+        if not 0.0 <= float(self.redraw_prob) <= 1.0:
+            raise ValueError("redraw_prob must be in [0, 1]")
+        if self.redraw_prob != 0.0 and self.family == "KCOPY":
+            raise ValueError("redraw_prob does not apply to the K-copy family")
+        if self.beta_q is not None:
+            if self.family == "KCOPY":
+                raise ValueError("beta_q does not apply to the K-copy family")
+            if len(self.beta_q) != 2:
+                raise ValueError("beta_q must be a (alpha, beta) 2-tuple")
+            a_bq, b_bq = float(self.beta_q[0]), float(self.beta_q[1])
+            if not (a_bq > 0.0 and b_bq > 0.0):
+                raise ValueError("beta_q parameters must be positive")
+            if self.redraw_prob != 0.0:
+                raise ValueError("redraw_prob and beta_q cannot both be set")
+            if self.intol_share is not None:
+                raise ValueError("intol_share and beta_q cannot both be set")
 
     @property
     def cell_id(self) -> str:
@@ -71,6 +94,10 @@ class Cell:
             s += "_iid"
         if self.intol_share is not None:
             s += f"_split{self.intol_share:g}_q{self.q_intol:g}"
+        if self.redraw_prob != 0.0:
+            s += f"_redraw{float(self.redraw_prob):g}"
+        if self.beta_q is not None:
+            s += f"_betaq{float(self.beta_q[0]):g}_{float(self.beta_q[1]):g}"
         return s
 
 

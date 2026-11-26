@@ -1,0 +1,18 @@
+{
+ "title": "Code, synthetic data and derived real-data results for EV charging recovery under late delivery confirmation",
+ "upload_type": "software",
+ "creators": [
+  {
+   "name": "Ratnavarma, FNU",
+   "orcid": "0009-0008-2191-6575"
+  }
+ ],
+ "license": "MIT",
+ "description": "Code, synthetic benchmark and derived results (ACN-Data, Palo Alto, Perth & Kinross sessions used for timing only) for the study of EV charging recovery after demand response when delivery confirmation arrives late. Code under MIT; results, docs and figures under CC BY 4.0 (see LICENSE-DATA.md). Raw third-party session data are not redistributed.",
+ "keywords": [
+  "demand response",
+  "electric vehicle charging",
+  "delayed telemetry",
+  "model predictive control"
+ ]
+}

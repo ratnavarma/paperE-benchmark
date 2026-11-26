@@ -1,0 +1,55 @@
+{
+  "run_name": "registered_2026-11-26",
+  "out_dir": "/Users/ratnavarma/08_Experiments/paperE/results/acn/registered_2026-11-26",
+  "protocol_sha256": "a2a8d0570a3ac33429395ca1b06e8319f9acc129d8c124f700f238290f91828a",
+  "sites": [
+    "caltech",
+    "jpl",
+    "office001"
+  ],
+  "seeds": [
+    700000,
+    700199
+  ],
+  "n_seeds": 200,
+  "cells": [
+    "F0R_M0_dA0_db0_rho0.95_r0.3",
+    "F0R_M0_dA0_db0_rho1.15_r0.3",
+    "F0R_M0_dA1_db0_rho0.95_r0.3",
+    "F0R_M0_dA1_db0_rho1.15_r0.3",
+    "F0R_M0_dA2_db0_rho0.95_r0.3",
+    "F0R_M0_dA2_db0_rho1.15_r0.3",
+    "F0R_M0_dA4_db0_rho0.95_r0.3",
+    "F0R_M0_dA4_db0_rho1.15_r0.3",
+    "F0R_M3_dA0_db0_rho0.95_r0.3",
+    "F0R_M3_dA0_db0_rho1.15_r0.3",
+    "F0R_M3_dA1_db0_rho0.95_r0.3",
+    "F0R_M3_dA1_db0_rho1.15_r0.3",
+    "F0R_M3_dA2_db0_rho0.95_r0.3",
+    "F0R_M3_dA2_db0_rho1.15_r0.3",
+    "F0R_M3_dA4_db0_rho0.95_r0.3",
+    "F0R_M3_dA4_db0_rho1.15_r0.3"
+  ],
+  "n_t2_site_days": 133,
+  "cleaning_kept_counts": {
+    "caltech": 2818,
+    "jpl": 5327,
+    "office001": 461
+  },
+  "t1_pooled_site_days": 151,
+  "t3_pooled_events": 275,
+  "t2_rows_written": 12800,
+  "t2_emp_rows_written": 12800,
+  "real_limit_rows_written": 12800,
+  "timings_s": {
+    "load_s": 79.06153187528253,
+    "t1_s": 0.1357359578832984,
+    "t3_s": 0.35003920877352357,
+    "site_days_s": 0.027561333030462265,
+    "t2_s": 36.59124841634184,
+    "t2_emp_s": 38.415839459281415,
+    "real_limits_compute_s": 0.061239625327289104,
+    "real_limit_s": 36.15646429080516,
+    "analyse_s": 1.039605832658708
+  }
+}

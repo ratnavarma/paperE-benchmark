@@ -2,11 +2,27 @@
 
 This repository holds the code, synthetic data and results for scheduling recovery under late delivery confirmation.
 
-This is release v1.0.
+Release v1.1 adds the real-data study on ACN-Data, Palo Alto and Perth & Kinross sessions (see Real-data study below). Release v1.0 holds the synthetic benchmark.
 
 ## Data
 
 All data are synthetic. The code generates them from seeds. No customer record or personal record is used.
+
+## Real-data study (v1.1)
+
+Real EV charging sessions are used for arrival, departure and energy timing only; demand-response events, silent failures and confirmation delays are modelled.
+
+- Protocols (hash-locked before results; amendments state their reasons): `acn/PROTOCOL_ACN.md`, `acn/PROTOCOL_ACN_AMENDMENT_1.md` to `_4.md`, `acn/POSTHOC_ROUND3_PROTOCOL.md`.
+- Code: `src/papere/acn/` (loading, T1 exposure, T2 scheduling, T3, Palo Alto and Perth & Kinross loaders), `scripts/acn_all.py`, `scripts/posthoc_round3.py`; tests in `tests/acn/` and `tests/test_posthoc_round3.py`.
+- Independent recomputation and post hoc scripts: `acn/evidence/second_route.py`, `posthoc_*.py`.
+- Derived results: `results/acn/<run>/` (analysis JSON and gzipped T2 rows) and `results/posthoc_round3/`.
+- Raw data are not redistributed. Pull them yourself:
+  - ACN-Data (Lee, Li and Low, e-Energy 2019): free registration and API token at https://ev.caltech.edu/dataset; `acn/evidence/pull_acn.py` reads the token from the macOS Keychain item `acn-data` (adapt for your system) and writes `acn/data/`.
+  - City of Palo Alto EV charging station usage (July 2011 to December 2020), data.paloalto.gov dataset 194693, into `acn/data_pa/pa_download.bin`.
+  - Perth & Kinross Council EV charge station use, Sep 2018 to Aug 2019 (Open Government Licence v3.0), into `acn/data_pk/pk_2018_19.csv`.
+- Then: `uv run python scripts/acn_all.py --run-name myrun --seeds 700000-700199` (ACN), `--dataset pa`, `--dataset pk`.
+
+Name mapping: the paper calls the five synthetic registered tests S1 to S5; the release scripts and `docs/` call them C1 to C5 (S1 = C1, …, S5 = C5).
 
 ## Requirements
 

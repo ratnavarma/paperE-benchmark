@@ -1,0 +1,90 @@
+{
+ "acn_share_cluster": {
+  "value": 0.16289204466907392,
+  "interval": [
+   -0.016270783269597876,
+   0.3063607049855289
+  ],
+  "n": 102
+ },
+ "acn_need_kwh_per100": {
+  "value": 1278.2791865833162,
+  "interval": null
+ },
+ "acn_resid_share_of_need_ce_llf": {
+  "value": 0.014965462771223787,
+  "interval": null
+ },
+ "acn_avoidable_misses_ce_llf": {
+  "value": 12.461985921117366,
+  "interval": null
+ },
+ "acn_resid_share_of_need_shared": {
+  "value": 0.01375715414468297,
+  "interval": null
+ },
+ "acn_avoidable_misses_shared": {
+  "value": 2.931819731060881,
+  "interval": null
+ },
+ "acn_resid_share_of_need_targeted": {
+  "value": 0.007547613550928359,
+  "interval": null
+ },
+ "acn_avoidable_misses_targeted": {
+  "value": 2.046403778334556,
+  "interval": null
+ },
+ "acn_gain_targeted_kwh_per_vehicle": {
+  "value": 0.09367872271098078,
+  "interval": null
+ },
+ "acn_gain_targeted_share_of_need": {
+  "value": 0.007417849220295425,
+  "interval": null
+ },
+ "pa_share_cluster": {
+  "value": 0.5872558165832698,
+  "interval": [
+   0.1560337234176421,
+   0.9106516171867589
+  ],
+  "n": 76
+ },
+ "pa_need_kwh_per100": {
+  "value": 620.3943452380953,
+  "interval": null
+ },
+ "pa_resid_share_of_need_ce_llf": {
+  "value": 0.02418864409557733,
+  "interval": null
+ },
+ "pa_avoidable_misses_ce_llf": {
+  "value": 10.10357142857143,
+  "interval": null
+ },
+ "pa_resid_share_of_need_shared": {
+  "value": 0.017545084211830833,
+  "interval": null
+ },
+ "pa_avoidable_misses_shared": {
+  "value": 2.6188492063492066,
+  "interval": null
+ },
+ "pa_resid_share_of_need_targeted": {
+  "value": 0.012875755068101045,
+  "interval": null
+ },
+ "pa_avoidable_misses_targeted": {
+  "value": 3.709920634920635,
+  "interval": null
+ },
+ "pa_gain_targeted_kwh_per_vehicle": {
+  "value": 0.07286212914485166,
+  "interval": null
+ },
+ "pa_gain_targeted_share_of_need": {
+  "value": 0.011312889027476281,
+  "interval": null
+ }
+}
