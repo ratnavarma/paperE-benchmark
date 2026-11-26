@@ -8,7 +8,7 @@
   - office001 463 (463; 45)
 - A first pull without time series (`data_nots/`, list endpoint, inclusive window end) returned 3,090 / 5,594 / 463; the 5 extra sessions sit on week boundaries. Not used.
 - Fields present: connectionTime, disconnectTime, doneChargingTime, kWhDelivered, userID, userInputs, stationID, spaceID, siteID, clusterID, timezone, pilotSignal {timestamps, pilot}, chargingCurrent {timestamps, current}.
-- Terms: registration accepted by Varma 2026-11-25. Raw files are not committed or published; derived results may be published with the citation once the terms are read (open item).
+- Terms (read 2026-11-26 from ev.caltech.edu): registering means agreeing to use ACN-Data only for educational and research purposes (https://ev.caltech.edu/register); published work is asked to cite Lee, Li and Low (e-Energy 2019) (https://ev.caltech.edu/dataset). No licence text, redistribution clause or terms page was found. Raw files are not redistributed; derived results (site, date and per-seed outcome metrics, no user, session or station identifiers) are published for research with the citation.
 - Rules for use: `PROTOCOL_ACN.md` (frozen, sha256 a2a8d057…).
 
 ## Second dataset (T2-rep): Perth & Kinross Council, EV Charge Station Use, Sep 2018 – Aug 2019
